@@ -66,6 +66,14 @@
     });
   }
 
+  function saisonOn() { return !!(DATA.saison && DATA.saison.actif); }
+  function saisonBandeau() {
+    var S = DATA.saison;
+    if (!S) return "";
+    if (!S.actif) return '<div class="card info">🏁 <b>Saison 1</b> : le dimanche 01/11 au soir, tous les robots de paris repartent à 0 (paris comptés dès le lundi ' + jour(S.debut) + ' à 00:01). L\'historique actuel sera gardé dans « Archive saison 0 ».</div>';
+    return '<div class="card info">🏁 <b>Saison 1</b> depuis le ' + jour(S.debut) + ' : tout le monde est reparti à 0. <a href="#/archive">Voir l\'archive saison 0 ›</a></div>';
+  }
+
   function nd(r) { return '<div class="empty">Pas encore de données' + (r.raison && r.raison !== "pas encore de données" ? " (" + esc(r.raison) + ")" : "") + "</div>"; }
 
   // ---- liste ----
@@ -85,16 +93,17 @@
     return h + '<div class="more">Voir le détail ›</div></a>';
   }
 
-  function parisCard(r, rang, idx) {
-    var h = '<a class="card tap" href="#/paris/' + idx + '"><div class="top"><div><div class="name">' + (rang ? '<span class="rank">' + rang + "</span>" : "") + esc(r.nom) +
+  function parisCard(r, rang, idx, arch) {
+    var per = arch ? "total" : periode;
+    var h = '<a class="card tap" href="' + (arch ? "#/archive/" : "#/paris/") + idx + '"><div class="top"><div><div class="name">' + (rang ? '<span class="rank">' + rang + "</span>" : "") + esc(r.nom) +
       '<span class="tag fictif">FICTIF</span></div><div class="desc">' + esc(r.desc) + "</div></div>";
     if (!r.ok) return h + '<div class="chev">›</div></div>' + nd(r) + "</a>";
-    var s = r.stats[periode] || {}, t = r.stats.total || {};
+    var s = r.stats[per] || {}, t = r.stats.total || {};
     h += '<div class="big ' + cls(s.roi) + '">' + (s.roi == null ? "—" : pct(s.roi)) + '<small class="' + cls(s.net) + '">' + (s.mise_reglee ? eur(s.net, true) : "ROI") + '</small></div><div class="chev">›</div></div>';
     if (!s.paris) return h + '<div class="empty">Aucun pari sur cette période</div><div class="more">Voir le détail ›</div></a>';
     h += '<div class="grid">' + cell(s.paris, "paris") + cell((s.gagnes || 0) + " / " + (s.perdus || 0), "gagnés / perdus") +
       cell(s.attente || 0, "en attente") + cell(eur(s.mise), "misé") + cell(col(s.net, eur(s.net, true)), "net") +
-      cell(pct(t.roi), "ROI depuis le début") + "</div>";
+      cell(pct(t.roi), arch ? "ROI saison 0" : (saisonOn() ? "ROI saison 1" : "ROI depuis le début")) + "</div>";
     return h + '<div class="more">Voir le détail ›</div></a>';
   }
 
@@ -107,7 +116,8 @@
       var ra = a.r.ok && a.r.stats[periode] ? a.r.stats[periode].roi : null, rb = b.r.ok && b.r.stats[periode] ? b.r.stats[periode].roi : null;
       if (ra == null && rb == null) return 0; if (ra == null) return 1; if (rb == null) return -1; return rb - ra;
     });
-    h += "<h2>Robots de paris (fictifs)<small>classés par ROI</small></h2>";
+    h += saisonBandeau();
+    h += "<h2>Robots de paris (fictifs)" + (saisonOn() ? " · Saison 1" : "") + "<small>classés par ROI</small></h2>";
     var rang = 0;
     paris.forEach(function (o) {
       var ok = o.r.ok && o.r.stats[periode] && o.r.stats[periode].roi != null;
@@ -120,16 +130,33 @@
     $("app").innerHTML = h;
   }
 
-  function back(titre, sous, tag) {
-    return '<a class="back" href="#/">‹ Retour</a><div class="dhead"><div class="name dn">' + esc(titre) + tag + '</div><div class="desc">' + esc(sous) + "</div></div>";
+  // ---- archive saison 0 (figée, tout l'historique jusqu'au 01/11) ----
+  function archive() {
+    tabs(false);
+    var A = DATA.archive_saison0;
+    if (!A) { location.hash = "#/"; return; }
+    var h = back("Archive saison 0", "Tous les paris jusqu'au " + jour(DATA.saison.archive_jusqu_au) + " inclus (avant la remise à 0)", '<span class="tag fictif">FICTIF</span>');
+    var L = A.map(function (r, i) { return { r: r, i: i }; });
+    L.sort(function (a, b) {
+      var ra = a.r.ok ? a.r.stats.total.roi : null, rb = b.r.ok ? b.r.stats.total.roi : null;
+      if (ra == null && rb == null) return 0; if (ra == null) return 1; if (rb == null) return -1; return rb - ra;
+    });
+    h += "<h2>Classement final saison 0<small>par ROI</small></h2>";
+    var rang = 0;
+    L.forEach(function (o) { h += parisCard(o.r, o.r.ok && o.r.stats.total.roi != null ? ++rang : 0, o.i, true); });
+    $("app").innerHTML = h;
+  }
+
+  function back(titre, sous, tag, href) {
+    return '<a class="back" href="' + (href || "#/") + '">‹ Retour</a><div class="dhead"><div class="name dn">' + esc(titre) + tag + '</div><div class="desc">' + esc(sous) + "</div></div>";
   }
 
   // ---- détail paris ----
-  function detailParis(idx) {
+  function detailParis(idx, arch) {
     tabs(false);
-    var r = (DATA.paris || [])[idx];
-    if (!r) { location.hash = "#/"; return; }
-    var h = back(r.nom, r.desc, '<span class="tag fictif">FICTIF</span>');
+    var r = ((arch ? DATA.archive_saison0 : DATA.paris) || [])[idx];
+    if (!r) { location.hash = arch ? "#/archive" : "#/"; return; }
+    var h = back(r.nom, (arch ? "Archive saison 0 · " : saisonOn() ? "Saison 1 · " : "") + r.desc, '<span class="tag fictif">FICTIF</span>', arch ? "#/archive" : "#/");
     if (!r.ok) { $("app").innerHTML = h + '<div class="card">' + nd(r) + (r.depart ? '<div class="desc">Cagnotte de départ : ' + eur(r.depart) + "</div>" : "") + "</div>"; return; }
     var d = r.detail, s = d.resume;
     h += '<div class="card"><div class="grid">' +
@@ -209,6 +236,8 @@
     if (!DATA) return;
     var hsh = location.hash || "#/", m;
     if ((m = hsh.match(/^#\/paris\/(\d+)/))) detailParis(+m[1]);
+    else if ((m = hsh.match(/^#\/archive\/(\d+)/))) detailParis(+m[1], true);
+    else if (/^#\/archive\/?$/.test(hsh)) archive();
     else if ((m = hsh.match(/^#\/mt5\/(.+)$/))) detailMt5(decodeURIComponent(m[1]));
     else liste();
   }
