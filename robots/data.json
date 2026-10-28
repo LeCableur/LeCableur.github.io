@@ -1,11 +1,11 @@
 {
- "updated_at": "2026-10-28T03:30:56+01:00",
- "updated_label": "28/10/2026 à 03:30 (heure de Paris)",
+ "updated_at": "2026-10-29T00:16:53+01:00",
+ "updated_label": "29/10/2026 à 00:16 (heure de Paris)",
  "periodes": [
   {
    "id": "jour",
    "label": "Aujourd'hui",
-   "depuis": "2026-10-28"
+   "depuis": "2026-10-29"
   },
   {
    "id": "semaine",
@@ -23,7 +23,7 @@
    "depuis": "2026-01-01"
   }
  ],
- "tour_lue_le": "2026-10-28T03:30:07+01:00",
+ "tour_lue_le": "2026-10-29T00:12:56+01:00",
  "mt5": [
   {
    "nom": "Swing",
@@ -217,59 +217,59 @@
    "ok": true,
    "stats": {
     "jour": {
-     "paris": 2,
+     "paris": 0,
      "gagnes": 0,
      "perdus": 0,
      "annules": 0,
-     "attente": 2,
-     "mise": 100.0,
+     "attente": 0,
+     "mise": 0,
      "mise_reglee": 0,
      "net": 0,
      "roi": null
     },
     "semaine": {
      "paris": 7,
-     "gagnes": 3,
-     "perdus": 1,
+     "gagnes": 4,
+     "perdus": 2,
      "annules": 0,
-     "attente": 3,
+     "attente": 1,
      "mise": 300.0,
-     "mise_reglee": 160.0,
-     "net": 109.75,
-     "roi": 68.59
+     "mise_reglee": 260.0,
+     "net": 111.25,
+     "roi": 42.79
     },
     "mois": {
      "paris": 7,
-     "gagnes": 3,
-     "perdus": 1,
+     "gagnes": 4,
+     "perdus": 2,
      "annules": 0,
-     "attente": 3,
+     "attente": 1,
      "mise": 300.0,
-     "mise_reglee": 160.0,
-     "net": 109.75,
-     "roi": 68.59
+     "mise_reglee": 260.0,
+     "net": 111.25,
+     "roi": 42.79
     },
     "annee": {
      "paris": 7,
-     "gagnes": 3,
-     "perdus": 1,
+     "gagnes": 4,
+     "perdus": 2,
      "annules": 0,
-     "attente": 3,
+     "attente": 1,
      "mise": 300.0,
-     "mise_reglee": 160.0,
-     "net": 109.75,
-     "roi": 68.59
+     "mise_reglee": 260.0,
+     "net": 111.25,
+     "roi": 42.79
     },
     "total": {
      "paris": 7,
-     "gagnes": 3,
-     "perdus": 1,
+     "gagnes": 4,
+     "perdus": 2,
      "annules": 0,
-     "attente": 3,
+     "attente": 1,
      "mise": 300.0,
-     "mise_reglee": 160.0,
-     "net": 109.75,
-     "roi": 68.59
+     "mise_reglee": 260.0,
+     "net": 111.25,
+     "roi": 42.79
     }
    }
   },
@@ -279,59 +279,59 @@
    "ok": true,
    "stats": {
     "jour": {
-     "paris": 3,
+     "paris": 0,
      "gagnes": 0,
      "perdus": 0,
      "annules": 0,
-     "attente": 3,
-     "mise": 100.0,
+     "attente": 0,
+     "mise": 0,
      "mise_reglee": 0,
      "net": 0,
      "roi": null
     },
     "semaine": {
      "paris": 9,
-     "gagnes": 2,
-     "perdus": 4,
+     "gagnes": 3,
+     "perdus": 6,
      "annules": 0,
-     "attente": 3,
+     "attente": 0,
      "mise": 300.0,
-     "mise_reglee": 200.0,
-     "net": -93.8,
-     "roi": -46.9
+     "mise_reglee": 300.0,
+     "net": -150.3,
+     "roi": -50.1
     },
     "mois": {
      "paris": 47,
-     "gagnes": 22,
-     "perdus": 20,
+     "gagnes": 23,
+     "perdus": 22,
      "annules": 2,
-     "attente": 3,
+     "attente": 0,
      "mise": 1235.0,
-     "mise_reglee": 1135.0,
-     "net": -304.95,
-     "roi": -26.87
+     "mise_reglee": 1235.0,
+     "net": -361.45,
+     "roi": -29.27
     },
     "annee": {
      "paris": 47,
-     "gagnes": 22,
-     "perdus": 20,
+     "gagnes": 23,
+     "perdus": 22,
      "annules": 2,
-     "attente": 3,
+     "attente": 0,
      "mise": 1235.0,
-     "mise_reglee": 1135.0,
-     "net": -304.95,
-     "roi": -26.87
+     "mise_reglee": 1235.0,
+     "net": -361.45,
+     "roi": -29.27
     },
     "total": {
      "paris": 47,
-     "gagnes": 22,
-     "perdus": 20,
+     "gagnes": 23,
+     "perdus": 22,
      "annules": 2,
-     "attente": 3,
+     "attente": 0,
      "mise": 1235.0,
-     "mise_reglee": 1135.0,
-     "net": -304.95,
-     "roi": -26.87
+     "mise_reglee": 1235.0,
+     "net": -361.45,
+     "roi": -29.27
     }
    }
   },
@@ -352,48 +352,48 @@
      "roi": null
     },
     "semaine": {
-     "paris": 12,
-     "gagnes": 1,
-     "perdus": 6,
+     "paris": 17,
+     "gagnes": 4,
+     "perdus": 8,
      "annules": 1,
      "attente": 4,
-     "mise": 300.0,
-     "mise_reglee": 200.0,
-     "net": -115.0,
-     "roi": -57.5
+     "mise": 400.0,
+     "mise_reglee": 300.0,
+     "net": -67.8,
+     "roi": -22.6
     },
     "mois": {
-     "paris": 40,
-     "gagnes": 15,
-     "perdus": 20,
+     "paris": 45,
+     "gagnes": 18,
+     "perdus": 22,
      "annules": 1,
      "attente": 4,
-     "mise": 1100.0,
-     "mise_reglee": 1000.0,
-     "net": -156.47,
-     "roi": -15.65
+     "mise": 1200.0,
+     "mise_reglee": 1100.0,
+     "net": -109.27,
+     "roi": -9.93
     },
     "annee": {
-     "paris": 40,
-     "gagnes": 15,
-     "perdus": 20,
+     "paris": 45,
+     "gagnes": 18,
+     "perdus": 22,
      "annules": 1,
      "attente": 4,
-     "mise": 1100.0,
-     "mise_reglee": 1000.0,
-     "net": -156.47,
-     "roi": -15.65
+     "mise": 1200.0,
+     "mise_reglee": 1100.0,
+     "net": -109.27,
+     "roi": -9.93
     },
     "total": {
-     "paris": 40,
-     "gagnes": 15,
-     "perdus": 20,
+     "paris": 45,
+     "gagnes": 18,
+     "perdus": 22,
      "annules": 1,
      "attente": 4,
-     "mise": 1100.0,
-     "mise_reglee": 1000.0,
-     "net": -156.47,
-     "roi": -15.65
+     "mise": 1200.0,
+     "mise_reglee": 1100.0,
+     "net": -109.27,
+     "roi": -9.93
     }
    }
   },
@@ -476,48 +476,48 @@
      "roi": null
     },
     "semaine": {
-     "paris": 8,
-     "gagnes": 7,
-     "perdus": 1,
+     "paris": 12,
+     "gagnes": 9,
+     "perdus": 3,
      "annules": 0,
      "attente": 0,
-     "mise": 200.0,
-     "mise_reglee": 200.0,
-     "net": 67.5,
-     "roi": 33.75
+     "mise": 300.0,
+     "mise_reglee": 300.0,
+     "net": 50.5,
+     "roi": 16.83
     },
     "mois": {
-     "paris": 96,
-     "gagnes": 51,
-     "perdus": 44,
+     "paris": 100,
+     "gagnes": 53,
+     "perdus": 46,
      "annules": 1,
      "attente": 0,
-     "mise": 1019.0,
-     "mise_reglee": 1019.0,
-     "net": -86.8,
-     "roi": -8.52
+     "mise": 1119.0,
+     "mise_reglee": 1119.0,
+     "net": -103.8,
+     "roi": -9.28
     },
     "annee": {
-     "paris": 96,
-     "gagnes": 51,
-     "perdus": 44,
+     "paris": 100,
+     "gagnes": 53,
+     "perdus": 46,
      "annules": 1,
      "attente": 0,
-     "mise": 1019.0,
-     "mise_reglee": 1019.0,
-     "net": -86.8,
-     "roi": -8.52
+     "mise": 1119.0,
+     "mise_reglee": 1119.0,
+     "net": -103.8,
+     "roi": -9.28
     },
     "total": {
-     "paris": 96,
-     "gagnes": 51,
-     "perdus": 44,
+     "paris": 100,
+     "gagnes": 53,
+     "perdus": 46,
      "annules": 1,
      "attente": 0,
-     "mise": 1019.0,
-     "mise_reglee": 1019.0,
-     "net": -86.8,
-     "roi": -8.52
+     "mise": 1119.0,
+     "mise_reglee": 1119.0,
+     "net": -103.8,
+     "roi": -9.28
     }
    }
   },
@@ -538,48 +538,48 @@
      "roi": null
     },
     "semaine": {
-     "paris": 11,
-     "gagnes": 4,
-     "perdus": 1,
+     "paris": 18,
+     "gagnes": 9,
+     "perdus": 2,
      "annules": 0,
-     "attente": 6,
-     "mise": 200.0,
-     "mise_reglee": 100.0,
-     "net": -0.9,
-     "roi": -0.9
+     "attente": 7,
+     "mise": 300.0,
+     "mise_reglee": 200.0,
+     "net": -2.5,
+     "roi": -1.25
     },
     "mois": {
-     "paris": 11,
-     "gagnes": 4,
-     "perdus": 1,
+     "paris": 18,
+     "gagnes": 9,
+     "perdus": 2,
      "annules": 0,
-     "attente": 6,
-     "mise": 200.0,
-     "mise_reglee": 100.0,
-     "net": -0.9,
-     "roi": -0.9
+     "attente": 7,
+     "mise": 300.0,
+     "mise_reglee": 200.0,
+     "net": -2.5,
+     "roi": -1.25
     },
     "annee": {
-     "paris": 11,
-     "gagnes": 4,
-     "perdus": 1,
+     "paris": 18,
+     "gagnes": 9,
+     "perdus": 2,
      "annules": 0,
-     "attente": 6,
-     "mise": 200.0,
-     "mise_reglee": 100.0,
-     "net": -0.9,
-     "roi": -0.9
+     "attente": 7,
+     "mise": 300.0,
+     "mise_reglee": 200.0,
+     "net": -2.5,
+     "roi": -1.25
     },
     "total": {
-     "paris": 11,
-     "gagnes": 4,
-     "perdus": 1,
+     "paris": 18,
+     "gagnes": 9,
+     "perdus": 2,
      "annules": 0,
-     "attente": 6,
-     "mise": 200.0,
-     "mise_reglee": 100.0,
-     "net": -0.9,
-     "roi": -0.9
+     "attente": 7,
+     "mise": 300.0,
+     "mise_reglee": 200.0,
+     "net": -2.5,
+     "roi": -1.25
     }
    }
   }
