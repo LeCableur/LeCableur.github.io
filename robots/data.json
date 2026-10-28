@@ -1,7 +1,7 @@
 {
  "version": 2,
- "updated_at": "2026-10-29T00:33:51+01:00",
- "updated_label": "29/10/2026 à 00:33 (heure de Paris)",
+ "updated_at": "2026-10-29T00:37:57+01:00",
+ "updated_label": "29/10/2026 à 00:37 (heure de Paris)",
  "periodes": [
   {
    "id": "jour",
@@ -24,7 +24,7 @@
    "depuis": "2026-01-01"
   }
  ],
- "tour_lue_le": "2026-10-29T00:12:56+01:00",
+ "tour_lue_le": "2026-10-29T00:34:13+01:00",
  "mt5": [
   {
    "nom": "Swing",
@@ -39,7 +39,7 @@
    "depuis_debut": 0.0,
    "depuis_debut_pct": 0.0,
    "positions": 0,
-   "positions_detail": null,
+   "positions_detail": [],
    "simulation": false,
    "dernier_passage": null,
    "stats": {
@@ -92,7 +92,7 @@
     "historique": [
      {
       "jour": "2026-10-29",
-      "lu_le": "2026-10-29T00:12:56+01:00",
+      "lu_le": "2026-10-29T00:34:13+01:00",
       "solde": 3000.0,
       "equite": 3000.0
      }
@@ -113,7 +113,7 @@
    "depuis_debut": 0.0,
    "depuis_debut_pct": 0.0,
    "positions": 0,
-   "positions_detail": null,
+   "positions_detail": [],
    "simulation": false,
    "dernier_passage": null,
    "stats": {
@@ -166,7 +166,7 @@
     "historique": [
      {
       "jour": "2026-10-29",
-      "lu_le": "2026-10-29T00:12:56+01:00",
+      "lu_le": "2026-10-29T00:34:13+01:00",
       "solde": 3000.0,
       "equite": 3000.0
      }
@@ -187,7 +187,7 @@
    "depuis_debut": 0.0,
    "depuis_debut_pct": 0.0,
    "positions": 0,
-   "positions_detail": null,
+   "positions_detail": [],
    "simulation": false,
    "dernier_passage": null,
    "stats": {
@@ -240,7 +240,7 @@
     "historique": [
      {
       "jour": "2026-10-29",
-      "lu_le": "2026-10-29T00:12:56+01:00",
+      "lu_le": "2026-10-29T00:34:13+01:00",
       "solde": 3000.0,
       "equite": 3000.0
      }
@@ -263,7 +263,7 @@
    "positions": 0,
    "positions_detail": null,
    "simulation": true,
-   "dernier_passage": "29/10/2026 00:12",
+   "dernier_passage": "29/10/2026 00:34",
    "stats": {
     "jour": {
      "trades": 0,
@@ -314,7 +314,7 @@
     "historique": [
      {
       "jour": "2026-10-29",
-      "lu_le": "2026-10-29T00:12:56+01:00",
+      "lu_le": "2026-10-29T00:34:13+01:00",
       "solde": 3000.0,
       "equite": 3000.0
      }
