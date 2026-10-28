@@ -1,0 +1,17 @@
+{
+  "name": "Mes robots",
+  "short_name": "Mes robots",
+  "description": "Les stats de tous mes robots : MT5 démo et paris fictifs.",
+  "lang": "fr",
+  "id": "/robots/",
+  "start_url": "/robots/",
+  "scope": "/robots/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f1115",
+  "theme_color": "#0f1115",
+  "icons": [
+    { "src": "/robots/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/robots/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

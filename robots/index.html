@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mes robots</title>
+<meta name="theme-color" content="#0f1115">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Mes robots">
+<link rel="manifest" href="/robots/manifest.webmanifest">
+<link rel="apple-touch-icon" sizes="180x180" href="/robots/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/robots/icons/icon-192.png">
+<style>
+  :root { --bg:#0f1115; --card:#181b22; --card2:#20242d; --line:#2c313c; --text:#eef1f5; --muted:#9aa3b2;
+          --acc:#22d3ee; --acc2:#facc15; --ok:#22c55e; --okbg:#0f2e1c; --ko:#ef4444; --kobg:#3a1414; }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body { margin:0; background:var(--bg); color:var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif; font-size:17px; line-height:1.4; }
+  body { padding: calc(env(safe-area-inset-top) + 12px) 16px calc(env(safe-area-inset-bottom) + 24px); }
+  main { max-width: 680px; margin: 0 auto; }
+  header { display:flex; align-items:center; gap:12px; margin-bottom:14px; }
+  header img { width:44px; height:44px; border-radius:12px; }
+  h1 { font-size:22px; margin:0; } .sub { color:var(--muted); font-size:13px; }
+  h2 { font-size:18px; margin:22px 0 10px; display:flex; justify-content:space-between; align-items:baseline; }
+  h2 small { color:var(--muted); font-size:13px; font-weight:500; }
+  .tabs { display:flex; gap:6px; position:sticky; top:0; background:var(--bg); padding:8px 0; z-index:2; }
+  .tab { flex:1; min-height:44px; border-radius:12px; border:2px solid var(--line); background:var(--card);
+    color:var(--text); font-size:15px; font-weight:600; cursor:pointer; padding:6px 4px; }
+  .tab.on { border-color:var(--acc); background:#0c2a31; color:var(--acc); }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:12px 14px; margin-bottom:10px; }
+  .top { display:flex; justify-content:space-between; align-items:flex-start; gap:10px; }
+  .name { font-weight:700; font-size:17px; } .desc { color:var(--muted); font-size:13px; }
+  .big { font-size:22px; font-weight:800; text-align:right; white-space:nowrap; }
+  .big small { display:block; font-size:13px; font-weight:600; }
+  .pos { color:var(--ok); } .neg { color:var(--ko); } .zero { color:var(--muted); }
+  .grid { display:grid; grid-template-columns: repeat(3, 1fr); gap:6px; margin-top:10px; }
+  .cell { background:var(--card2); border-radius:10px; padding:6px 8px; }
+  .cell b { display:block; font-size:16px; } .cell span { color:var(--muted); font-size:12px; }
+  .rank { display:inline-block; min-width:26px; height:26px; line-height:26px; text-align:center; border-radius:8px;
+    background:var(--card2); color:var(--acc2); font-weight:800; font-size:14px; margin-right:6px; }
+  .tag { display:inline-block; font-size:11px; font-weight:700; padding:2px 6px; border-radius:6px; background:#3a3214; color:var(--acc2); margin-left:4px; vertical-align:middle; }
+  .empty { color:var(--muted); font-style:italic; margin-top:6px; font-size:15px; }
+  .note { color:var(--muted); font-size:12px; margin-top:16px; }
+  .btn { display:block; width:100%; min-height:50px; border-radius:14px; border:2px solid var(--line); background:transparent;
+    color:var(--muted); font-size:16px; font-weight:600; margin-top:14px; cursor:pointer; }
+  .warn { background:var(--kobg); border:1px solid var(--ko); border-radius:12px; padding:8px 12px; font-size:14px; margin-bottom:10px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="/robots/icons/icon-192.png" alt="">
+    <div><h1>Mes robots</h1><div class="sub" id="maj">Chargement…</div></div>
+  </header>
+  <div class="tabs" id="tabs"></div>
+  <div id="app"></div>
+  <button class="btn" id="refresh">↻ Recharger</button>
+  <p class="note">Tout est en argent fictif : comptes MT5 démo (3 000 € chacun) et paris fictifs. Paris classés par ROI. Les stats d'une période comptent les trades fermés et les paris réglés dans la période (les paris « en attente » ne comptent pas dans le ROI).</p>
+</main>
+<script src="/robots/app.js"></script>
+<script>
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", function () { navigator.serviceWorker.register("/robots/sw.js", { scope: "/robots/" }).catch(function () {}); });
+  }
+</script>
+</body>
+</html>
