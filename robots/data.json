@@ -1,6 +1,7 @@
 {
- "updated_at": "2026-10-29T00:16:53+01:00",
- "updated_label": "29/10/2026 à 00:16 (heure de Paris)",
+ "version": 2,
+ "updated_at": "2026-10-29T00:33:51+01:00",
+ "updated_label": "29/10/2026 à 00:33 (heure de Paris)",
  "periodes": [
   {
    "id": "jour",
@@ -28,14 +29,19 @@
   {
    "nom": "Swing",
    "desc": "Swing trading (H4)",
+   "type": "démo",
    "ok": true,
    "solde": 3000.0,
    "equite": 3000.0,
    "depart": 3000.0,
+   "flottant": 0.0,
+   "devise": "EUR",
    "depuis_debut": 0.0,
    "depuis_debut_pct": 0.0,
    "positions": 0,
+   "positions_detail": null,
    "simulation": false,
+   "dernier_passage": null,
    "stats": {
     "jour": {
      "trades": 0,
@@ -69,19 +75,47 @@
      "pct": 0.0,
      "winrate": null
     }
+   },
+   "detail": {
+    "nb": 0,
+    "gagnes": 0,
+    "perdus": 0,
+    "net": 0.0,
+    "winrate": null,
+    "profit_factor": null,
+    "profit_factor_info": "aucun trade",
+    "max_dd": null,
+    "max_dd_pct": null,
+    "meilleur": null,
+    "pire": null,
+    "courbe_solde": [],
+    "historique": [
+     {
+      "jour": "2026-10-29",
+      "lu_le": "2026-10-29T00:12:56+01:00",
+      "solde": 3000.0,
+      "equite": 3000.0
+     }
+    ],
+    "trades": []
    }
   },
   {
    "nom": "Day",
    "desc": "Day trading (M15)",
+   "type": "démo",
    "ok": true,
    "solde": 3000.0,
    "equite": 3000.0,
    "depart": 3000.0,
+   "flottant": 0.0,
+   "devise": "EUR",
    "depuis_debut": 0.0,
    "depuis_debut_pct": 0.0,
    "positions": 0,
+   "positions_detail": null,
    "simulation": false,
+   "dernier_passage": null,
    "stats": {
     "jour": {
      "trades": 0,
@@ -115,19 +149,47 @@
      "pct": 0.0,
      "winrate": null
     }
+   },
+   "detail": {
+    "nb": 0,
+    "gagnes": 0,
+    "perdus": 0,
+    "net": 0.0,
+    "winrate": null,
+    "profit_factor": null,
+    "profit_factor_info": "aucun trade",
+    "max_dd": null,
+    "max_dd_pct": null,
+    "meilleur": null,
+    "pire": null,
+    "courbe_solde": [],
+    "historique": [
+     {
+      "jour": "2026-10-29",
+      "lu_le": "2026-10-29T00:12:56+01:00",
+      "solde": 3000.0,
+      "equite": 3000.0
+     }
+    ],
+    "trades": []
    }
   },
   {
    "nom": "Scalp",
    "desc": "Scalping (M5)",
+   "type": "démo",
    "ok": true,
    "solde": 3000.0,
    "equite": 3000.0,
    "depart": 3000.0,
+   "flottant": 0.0,
+   "devise": "EUR",
    "depuis_debut": 0.0,
    "depuis_debut_pct": 0.0,
    "positions": 0,
+   "positions_detail": null,
    "simulation": false,
+   "dernier_passage": null,
    "stats": {
     "jour": {
      "trades": 0,
@@ -161,19 +223,47 @@
      "pct": 0.0,
      "winrate": null
     }
+   },
+   "detail": {
+    "nb": 0,
+    "gagnes": 0,
+    "perdus": 0,
+    "net": 0.0,
+    "winrate": null,
+    "profit_factor": null,
+    "profit_factor_info": "aucun trade",
+    "max_dd": null,
+    "max_dd_pct": null,
+    "meilleur": null,
+    "pire": null,
+    "courbe_solde": [],
+    "historique": [
+     {
+      "jour": "2026-10-29",
+      "lu_le": "2026-10-29T00:12:56+01:00",
+      "solde": 3000.0,
+      "equite": 3000.0
+     }
+    ],
+    "trades": []
    }
   },
   {
    "nom": "IA",
    "desc": "Robot IA Gemini",
+   "type": "démo",
    "ok": true,
    "solde": 3000.0,
    "equite": 3000.0,
    "depart": 3000.0,
+   "flottant": null,
+   "devise": "EUR",
    "depuis_debut": 0.0,
    "depuis_debut_pct": 0.0,
    "positions": 0,
+   "positions_detail": null,
    "simulation": true,
+   "dernier_passage": "29/10/2026 00:12",
    "stats": {
     "jour": {
      "trades": 0,
@@ -207,13 +297,39 @@
      "pct": 0.0,
      "winrate": null
     }
+   },
+   "detail": {
+    "nb": 0,
+    "gagnes": 0,
+    "perdus": 0,
+    "net": 0.0,
+    "winrate": null,
+    "profit_factor": null,
+    "profit_factor_info": "aucun trade",
+    "max_dd": null,
+    "max_dd_pct": null,
+    "meilleur": null,
+    "pire": null,
+    "courbe_solde": [],
+    "historique": [
+     {
+      "jour": "2026-10-29",
+      "lu_le": "2026-10-29T00:12:56+01:00",
+      "solde": 3000.0,
+      "equite": 3000.0
+     }
+    ],
+    "trades": []
    }
   }
  ],
  "paris": [
   {
-   "nom": "Paris IA Gemini",
-   "desc": "Robot Gemini sur la tour",
+   "nom": "Ancien robot de la tour",
+   "desc": "Robot Gemini sur la tour (cotes Winamax)",
+   "type": "fictif",
+   "multisport": true,
+   "dernier_passage": "29/10/2026 00:07 (Paris)",
    "ok": true,
    "stats": {
     "jour": {
@@ -271,11 +387,450 @@
      "net": 111.25,
      "roi": 42.79
     }
+   },
+   "detail": {
+    "resume": {
+     "nb": 7,
+     "gagnes": 4,
+     "perdus": 2,
+     "annules": 0,
+     "attente": 1,
+     "mise": 300.0,
+     "mise_reglee": 260.0,
+     "net": 111.25,
+     "roi": 42.79,
+     "winrate": 67
+    },
+    "serie": {
+     "type": "Perdu",
+     "n": 1
+    },
+    "serie_jours": {
+     "type": "positif",
+     "n": 2
+    },
+    "courbe": [
+     {
+      "t": "2026-10-26",
+      "v": 34.15
+     },
+     {
+      "t": "2026-10-27",
+      "v": 109.75
+     },
+     {
+      "t": "2026-10-28",
+      "v": 111.25
+     }
+    ],
+    "courbe_type": "net cumulé",
+    "depart": null,
+    "cagnotte": null,
+    "par_jour": [
+     {
+      "jour": "2026-10-28",
+      "nb": 2,
+      "mise": 100.0,
+      "net": 1.5,
+      "regles": 2,
+      "attente": 0
+     },
+     {
+      "jour": "2026-10-27",
+      "nb": 2,
+      "mise": 100.0,
+      "net": 75.6,
+      "regles": 1,
+      "attente": 1
+     },
+     {
+      "jour": "2026-10-26",
+      "nb": 3,
+      "mise": 100.0,
+      "net": 34.15,
+      "regles": 3,
+      "attente": 0
+     }
+    ],
+    "par_sport": [
+     {
+      "sport": "Football",
+      "nb": 3,
+      "gagnes": 2,
+      "perdus": 1,
+      "annules": 0,
+      "attente": 0,
+      "mise": 160.0,
+      "mise_reglee": 160.0,
+      "net": 77.1,
+      "roi": 48.19,
+      "winrate": 67
+     },
+     {
+      "sport": "Football + Tennis",
+      "nb": 2,
+      "gagnes": 1,
+      "perdus": 1,
+      "annules": 0,
+      "attente": 0,
+      "mise": 60.0,
+      "mise_reglee": 60.0,
+      "net": 17.75,
+      "roi": 29.58,
+      "winrate": 50
+     },
+     {
+      "sport": "Basket",
+      "nb": 1,
+      "gagnes": 1,
+      "perdus": 0,
+      "annules": 0,
+      "attente": 0,
+      "mise": 40.0,
+      "mise_reglee": 40.0,
+      "net": 16.4,
+      "roi": 41.0,
+      "winrate": 100
+     },
+     {
+      "sport": "Tennis + Volley",
+      "nb": 1,
+      "gagnes": 0,
+      "perdus": 0,
+      "annules": 0,
+      "attente": 1,
+      "mise": 40.0,
+      "mise_reglee": 0,
+      "net": null,
+      "roi": null,
+      "winrate": null
+     }
+    ],
+    "paris": [
+     {
+      "date": "2026-10-28",
+      "sport": "Football",
+      "competition": "Serie A + Serie A",
+      "match": "AC Milan - Bologna + Genoa - Juventus",
+      "pari": "AC Milan (Résultat) + Juventus (Résultat) (combiné)",
+      "cote": 2.76,
+      "mise": 50.0,
+      "statut": "Perdu",
+      "net": -50.0,
+      "retour": 0.0,
+      "resultat": "2:4 + ?"
+     },
+     {
+      "date": "2026-10-28",
+      "sport": "Football",
+      "competition": "Coupe d'Allemagne + Serie A",
+      "match": "SC Freiburg - VfL Wolfsburg + Venezia - Internazionale",
+      "pari": "SC Freiburg (Résultat) + Internazionale (Résultat) (combiné)",
+      "cote": 2.03,
+      "mise": 50.0,
+      "statut": "Gagné",
+      "net": 51.5,
+      "retour": 101.5,
+      "resultat": "3:2 + 0:2"
+     },
+     {
+      "date": "2026-10-27",
+      "sport": "Tennis + Volley",
+      "competition": "Bâle + Efeler Ligi",
+      "match": "Ben Shelton - Aleksandar Kovacevic + Fenerbahçe - Alanya Belediye",
+      "pari": "B. Shelton (Vainqueur) + Fenerbahçe (Vainqueur) (combiné)",
+      "cote": 1.46,
+      "mise": 40.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": "non vérifié par le robot"
+     },
+     {
+      "date": "2026-10-27",
+      "sport": "Football",
+      "competition": "Serie A + Coupe d'Allemagne + Coupe d'Allemagne",
+      "match": "AS Rome - Cagliari + Borussia Dortmund - Werder Brême + Borussia Mönchengladbach - Karlsruhe",
+      "pari": "AS Rome (Résultat) + Dortmund (Résultat) + M'Gladbach (Résultat) (combiné)",
+      "cote": 2.26,
+      "mise": 60.0,
+      "statut": "Gagné",
+      "net": 75.6,
+      "retour": 135.6,
+      "resultat": "4:2 + 3:2 + 2:0"
+     },
+     {
+      "date": "2026-10-26",
+      "sport": "Football + Tennis",
+      "competition": "Liga Portugal + LaLiga + Bâle",
+      "match": "Santa Clara - Benfica + FC Séville - Osasuna + Dominic Stricker - Casper Ruud",
+      "pari": "Benfica (Résultat) + FC Séville (Résultat) + C. Ruud (Vainqueur) (combiné)",
+      "cote": 3.11,
+      "mise": 25.0,
+      "statut": "Gagné",
+      "net": 52.75,
+      "retour": 77.75,
+      "resultat": "1:2 + 2:0 + 0:1"
+     },
+     {
+      "date": "2026-10-26",
+      "sport": "Football + Tennis",
+      "competition": "Süper Lig + Superliga + Ligue 1 McDonald's® + Vienne",
+      "match": "Besiktas - Istanbul Basaksehir + Copenhague - Odense + Paris SG - Lyon + Matteo Berrettini - Tomas Martin Etcheverry",
+      "pari": "Besiktas  (Résultat) + Copenhague (Résultat) + PSG (Résultat) + M. Berrettini (Vainqueur) (combiné)",
+      "cote": 3.68,
+      "mise": 35.0,
+      "statut": "Perdu",
+      "net": -35.0,
+      "retour": 0.0,
+      "resultat": "? + 1:1 + ? + ?"
+     },
+     {
+      "date": "2026-10-26",
+      "sport": "Basket",
+      "competition": "BBL",
+      "match": "Würzburg Baskets - Chemnitz",
+      "pari": "Würzburg Baskets (Vainqueur) (simple)",
+      "cote": 1.41,
+      "mise": 40.0,
+      "statut": "Gagné",
+      "net": 16.4,
+      "retour": 56.4,
+      "resultat": "98:88"
+     }
+    ]
+   }
+  },
+  {
+   "nom": "Nouveau robot de la tour",
+   "desc": "Tous sports sur la tour, 100 € par sport et par jour",
+   "type": "fictif",
+   "multisport": true,
+   "dernier_passage": "29/10/2026 00:01 (Paris)",
+   "ok": true,
+   "stats": {
+    "jour": {
+     "paris": 3,
+     "gagnes": 0,
+     "perdus": 0,
+     "annules": 0,
+     "attente": 3,
+     "mise": 300.0,
+     "mise_reglee": 0,
+     "net": 0,
+     "roi": null
+    },
+    "semaine": {
+     "paris": 6,
+     "gagnes": 0,
+     "perdus": 0,
+     "annules": 0,
+     "attente": 6,
+     "mise": 365.0,
+     "mise_reglee": 0,
+     "net": 0,
+     "roi": null
+    },
+    "mois": {
+     "paris": 6,
+     "gagnes": 0,
+     "perdus": 0,
+     "annules": 0,
+     "attente": 6,
+     "mise": 365.0,
+     "mise_reglee": 0,
+     "net": 0,
+     "roi": null
+    },
+    "annee": {
+     "paris": 6,
+     "gagnes": 0,
+     "perdus": 0,
+     "annules": 0,
+     "attente": 6,
+     "mise": 365.0,
+     "mise_reglee": 0,
+     "net": 0,
+     "roi": null
+    },
+    "total": {
+     "paris": 6,
+     "gagnes": 0,
+     "perdus": 0,
+     "annules": 0,
+     "attente": 6,
+     "mise": 365.0,
+     "mise_reglee": 0,
+     "net": 0,
+     "roi": null
+    }
+   },
+   "detail": {
+    "resume": {
+     "nb": 6,
+     "gagnes": 0,
+     "perdus": 0,
+     "annules": 0,
+     "attente": 6,
+     "mise": 365.0,
+     "mise_reglee": 0,
+     "net": null,
+     "roi": null,
+     "winrate": null
+    },
+    "serie": null,
+    "serie_jours": null,
+    "courbe": [],
+    "courbe_type": "cagnotte",
+    "depart": 4000.0,
+    "cagnotte": 4000.0,
+    "par_jour": [
+     {
+      "jour": "2026-10-29",
+      "nb": 3,
+      "mise": 300.0,
+      "net": 0.0,
+      "regles": 0,
+      "attente": 3
+     },
+     {
+      "jour": "2026-10-28",
+      "nb": 3,
+      "mise": 65.0,
+      "net": 0.0,
+      "regles": 0,
+      "attente": 3
+     }
+    ],
+    "par_sport": [
+     {
+      "sport": "Foot",
+      "nb": 2,
+      "gagnes": 0,
+      "perdus": 0,
+      "annules": 0,
+      "attente": 2,
+      "mise": 120.0,
+      "mise_reglee": 0,
+      "net": null,
+      "roi": null,
+      "winrate": null
+     },
+     {
+      "sport": "Tennis",
+      "nb": 2,
+      "gagnes": 0,
+      "perdus": 0,
+      "annules": 0,
+      "attente": 2,
+      "mise": 120.0,
+      "mise_reglee": 0,
+      "net": null,
+      "roi": null,
+      "winrate": null
+     },
+     {
+      "sport": "Basket",
+      "nb": 2,
+      "gagnes": 0,
+      "perdus": 0,
+      "annules": 0,
+      "attente": 2,
+      "mise": 125.0,
+      "mise_reglee": 0,
+      "net": null,
+      "roi": null,
+      "winrate": null
+     }
+    ],
+    "paris": [
+     {
+      "date": "2026-10-29",
+      "sport": "Basket",
+      "competition": "NBA",
+      "match": "Milwaukee Bucks - Houston Rockets",
+      "pari": "Vainqueur du match (prolongation incluse) : Houston Rockets",
+      "cote": 1.27,
+      "mise": 100.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
+     {
+      "date": "2026-10-29",
+      "sport": "Tennis",
+      "competition": "Erste Bank Open (ATP, Round 2)",
+      "match": "Lorenzo Musetti - Arthur Fery",
+      "pari": "Vainqueur du match : Lorenzo Musetti",
+      "cote": 1.3,
+      "mise": 100.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
+     {
+      "date": "2026-10-29",
+      "sport": "Foot",
+      "competition": "MLS",
+      "match": "Minnesota United FC - Sporting Kansas City",
+      "pari": "Resultat du match (1N2, temps reglementaire) : Minnesota United FC",
+      "cote": 1.35,
+      "mise": 100.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
+     {
+      "date": "2026-10-28",
+      "sport": "Basket",
+      "competition": "NBA",
+      "match": "Cleveland Cavaliers - Washington Wizards",
+      "pari": "Vainqueur du match (prolongation incluse) : Cleveland Cavaliers",
+      "cote": 1.26,
+      "mise": 25.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
+     {
+      "date": "2026-10-28",
+      "sport": "Tennis",
+      "competition": "Swiss Indoors Basel (ATP, Round 2)",
+      "match": "Rafael Jodar - Valentin Vacherot",
+      "pari": "Vainqueur du match : Rafael Jodar",
+      "cote": 1.34,
+      "mise": 20.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
+     {
+      "date": "2026-10-28",
+      "sport": "Foot",
+      "competition": "MLS",
+      "match": "Minnesota United FC - Sporting Kansas City",
+      "pari": "Resultat du match (1N2, temps reglementaire) : Minnesota United FC",
+      "cote": 1.4,
+      "mise": 20.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     }
+    ]
    }
   },
   {
    "nom": "Paris Foot",
    "desc": "Bot Grok foot",
+   "type": "fictif",
+   "multisport": false,
+   "dernier_passage": null,
    "ok": true,
    "stats": {
     "jour": {
@@ -301,43 +856,808 @@
      "roi": -50.1
     },
     "mois": {
-     "paris": 47,
-     "gagnes": 23,
+     "paris": 44,
+     "gagnes": 20,
      "perdus": 22,
      "annules": 2,
      "attente": 0,
-     "mise": 1235.0,
-     "mise_reglee": 1235.0,
-     "net": -361.45,
-     "roi": -29.27
+     "mise": 1200.0,
+     "mise_reglee": 1200.0,
+     "net": -394.0,
+     "roi": -32.83
     },
     "annee": {
-     "paris": 47,
-     "gagnes": 23,
+     "paris": 44,
+     "gagnes": 20,
      "perdus": 22,
      "annules": 2,
      "attente": 0,
-     "mise": 1235.0,
-     "mise_reglee": 1235.0,
-     "net": -361.45,
-     "roi": -29.27
+     "mise": 1200.0,
+     "mise_reglee": 1200.0,
+     "net": -394.0,
+     "roi": -32.83
     },
     "total": {
-     "paris": 47,
-     "gagnes": 23,
+     "paris": 44,
+     "gagnes": 20,
      "perdus": 22,
      "annules": 2,
      "attente": 0,
-     "mise": 1235.0,
-     "mise_reglee": 1235.0,
-     "net": -361.45,
-     "roi": -29.27
+     "mise": 1200.0,
+     "mise_reglee": 1200.0,
+     "net": -394.0,
+     "roi": -32.83
     }
+   },
+   "detail": {
+    "resume": {
+     "nb": 44,
+     "gagnes": 20,
+     "perdus": 22,
+     "annules": 2,
+     "attente": 0,
+     "mise": 1200.0,
+     "mise_reglee": 1200.0,
+     "net": -394.0,
+     "roi": -32.83,
+     "winrate": 48
+    },
+    "serie": {
+     "type": "Perdu",
+     "n": 1
+    },
+    "serie_jours": {
+     "type": "négatif",
+     "n": 3
+    },
+    "courbe": [
+     {
+      "t": "2026-10-17",
+      "v": -55.5
+     },
+     {
+      "t": "2026-10-18",
+      "v": -57.2
+     },
+     {
+      "t": "2026-10-19",
+      "v": -131.2
+     },
+     {
+      "t": "2026-10-20",
+      "v": -149.2
+     },
+     {
+      "t": "2026-10-21",
+      "v": -180.8
+     },
+     {
+      "t": "2026-10-22",
+      "v": -236.4
+     },
+     {
+      "t": "2026-10-23",
+      "v": -233.2
+     },
+     {
+      "t": "2026-10-24",
+      "v": -289.1
+     },
+     {
+      "t": "2026-10-25",
+      "v": -243.7
+     },
+     {
+      "t": "2026-10-26",
+      "v": -284.9
+     },
+     {
+      "t": "2026-10-27",
+      "v": -337.5
+     },
+     {
+      "t": "2026-10-28",
+      "v": -394.0
+     }
+    ],
+    "courbe_type": "net cumulé",
+    "depart": null,
+    "cagnotte": null,
+    "par_jour": [
+     {
+      "jour": "2026-10-28",
+      "nb": 3,
+      "mise": 100.0,
+      "net": -56.5,
+      "regles": 3,
+      "attente": 0
+     },
+     {
+      "jour": "2026-10-27",
+      "nb": 3,
+      "mise": 100.0,
+      "net": -52.6,
+      "regles": 3,
+      "attente": 0
+     },
+     {
+      "jour": "2026-10-26",
+      "nb": 3,
+      "mise": 100.0,
+      "net": -41.2,
+      "regles": 3,
+      "attente": 0
+     },
+     {
+      "jour": "2026-10-25",
+      "nb": 3,
+      "mise": 100.0,
+      "net": 45.4,
+      "regles": 3,
+      "attente": 0
+     },
+     {
+      "jour": "2026-10-24",
+      "nb": 3,
+      "mise": 100.0,
+      "net": -55.9,
+      "regles": 3,
+      "attente": 0
+     },
+     {
+      "jour": "2026-10-23",
+      "nb": 3,
+      "mise": 100.0,
+      "net": 3.2,
+      "regles": 3,
+      "attente": 0
+     },
+     {
+      "jour": "2026-10-22",
+      "nb": 3,
+      "mise": 100.0,
+      "net": -55.6,
+      "regles": 3,
+      "attente": 0
+     },
+     {
+      "jour": "2026-10-21",
+      "nb": 2,
+      "mise": 100.0,
+      "net": -31.6,
+      "regles": 2,
+      "attente": 0
+     },
+     {
+      "jour": "2026-10-20",
+      "nb": 4,
+      "mise": 100.0,
+      "net": -18.0,
+      "regles": 4,
+      "attente": 0
+     },
+     {
+      "jour": "2026-10-19",
+      "nb": 5,
+      "mise": 100.0,
+      "net": -74.0,
+      "regles": 5,
+      "attente": 0
+     },
+     {
+      "jour": "2026-10-18",
+      "nb": 6,
+      "mise": 100.0,
+      "net": -1.7,
+      "regles": 6,
+      "attente": 0
+     },
+     {
+      "jour": "2026-10-17",
+      "nb": 6,
+      "mise": 100.0,
+      "net": -55.5,
+      "regles": 6,
+      "attente": 0
+     }
+    ],
+    "par_sport": [
+     {
+      "sport": "Foot",
+      "nb": 44,
+      "gagnes": 20,
+      "perdus": 22,
+      "annules": 2,
+      "attente": 0,
+      "mise": 1200.0,
+      "mise_reglee": 1200.0,
+      "net": -394.0,
+      "roi": -32.83,
+      "winrate": 48
+     }
+    ],
+    "paris": [
+     {
+      "date": "2026-10-28",
+      "sport": "Foot",
+      "competition": "EFL Cup 1/8",
+      "match": "Manchester City - Brighton",
+      "pari": "Manchester City (1N2, 90 min) | score prono 2-1",
+      "cote": 1.58,
+      "mise": 30.0,
+      "statut": "Perdu",
+      "net": -30.0,
+      "retour": 0.0,
+      "resultat": "Manchester City 2-2 Brighton à 90 min, City qualifié aux tab 4-3"
+     },
+     {
+      "date": "2026-10-28",
+      "sport": "Foot",
+      "competition": "Coupe d'Allemagne 2e tour",
+      "match": "Fribourg - Wolfsbourg",
+      "pari": "Fribourg (1N2, 90 min) | score prono 2-1",
+      "cote": 1.45,
+      "mise": 30.0,
+      "statut": "Gagné",
+      "net": 13.5,
+      "retour": 43.5,
+      "resultat": "Fribourg 3-2 Wolfsbourg, 90 min"
+     },
+     {
+      "date": "2026-10-28",
+      "sport": "Foot",
+      "competition": "Serie A J9",
+      "match": "Milan AC - Bologne",
+      "pari": "Milan AC (1N2) | score prono 2-0",
+      "cote": 1.62,
+      "mise": 40.0,
+      "statut": "Perdu",
+      "net": -40.0,
+      "retour": 0.0,
+      "resultat": "Milan AC 2-4 Bologne"
+     },
+     {
+      "date": "2026-10-27",
+      "sport": "Foot",
+      "competition": "EFL Cup 1/8",
+      "match": "Bradford City - Peterborough",
+      "pari": "Bradford City (1N2, 90 min) | score prono 1-0",
+      "cote": 1.58,
+      "mise": 30.0,
+      "statut": "Gagné",
+      "net": 17.4,
+      "retour": 47.4,
+      "resultat": "Bradford 2-0 Peterborough"
+     },
+     {
+      "date": "2026-10-27",
+      "sport": "Foot",
+      "competition": "Serie B J9",
+      "match": "Benevento - Catanzaro",
+      "pari": "Benevento (1N2) | score prono 2-0",
+      "cote": 1.66,
+      "mise": 30.0,
+      "statut": "Perdu",
+      "net": -30.0,
+      "retour": 0.0,
+      "resultat": "Benevento 1-1 Catanzaro"
+     },
+     {
+      "date": "2026-10-27",
+      "sport": "Foot",
+      "competition": "Parva Liga J12",
+      "match": "Arda Kardzhali - Levski Sofia",
+      "pari": "Levski Sofia (1N2) | score prono 0-2",
+      "cote": 1.58,
+      "mise": 40.0,
+      "statut": "Perdu",
+      "net": -40.0,
+      "retour": 0.0,
+      "resultat": "Arda 1-1 Levski"
+     },
+     {
+      "date": "2026-10-26",
+      "sport": "Foot",
+      "competition": "SuperLiga Roumanie J13",
+      "match": "Sepsi - U Craiova",
+      "pari": "U Craiova (1N2)",
+      "cote": 1.47,
+      "mise": 40.0,
+      "statut": "Gagné",
+      "net": 18.8,
+      "retour": 58.8,
+      "resultat": "Sepsi 0-5 U Craiova"
+     },
+     {
+      "date": "2026-10-26",
+      "sport": "Foot",
+      "competition": "Superliga J12",
+      "match": "Copenhague - Odense",
+      "pari": "Copenhague (1N2)",
+      "cote": 1.42,
+      "mise": 30.0,
+      "statut": "Perdu",
+      "net": -30.0,
+      "retour": 0.0,
+      "resultat": "Copenhague 1-1 Odense"
+     },
+     {
+      "date": "2026-10-26",
+      "sport": "Foot",
+      "competition": "Liga MX Apertura J14",
+      "match": "Club América - Pachuca",
+      "pari": "Club América (1N2)",
+      "cote": 1.56,
+      "mise": 30.0,
+      "statut": "Perdu",
+      "net": -30.0,
+      "retour": 0.0,
+      "resultat": "Club América 1-2 Pachuca"
+     },
+     {
+      "date": "2026-10-25",
+      "sport": "Foot",
+      "competition": "Ligue 1 J8",
+      "match": "Marseille - Le Havre",
+      "pari": "Marseille (1N2)",
+      "cote": 1.49,
+      "mise": 40.0,
+      "statut": "Gagné",
+      "net": 19.6,
+      "retour": 59.6,
+      "resultat": "Marseille 4-3 Le Havre"
+     },
+     {
+      "date": "2026-10-25",
+      "sport": "Foot",
+      "competition": "Serie B J8",
+      "match": "Palerme - Carrarese",
+      "pari": "Palerme (1N2)",
+      "cote": 1.41,
+      "mise": 30.0,
+      "statut": "Gagné",
+      "net": 12.3,
+      "retour": 42.3,
+      "resultat": "Palerme 2-1 Carrarese"
+     },
+     {
+      "date": "2026-10-25",
+      "sport": "Foot",
+      "competition": "Eliteserien J24",
+      "match": "Viking - Tromsø",
+      "pari": "Viking (1N2)",
+      "cote": 1.45,
+      "mise": 30.0,
+      "statut": "Gagné",
+      "net": 13.5,
+      "retour": 43.5,
+      "resultat": "Viking 3-1 Tromsø"
+     },
+     {
+      "date": "2026-10-24",
+      "sport": "Foot",
+      "competition": "Brasileirão J32",
+      "match": "Palmeiras - Bragantino",
+      "pari": "Palmeiras (1N2)",
+      "cote": 1.47,
+      "mise": 30.0,
+      "statut": "Gagné",
+      "net": 14.1,
+      "retour": 44.1,
+      "resultat": "Palmeiras 2-0 Bragantino, Maurício 45+10' sp, Giay 77' ; sources UOL / CNN Brasil / placar.com.br"
+     },
+     {
+      "date": "2026-10-24",
+      "sport": "Foot",
+      "competition": "Allsvenskan J25",
+      "match": "IK Sirius - AIK",
+      "pari": "Sirius (1N2)",
+      "cote": 1.5,
+      "mise": 30.0,
+      "statut": "Perdu",
+      "net": -30.0,
+      "retour": 0.0,
+      "resultat": "IK Sirius 1-2 AIK, Kouamé 30' ; Persson 32' ; Hove 45+2' sp ; sources aikfotboll.se / Transfermarkt / TNT Sports"
+     },
+     {
+      "date": "2026-10-24",
+      "sport": "Foot",
+      "competition": "LaLiga 2",
+      "match": "Almería - Real Oviedo",
+      "pari": "Almería (1N2)",
+      "cote": 1.62,
+      "mise": 40.0,
+      "statut": "Perdu",
+      "net": -40.0,
+      "retour": 0.0,
+      "resultat": "Almería 2-2 Real Oviedo, Arribas 16', De la Fuente 26' ; Jacobo 86', Pulido csc 89' ; sources laliga.com / realoviedo.es / Marca"
+     },
+     {
+      "date": "2026-10-23",
+      "sport": "Foot",
+      "competition": "LigaPro, hexagonal final J4",
+      "match": "Independiente del Valle - Universidad Católica",
+      "pari": "Independiente del Valle (1N2)",
+      "cote": 1.58,
+      "mise": 30.0,
+      "statut": "Annulé",
+      "net": -30.0,
+      "retour": 0.0,
+      "resultat": "Independiente del Valle 0-0 Universidad Católica, but IDV annulé par VAR ~77' ; sources Primicias, El Universo, El Comercio"
+     },
+     {
+      "date": "2026-10-23",
+      "sport": "Foot",
+      "competition": "Ligue 2 J10",
+      "match": "Nancy - Laval",
+      "pari": "Nancy (1N2)",
+      "cote": 1.56,
+      "mise": 30.0,
+      "statut": "Gagné",
+      "net": 16.8,
+      "retour": 46.8,
+      "resultat": "Nancy 1-0 Laval, Fdaouch 68' ; sources stade-lavallois.com, Ouest-France, Foot Mercato"
+     },
+     {
+      "date": "2026-10-23",
+      "sport": "Foot",
+      "competition": "NIFL Premiership",
+      "match": "Portadown - Linfield",
+      "pari": "Linfield (1N2)",
+      "cote": 1.41,
+      "mise": 40.0,
+      "statut": "Gagné",
+      "net": 16.4,
+      "retour": 56.4,
+      "resultat": "Portadown 1-2 Linfield, Kennedy 48' sp ; Brennan 55', Fitzpatrick 80' ; sources BBC Sport, nifootballleague.com, Irish News"
+     },
+     {
+      "date": "2026-10-22",
+      "sport": "Foot",
+      "competition": "Ligue Conférence J2",
+      "match": "Midtjylland - Saint-Trond",
+      "pari": "Midtjylland (1N2)",
+      "cote": 1.58,
+      "mise": 30.0,
+      "statut": "Perdu",
+      "net": -30.0,
+      "retour": 0.0,
+      "resultat": "Midtjylland 0-1 Saint-Trond, Soelle 42' ; sources bold.dk, TVL, BBC Sport"
+     },
+     {
+      "date": "2026-10-22",
+      "sport": "Foot",
+      "competition": "Ligue Europa J3",
+      "match": "Olympiakos - Sparta Prague",
+      "pari": "Olympiakos (1N2)",
+      "cote": 1.48,
+      "mise": 30.0,
+      "statut": "Gagné",
+      "net": 14.4,
+      "retour": 44.4,
+      "resultat": "Olympiakos 1-0 Sparta Prague, A. González 78' ; sources BBC Sport, Sky Sports"
+     },
+     {
+      "date": "2026-10-22",
+      "sport": "Foot",
+      "competition": "Ligue Europa J3",
+      "match": "Juventus - Rennes",
+      "pari": "Juventus (1N2)",
+      "cote": 1.48,
+      "mise": 40.0,
+      "statut": "Perdu",
+      "net": -40.0,
+      "retour": 0.0,
+      "resultat": "Juventus 2-2 Rennes ; sources BBC Sport, ANSA, juventus.com"
+     },
+     {
+      "date": "2026-10-21",
+      "sport": "Foot",
+      "competition": "Ligue des Champions J3",
+      "match": "Betis Séville - Feyenoord",
+      "pari": "Betis Séville (1N2)",
+      "cote": 1.52,
+      "mise": 45.0,
+      "statut": "Gagné",
+      "net": 23.4,
+      "retour": 68.4,
+      "resultat": "Betis 1-0 Feyenoord, Isco 59' sp ; source BBC Sport / UEFA.com / FotMob"
+     },
+     {
+      "date": "2026-10-21",
+      "sport": "Foot",
+      "competition": "J1 League J11",
+      "match": "V-Varen Nagasaki - Sanfrecce Hiroshima",
+      "pari": "Sanfrecce Hiroshima (1N2)",
+      "cote": 1.41,
+      "mise": 55.0,
+      "statut": "Perdu",
+      "net": -55.0,
+      "retour": 0.0,
+      "resultat": "V-Varen Nagasaki 4-0 Sanfrecce Hiroshima ; source jleague.jp / Sky Sports"
+     },
+     {
+      "date": "2026-10-20",
+      "sport": "Foot",
+      "competition": "Ligue des Champions J3",
+      "match": "Manchester City - AEK Athènes",
+      "pari": "Manchester City (remboursé si nul)",
+      "cote": 1.01,
+      "mise": 25.0,
+      "statut": "Gagné",
+      "net": 0.25,
+      "retour": 25.25,
+      "resultat": "Man City 5-1 AEK Athènes"
+     },
+     {
+      "date": "2026-10-20",
+      "sport": "Foot",
+      "competition": "Ligue des Champions J3",
+      "match": "Liverpool - Villarreal",
+      "pari": "Liverpool (remboursé si nul)",
+      "cote": 1.14,
+      "mise": 25.0,
+      "statut": "Gagné",
+      "net": 3.5,
+      "retour": 28.5,
+      "resultat": "Liverpool 4-3 Villarreal"
+     },
+     {
+      "date": "2026-10-20",
+      "sport": "Foot",
+      "competition": "Ligue des Champions J3",
+      "match": "FC Porto - PSV Eindhoven",
+      "pari": "FC Porto (remboursé si nul)",
+      "cote": 1.16,
+      "mise": 25.0,
+      "statut": "Perdu",
+      "net": -25.0,
+      "retour": 0.0,
+      "resultat": "FC Porto 0-1 PSV, Til 57'"
+     },
+     {
+      "date": "2026-10-20",
+      "sport": "Foot",
+      "competition": "Saudi Pro League J10",
+      "match": "Al-Taawoun - Al-Qadsiah",
+      "pari": "Al-Qadsiah (remboursé si nul)",
+      "cote": 1.13,
+      "mise": 25.0,
+      "statut": "Gagné",
+      "net": 3.25,
+      "retour": 28.25,
+      "resultat": "Al-Taawoun 0-1 Al-Qadsiah, Reijnders 90+6"
+     },
+     {
+      "date": "2026-10-19",
+      "sport": "Foot",
+      "competition": "Premier League",
+      "match": "Tottenham - Coventry",
+      "pari": "N2 (Coventry ou nul)",
+      "cote": 2.35,
+      "mise": 20.0,
+      "statut": "Perdu",
+      "net": -20.0,
+      "retour": 0.0,
+      "resultat": "Tottenham 3-1 Coventry ; ESPN/FotMob/Guardian"
+     },
+     {
+      "date": "2026-10-19",
+      "sport": "Foot",
+      "competition": "Serie A J7",
+      "match": "Monza - Cagliari",
+      "pari": "Cagliari vainqueur (remboursé si nul)",
+      "cote": 1.92,
+      "mise": 10.0,
+      "statut": "Annulé",
+      "net": -10.0,
+      "retour": 0.0,
+      "resultat": "Monza 4-0, pas de nul donc pas de remboursement"
+     },
+     {
+      "date": "2026-10-19",
+      "sport": "Foot",
+      "competition": null,
+      "match": "Combiné Al Hilal + Cagliari",
+      "pari": "combiné 2 sélections (1.04×2.90)",
+      "cote": 3.016,
+      "mise": 15.0,
+      "statut": "Perdu",
+      "net": -15.0,
+      "retour": 0.0,
+      "resultat": "Cagliari battu 4-0"
+     },
+     {
+      "date": "2026-10-19",
+      "sport": "Foot",
+      "competition": "Serie A J7",
+      "match": "Monza - Cagliari",
+      "pari": "Cagliari vainqueur",
+      "cote": 2.9,
+      "mise": 30.0,
+      "statut": "Perdu",
+      "net": -30.0,
+      "retour": 0.0,
+      "resultat": "Monza 4-0 Cagliari ; Sky Sport/ANSA/Virgilio"
+     },
+     {
+      "date": "2026-10-19",
+      "sport": "Foot",
+      "competition": "Saudi Pro League J10",
+      "match": "Al Hilal - Al Hazem",
+      "pari": "Al Hilal vainqueur",
+      "cote": 1.04,
+      "mise": 25.0,
+      "statut": "Gagné",
+      "net": 1.0,
+      "retour": 26.0,
+      "resultat": "1-0, Martinelli 89' ; BBC Sport/FotMob/Arab News"
+     },
+     {
+      "date": "2026-10-18",
+      "sport": "Foot",
+      "competition": "remboursé si nul",
+      "match": "Combiné Marseille + Monaco + Milan",
+      "pari": "combiné 3 sélections (produit des cotes)",
+      "cote": 2.46,
+      "mise": 10.0,
+      "statut": "Perdu",
+      "net": -10.0,
+      "retour": 0.0,
+      "resultat": "Monaco battu 1-0 à Lorient ; Marseille et Milan gagnés"
+     },
+     {
+      "date": "2026-10-18",
+      "sport": "Foot",
+      "competition": "Serie A J7",
+      "match": "Milan AC - Atalanta",
+      "pari": "1 (Milan) simple 1N2",
+      "cote": 1.74,
+      "mise": 10.0,
+      "statut": "Gagné",
+      "net": 7.4,
+      "retour": 17.4,
+      "resultat": "3-2 ; sources acmilan.com, BBC Sport"
+     },
+     {
+      "date": "2026-10-18",
+      "sport": "Foot",
+      "competition": "Liga J9",
+      "match": "Malaga - Real Sociedad",
+      "pari": "Real Sociedad vainqueur (remboursé si nul)",
+      "cote": 1.47,
+      "mise": 10.0,
+      "statut": "Gagné",
+      "net": 4.7,
+      "retour": 14.7,
+      "resultat": "2-5 ; sources malagacf.com, AS.com"
+     },
+     {
+      "date": "2026-10-18",
+      "sport": "Foot",
+      "competition": "Ligue 1 J7",
+      "match": "Lorient - Monaco",
+      "pari": "Monaco vainqueur (remboursé si nul)",
+      "cote": 1.38,
+      "mise": 20.0,
+      "statut": "Perdu",
+      "net": -20.0,
+      "retour": 0.0,
+      "resultat": "1-0, Cadiou sp 61' ; sources asmonaco.com, BBC Sport"
+     },
+     {
+      "date": "2026-10-18",
+      "sport": "Foot",
+      "competition": "Ligue 1 J7",
+      "match": "Angers - Marseille",
+      "pari": "Marseille vainqueur (remboursé si nul)",
+      "cote": 1.39,
+      "mise": 20.0,
+      "statut": "Gagné",
+      "net": 7.8,
+      "retour": 27.8,
+      "resultat": "2-5 ; sources Ouest-France, ESPN"
+     },
+     {
+      "date": "2026-10-18",
+      "sport": "Foot",
+      "competition": "Serie A J7",
+      "match": "Milan AC - Atalanta",
+      "pari": "Milan vainqueur (remboursé si nul)",
+      "cote": 1.28,
+      "mise": 30.0,
+      "statut": "Gagné",
+      "net": 8.4,
+      "retour": 38.4,
+      "resultat": "3-2 ; sources acmilan.com, BBC Sport"
+     },
+     {
+      "date": "2026-10-17",
+      "sport": "Foot",
+      "competition": "combiné",
+      "match": "Werder + Lille + Lens",
+      "pari": "1 + 1 + 2 combiné (produit des cotes)",
+      "cote": 5.57,
+      "mise": 5.0,
+      "statut": "Perdu",
+      "net": -5.0,
+      "retour": 0.0,
+      "resultat": "Werder 2-2, Lille 1-1"
+     },
+     {
+      "date": "2026-10-17",
+      "sport": "Foot",
+      "competition": "combiné",
+      "match": "Lille + Lens",
+      "pari": "1 + 2 combiné (produit des cotes)",
+      "cote": 3.2,
+      "mise": 10.0,
+      "statut": "Perdu",
+      "net": -10.0,
+      "retour": 0.0,
+      "resultat": "Lille nul 1-1"
+     },
+     {
+      "date": "2026-10-17",
+      "sport": "Foot",
+      "competition": "Premier League J7",
+      "match": "Newcastle - Aston Villa",
+      "pari": "1 (Newcastle) simple",
+      "cote": 2.2,
+      "mise": 10.0,
+      "statut": "Perdu",
+      "net": -10.0,
+      "retour": 0.0,
+      "resultat": "0-1, Manzambi 36' ; sources Sky Sports, newcastleunited.com"
+     },
+     {
+      "date": "2026-10-17",
+      "sport": "Foot",
+      "competition": "Bundesliga J6",
+      "match": "Werder Brême - Paderborn",
+      "pari": "1 (Werder) simple",
+      "cote": 1.74,
+      "mise": 15.0,
+      "statut": "Perdu",
+      "net": -15.0,
+      "retour": 0.0,
+      "resultat": "2-2 ; sources bundesliga.com, werder.de"
+     },
+     {
+      "date": "2026-10-17",
+      "sport": "Foot",
+      "competition": "Ligue 1 J7",
+      "match": "Troyes - Lens",
+      "pari": "2 (Lens) simple",
+      "cote": 1.78,
+      "mise": 25.0,
+      "statut": "Gagné",
+      "net": 19.5,
+      "retour": 44.5,
+      "resultat": "1-3 ; sources ESPN, sports.fr"
+     },
+     {
+      "date": "2026-10-17",
+      "sport": "Foot",
+      "competition": "Ligue 1 J7",
+      "match": "Lille - Brest",
+      "pari": "1 (Lille) simple",
+      "cote": 1.8,
+      "mise": 35.0,
+      "statut": "Perdu",
+      "net": -35.0,
+      "retour": 0.0,
+      "resultat": "1-1, Giroud sp 64' / Baldé 6' ; sources ESPN, losc.fr"
+     }
+    ]
    }
   },
   {
    "nom": "Paris Tennis",
    "desc": "Bot Grok tennis",
+   "type": "fictif",
+   "multisport": false,
+   "dernier_passage": null,
    "ok": true,
    "stats": {
     "jour": {
@@ -352,54 +1672,768 @@
      "roi": null
     },
     "semaine": {
-     "paris": 17,
+     "paris": 13,
      "gagnes": 4,
      "perdus": 8,
      "annules": 1,
-     "attente": 4,
-     "mise": 400.0,
+     "attente": 0,
+     "mise": 300.0,
      "mise_reglee": 300.0,
      "net": -67.8,
      "roi": -22.6
     },
     "mois": {
-     "paris": 45,
+     "paris": 41,
      "gagnes": 18,
      "perdus": 22,
      "annules": 1,
-     "attente": 4,
-     "mise": 1200.0,
+     "attente": 0,
+     "mise": 1100.0,
      "mise_reglee": 1100.0,
      "net": -109.27,
      "roi": -9.93
     },
     "annee": {
-     "paris": 45,
+     "paris": 41,
      "gagnes": 18,
      "perdus": 22,
      "annules": 1,
-     "attente": 4,
-     "mise": 1200.0,
+     "attente": 0,
+     "mise": 1100.0,
      "mise_reglee": 1100.0,
      "net": -109.27,
      "roi": -9.93
     },
     "total": {
-     "paris": 45,
+     "paris": 41,
      "gagnes": 18,
      "perdus": 22,
      "annules": 1,
-     "attente": 4,
-     "mise": 1200.0,
+     "attente": 0,
+     "mise": 1100.0,
      "mise_reglee": 1100.0,
      "net": -109.27,
      "roi": -9.93
     }
+   },
+   "detail": {
+    "resume": {
+     "nb": 41,
+     "gagnes": 18,
+     "perdus": 22,
+     "annules": 1,
+     "attente": 0,
+     "mise": 1100.0,
+     "mise_reglee": 1100.0,
+     "net": -109.27,
+     "roi": -9.93,
+     "winrate": 45
+    },
+    "serie": {
+     "type": "Perdu",
+     "n": 1
+    },
+    "serie_jours": {
+     "type": "positif",
+     "n": 1
+    },
+    "courbe": [
+     {
+      "t": "2026-10-17",
+      "v": -100.0
+     },
+     {
+      "t": "2026-10-18",
+      "v": -200.0
+     },
+     {
+      "t": "2026-10-20",
+      "v": -134.5
+     },
+     {
+      "t": "2026-10-21",
+      "v": -1.09
+     },
+     {
+      "t": "2026-10-22",
+      "v": -60.09
+     },
+     {
+      "t": "2026-10-23",
+      "v": -77.77
+     },
+     {
+      "t": "2026-10-24",
+      "v": -70.77
+     },
+     {
+      "t": "2026-10-25",
+      "v": -41.47
+     },
+     {
+      "t": "2026-10-26",
+      "v": -56.47
+     },
+     {
+      "t": "2026-10-27",
+      "v": -156.47
+     },
+     {
+      "t": "2026-10-28",
+      "v": -109.27
+     }
+    ],
+    "courbe_type": "net cumulé",
+    "depart": null,
+    "cagnotte": null,
+    "par_jour": [
+     {
+      "jour": "2026-10-28",
+      "nb": 5,
+      "mise": 100.0,
+      "net": 47.2,
+      "regles": 5,
+      "attente": 0
+     },
+     {
+      "jour": "2026-10-27",
+      "nb": 4,
+      "mise": 100.0,
+      "net": -100.0,
+      "regles": 4,
+      "attente": 0
+     },
+     {
+      "jour": "2026-10-26",
+      "nb": 4,
+      "mise": 100.0,
+      "net": -15.0,
+      "regles": 4,
+      "attente": 0
+     },
+     {
+      "jour": "2026-10-25",
+      "nb": 4,
+      "mise": 100.0,
+      "net": 29.3,
+      "regles": 4,
+      "attente": 0
+     },
+     {
+      "jour": "2026-10-24",
+      "nb": 4,
+      "mise": 100.0,
+      "net": 7.0,
+      "regles": 4,
+      "attente": 0
+     },
+     {
+      "jour": "2026-10-23",
+      "nb": 4,
+      "mise": 100.0,
+      "net": -17.68,
+      "regles": 4,
+      "attente": 0
+     },
+     {
+      "jour": "2026-10-22",
+      "nb": 4,
+      "mise": 100.0,
+      "net": -59.0,
+      "regles": 4,
+      "attente": 0
+     },
+     {
+      "jour": "2026-10-21",
+      "nb": 4,
+      "mise": 100.0,
+      "net": 133.41,
+      "regles": 4,
+      "attente": 0
+     },
+     {
+      "jour": "2026-10-20",
+      "nb": 4,
+      "mise": 100.0,
+      "net": 65.5,
+      "regles": 4,
+      "attente": 0
+     },
+     {
+      "jour": "2026-10-18",
+      "nb": 2,
+      "mise": 100.0,
+      "net": -100.0,
+      "regles": 2,
+      "attente": 0
+     },
+     {
+      "jour": "2026-10-17",
+      "nb": 2,
+      "mise": 100.0,
+      "net": -100.0,
+      "regles": 2,
+      "attente": 0
+     }
+    ],
+    "par_sport": [
+     {
+      "sport": "Tennis",
+      "nb": 41,
+      "gagnes": 18,
+      "perdus": 22,
+      "annules": 1,
+      "attente": 0,
+      "mise": 1100.0,
+      "mise_reglee": 1100.0,
+      "net": -109.27,
+      "roi": -9.93,
+      "winrate": 45
+     }
+    ],
+    "paris": [
+     {
+      "date": "2026-10-28",
+      "sport": "Tennis",
+      "competition": "Simple",
+      "match": "Tiafoe (vs Musetti)",
+      "pari": "Simple : Tiafoe (vs Musetti)",
+      "cote": 1.72,
+      "mise": 10.0,
+      "statut": "Perdu",
+      "net": -10.0,
+      "retour": 0.0,
+      "resultat": "Perdu"
+     },
+     {
+      "date": "2026-10-28",
+      "sport": "Tennis",
+      "competition": "Simple",
+      "match": "Griekspoor (vs Nakashima)",
+      "pari": "Simple : Griekspoor (vs Nakashima)",
+      "cote": 2.8,
+      "mise": 15.0,
+      "statut": "Gagné",
+      "net": 27.0,
+      "retour": 42.0,
+      "resultat": "Gagné"
+     },
+     {
+      "date": "2026-10-28",
+      "sport": "Tennis",
+      "competition": "Simple",
+      "match": "Rune (vs Hurkacz)",
+      "pari": "Simple : Rune (vs Hurkacz)",
+      "cote": 2.5,
+      "mise": 20.0,
+      "statut": "Gagné",
+      "net": 30.0,
+      "retour": 50.0,
+      "resultat": "Gagné"
+     },
+     {
+      "date": "2026-10-28",
+      "sport": "Tennis",
+      "competition": "Simple",
+      "match": "Hanfmann (vs Struff)",
+      "pari": "Simple : Hanfmann (vs Struff)",
+      "cote": 2.0,
+      "mise": 25.0,
+      "statut": "Perdu",
+      "net": -25.0,
+      "retour": 0.0,
+      "resultat": "Perdu"
+     },
+     {
+      "date": "2026-10-28",
+      "sport": "Tennis",
+      "competition": "Simple",
+      "match": "De Minaur (vs Tien)",
+      "pari": "Simple : De Minaur (vs Tien)",
+      "cote": 1.84,
+      "mise": 30.0,
+      "statut": "Gagné",
+      "net": 25.2,
+      "retour": 55.2,
+      "resultat": "Gagné"
+     },
+     {
+      "date": "2026-10-27",
+      "sport": "Tennis",
+      "competition": "Simple",
+      "match": "Van de Zandschulp (vs Michelsen)",
+      "pari": "Simple : Van de Zandschulp (vs Michelsen)",
+      "cote": 2.65,
+      "mise": 20.0,
+      "statut": "Perdu",
+      "net": -20.0,
+      "retour": 0.0,
+      "resultat": "Perdu"
+     },
+     {
+      "date": "2026-10-27",
+      "sport": "Tennis",
+      "competition": "Simple",
+      "match": "P. Kudermetova (vs Tjen)",
+      "pari": "Simple : P. Kudermetova (vs Tjen)",
+      "cote": 2.3,
+      "mise": 25.0,
+      "statut": "Perdu",
+      "net": -25.0,
+      "retour": 0.0,
+      "resultat": "Perdu"
+     },
+     {
+      "date": "2026-10-27",
+      "sport": "Tennis",
+      "competition": "Simple",
+      "match": "Buse (vs Mannarino)",
+      "pari": "Simple : Buse (vs Mannarino)",
+      "cote": 2.45,
+      "mise": 25.0,
+      "statut": "Perdu",
+      "net": -25.0,
+      "retour": 0.0,
+      "resultat": "Perdu"
+     },
+     {
+      "date": "2026-10-27",
+      "sport": "Tennis",
+      "competition": "Simple",
+      "match": "Rinderknech (vs Kym)",
+      "pari": "Simple : Rinderknech (vs Kym)",
+      "cote": 1.96,
+      "mise": 30.0,
+      "statut": "Perdu",
+      "net": -30.0,
+      "retour": 0.0,
+      "resultat": "Perdu"
+     },
+     {
+      "date": "2026-10-26",
+      "sport": "Tennis",
+      "competition": "Simple",
+      "match": "Halys (vs Rune)",
+      "pari": "Simple : Halys (vs Rune)",
+      "cote": 1.86,
+      "mise": 20.0,
+      "statut": "Perdu",
+      "net": -20.0,
+      "retour": 0.0,
+      "resultat": "Perdu"
+     },
+     {
+      "date": "2026-10-26",
+      "sport": "Tennis",
+      "competition": "Simple",
+      "match": "J. M. Cerundolo (vs Altmaier)",
+      "pari": "Simple : J. M. Cerundolo (vs Altmaier)",
+      "cote": 1.74,
+      "mise": 25.0,
+      "statut": "Perdu",
+      "net": -25.0,
+      "retour": 0.0,
+      "resultat": "Perdu"
+     },
+     {
+      "date": "2026-10-26",
+      "sport": "Tennis",
+      "competition": "Simple",
+      "match": "Fery (vs Fearnley)",
+      "pari": "Simple : Fery (vs Fearnley)",
+      "cote": 1.84,
+      "mise": 25.0,
+      "statut": "Annulé",
+      "net": 0.0,
+      "retour": 25.0,
+      "resultat": "Annulé (abandon 1er set, remboursé)"
+     },
+     {
+      "date": "2026-10-26",
+      "sport": "Tennis",
+      "competition": "Simple",
+      "match": "Darderi (vs Arnaldi)",
+      "pari": "Simple : Darderi (vs Arnaldi)",
+      "cote": 2.0,
+      "mise": 30.0,
+      "statut": "Gagné",
+      "net": 30.0,
+      "retour": 60.0,
+      "resultat": "Gagné"
+     },
+     {
+      "date": "2026-10-25",
+      "sport": "Tennis",
+      "competition": "Simple (double)",
+      "match": "Frantzen/Galloway (vs Doumbia/Stevens)",
+      "pari": "Simple (double) : Frantzen/Galloway (vs Doumbia/Stevens)",
+      "cote": 1.8,
+      "mise": 20.0,
+      "statut": "Gagné",
+      "net": 16.0,
+      "retour": 36.0,
+      "resultat": "Gagné"
+     },
+     {
+      "date": "2026-10-25",
+      "sport": "Tennis",
+      "competition": "Combiné",
+      "match": "Medvedev + Fritz",
+      "pari": "Combiné : Medvedev + Fritz",
+      "cote": 1.75,
+      "mise": 25.0,
+      "statut": "Perdu",
+      "net": -25.0,
+      "retour": 0.0,
+      "resultat": "Perdu"
+     },
+     {
+      "date": "2026-10-25",
+      "sport": "Tennis",
+      "competition": "Simple (double)",
+      "match": "Cash/Glasspool (vs Arribagé/Olivetti)",
+      "pari": "Simple (double) : Cash/Glasspool (vs Arribagé/Olivetti)",
+      "cote": 1.62,
+      "mise": 25.0,
+      "statut": "Gagné",
+      "net": 15.5,
+      "retour": 40.5,
+      "resultat": "Gagné"
+     },
+     {
+      "date": "2026-10-25",
+      "sport": "Tennis",
+      "competition": "Simple",
+      "match": "Griekspoor (vs Struff)",
+      "pari": "Simple : Griekspoor (vs Struff)",
+      "cote": 1.76,
+      "mise": 30.0,
+      "statut": "Gagné",
+      "net": 22.8,
+      "retour": 52.8,
+      "resultat": "Gagné"
+     },
+     {
+      "date": "2026-10-24",
+      "sport": "Tennis",
+      "competition": "Simple",
+      "match": "Griekspoor (vs F. Cerundolo)",
+      "pari": "Simple : Griekspoor (vs F. Cerundolo)",
+      "cote": 2.35,
+      "mise": 20.0,
+      "statut": "Gagné",
+      "net": 27.0,
+      "retour": 47.0,
+      "resultat": "Gagné"
+     },
+     {
+      "date": "2026-10-24",
+      "sport": "Tennis",
+      "competition": "Combiné",
+      "match": "Medvedev + Fils",
+      "pari": "Combiné : Medvedev + Fils",
+      "cote": 1.69,
+      "mise": 25.0,
+      "statut": "Perdu",
+      "net": -25.0,
+      "retour": 0.0,
+      "resultat": "Perdu"
+     },
+     {
+      "date": "2026-10-24",
+      "sport": "Tennis",
+      "competition": "Simple",
+      "match": "T. Paul (vs Fritz)",
+      "pari": "Simple : T. Paul (vs Fritz)",
+      "cote": 2.45,
+      "mise": 25.0,
+      "statut": "Perdu",
+      "net": -25.0,
+      "retour": 0.0,
+      "resultat": "Perdu"
+     },
+     {
+      "date": "2026-10-24",
+      "sport": "Tennis",
+      "competition": "Simple",
+      "match": "Musetti (vs Cobolli)",
+      "pari": "Simple : Musetti (vs Cobolli)",
+      "cote": 2.0,
+      "mise": 30.0,
+      "statut": "Gagné",
+      "net": 30.0,
+      "retour": 60.0,
+      "resultat": "Gagné"
+     },
+     {
+      "date": "2026-10-23",
+      "sport": "Tennis",
+      "competition": "Combiné",
+      "match": "Medvedev + Fils",
+      "pari": "Combiné : Medvedev + Fils",
+      "cote": 1.71,
+      "mise": 20.0,
+      "statut": "Gagné",
+      "net": 14.27,
+      "retour": 34.27,
+      "resultat": "Gagné"
+     },
+     {
+      "date": "2026-10-23",
+      "sport": "Tennis",
+      "competition": "Combiné",
+      "match": "T. Paul + Lehecka",
+      "pari": "Combiné : T. Paul + Lehecka",
+      "cote": 1.69,
+      "mise": 25.0,
+      "statut": "Perdu",
+      "net": -25.0,
+      "retour": 0.0,
+      "resultat": "Perdu"
+     },
+     {
+      "date": "2026-10-23",
+      "sport": "Tennis",
+      "competition": "Combiné",
+      "match": "Nakashima + Fritz",
+      "pari": "Combiné : Nakashima + Fritz",
+      "cote": 1.85,
+      "mise": 25.0,
+      "statut": "Perdu",
+      "net": -25.0,
+      "retour": 0.0,
+      "resultat": "Perdu"
+     },
+     {
+      "date": "2026-10-23",
+      "sport": "Tennis",
+      "competition": "Combiné",
+      "match": "F. Cerundolo + Rybakina",
+      "pari": "Combiné : F. Cerundolo + Rybakina",
+      "cote": 1.6,
+      "mise": 30.0,
+      "statut": "Gagné",
+      "net": 18.05,
+      "retour": 48.05,
+      "resultat": "Gagné"
+     },
+     {
+      "date": "2026-10-22",
+      "sport": "Tennis",
+      "competition": "Combiné",
+      "match": "Rybakina + Vacherot",
+      "pari": "Combiné : Rybakina + Vacherot",
+      "cote": 1.79,
+      "mise": 25.0,
+      "statut": "Perdu",
+      "net": -25.0,
+      "retour": 0.0,
+      "resultat": "Perdu"
+     },
+     {
+      "date": "2026-10-22",
+      "sport": "Tennis",
+      "competition": "Simple",
+      "match": "Shnaider (vs Eala)",
+      "pari": "Simple : Shnaider (vs Eala)",
+      "cote": 1.64,
+      "mise": 25.0,
+      "statut": "Gagné",
+      "net": 16.0,
+      "retour": 41.0,
+      "resultat": "Gagné"
+     },
+     {
+      "date": "2026-10-22",
+      "sport": "Tennis",
+      "competition": "Simple",
+      "match": "Machac (vs Khachanov)",
+      "pari": "Simple : Machac (vs Khachanov)",
+      "cote": 3.0,
+      "mise": 20.0,
+      "statut": "Perdu",
+      "net": -20.0,
+      "retour": 0.0,
+      "resultat": "Perdu"
+     },
+     {
+      "date": "2026-10-22",
+      "sport": "Tennis",
+      "competition": "Simple",
+      "match": "Vacherot (vs Van Assche)",
+      "pari": "Simple : Vacherot (vs Van Assche)",
+      "cote": 1.64,
+      "mise": 30.0,
+      "statut": "Perdu",
+      "net": -30.0,
+      "retour": 0.0,
+      "resultat": "Perdu"
+     },
+     {
+      "date": "2026-10-21",
+      "sport": "Tennis",
+      "competition": "Simple",
+      "match": "Dzumhur (vs Prizmic)",
+      "pari": "Simple : Dzumhur (vs Prizmic)",
+      "cote": 3.1,
+      "mise": 20.0,
+      "statut": "Gagné",
+      "net": 42.0,
+      "retour": 62.0,
+      "resultat": "Gagné"
+     },
+     {
+      "date": "2026-10-21",
+      "sport": "Tennis",
+      "competition": "Combiné",
+      "match": "F. Cerundolo + Musetti",
+      "pari": "Combiné : F. Cerundolo + Musetti",
+      "cote": 1.93,
+      "mise": 25.0,
+      "statut": "Gagné",
+      "net": 23.26,
+      "retour": 48.26,
+      "resultat": "Gagné"
+     },
+     {
+      "date": "2026-10-21",
+      "sport": "Tennis",
+      "competition": "Simple",
+      "match": "Goffin (vs Bertola)",
+      "pari": "Simple : Goffin (vs Bertola)",
+      "cote": 2.55,
+      "mise": 25.0,
+      "statut": "Gagné",
+      "net": 38.75,
+      "retour": 63.75,
+      "resultat": "Gagné"
+     },
+     {
+      "date": "2026-10-21",
+      "sport": "Tennis",
+      "competition": "Simple",
+      "match": "Moutet (vs Balshaw)",
+      "pari": "Simple : Moutet (vs Balshaw)",
+      "cote": 1.98,
+      "mise": 30.0,
+      "statut": "Gagné",
+      "net": 29.4,
+      "retour": 59.4,
+      "resultat": "Gagné"
+     },
+     {
+      "date": "2026-10-20",
+      "sport": "Tennis",
+      "competition": "Simple",
+      "match": "Kawa (vs Snigur)",
+      "pari": "Simple : Kawa (vs Snigur)",
+      "cote": 3.25,
+      "mise": 20.0,
+      "statut": "Gagné",
+      "net": 45.0,
+      "retour": 65.0,
+      "resultat": "Gagné"
+     },
+     {
+      "date": "2026-10-20",
+      "sport": "Tennis",
+      "competition": "Simple",
+      "match": "Sakamoto (vs Khachanov)",
+      "pari": "Simple : Sakamoto (vs Khachanov)",
+      "cote": 2.9,
+      "mise": 25.0,
+      "statut": "Perdu",
+      "net": -25.0,
+      "retour": 0.0,
+      "resultat": "Perdu"
+     },
+     {
+      "date": "2026-10-20",
+      "sport": "Tennis",
+      "competition": "Simple",
+      "match": "Samuel (vs Bergs)",
+      "pari": "Simple : Samuel (vs Bergs)",
+      "cote": 2.85,
+      "mise": 25.0,
+      "statut": "Perdu",
+      "net": -25.0,
+      "retour": 0.0,
+      "resultat": "Perdu"
+     },
+     {
+      "date": "2026-10-20",
+      "sport": "Tennis",
+      "competition": "Simple",
+      "match": "Moutet (vs Humbert)",
+      "pari": "Simple : Moutet (vs Humbert)",
+      "cote": 3.35,
+      "mise": 30.0,
+      "statut": "Gagné",
+      "net": 70.5,
+      "retour": 100.5,
+      "resultat": "Gagné"
+     },
+     {
+      "date": "2026-10-18",
+      "sport": "Tennis",
+      "competition": "Simple B",
+      "match": "Kartal",
+      "pari": "Simple B : Kartal",
+      "cote": 1.92,
+      "mise": 35.0,
+      "statut": "Perdu",
+      "net": -35.0,
+      "retour": 0.0,
+      "resultat": "Perdu"
+     },
+     {
+      "date": "2026-10-18",
+      "sport": "Tennis",
+      "competition": "Simple A",
+      "match": "Jodar",
+      "pari": "Simple A : Jodar",
+      "cote": 1.72,
+      "mise": 65.0,
+      "statut": "Perdu",
+      "net": -65.0,
+      "retour": 0.0,
+      "resultat": "Perdu"
+     },
+     {
+      "date": "2026-10-17",
+      "sport": "Tennis",
+      "competition": "Combiné B",
+      "match": "Swiatek + Medvedev",
+      "pari": "Combiné B : Swiatek + Medvedev",
+      "cote": 1.65,
+      "mise": 40.0,
+      "statut": "Perdu",
+      "net": -40.0,
+      "retour": 0.0,
+      "resultat": "Perdu"
+     },
+     {
+      "date": "2026-10-17",
+      "sport": "Tennis",
+      "competition": "Combiné A",
+      "match": "Zverev + Medvedev",
+      "pari": "Combiné A : Zverev + Medvedev",
+      "cote": 1.8,
+      "mise": 60.0,
+      "statut": "Perdu",
+      "net": -60.0,
+      "retour": 0.0,
+      "resultat": "Perdu"
+     }
+    ]
    }
   },
   {
    "nom": "Paris Basket",
    "desc": "Bot Grok basket",
+   "type": "fictif",
+   "multisport": false,
+   "dernier_passage": null,
    "ok": true,
    "stats": {
     "jour": {
@@ -414,54 +2448,705 @@
      "roi": null
     },
     "semaine": {
-     "paris": 8,
-     "gagnes": 1,
-     "perdus": 3,
+     "paris": 12,
+     "gagnes": 7,
+     "perdus": 5,
      "annules": 0,
-     "attente": 4,
-     "mise": 200.0,
-     "mise_reglee": 100.0,
-     "net": -48.5,
-     "roi": -48.5
+     "attente": 0,
+     "mise": 300.0,
+     "mise_reglee": 300.0,
+     "net": -42.4,
+     "roi": -14.13
     },
     "mois": {
-     "paris": 34,
-     "gagnes": 20,
-     "perdus": 10,
+     "paris": 38,
+     "gagnes": 26,
+     "perdus": 12,
      "annules": 0,
-     "attente": 4,
-     "mise": 800.0,
-     "mise_reglee": 700.0,
-     "net": 22.55,
-     "roi": 3.22
+     "attente": 0,
+     "mise": 900.0,
+     "mise_reglee": 900.0,
+     "net": 28.65,
+     "roi": 3.18
     },
     "annee": {
-     "paris": 34,
-     "gagnes": 20,
-     "perdus": 10,
+     "paris": 38,
+     "gagnes": 26,
+     "perdus": 12,
      "annules": 0,
-     "attente": 4,
-     "mise": 800.0,
-     "mise_reglee": 700.0,
-     "net": 22.55,
-     "roi": 3.22
+     "attente": 0,
+     "mise": 900.0,
+     "mise_reglee": 900.0,
+     "net": 28.65,
+     "roi": 3.18
     },
     "total": {
-     "paris": 34,
-     "gagnes": 20,
-     "perdus": 10,
+     "paris": 38,
+     "gagnes": 26,
+     "perdus": 12,
      "annules": 0,
-     "attente": 4,
-     "mise": 800.0,
-     "mise_reglee": 700.0,
-     "net": 22.55,
-     "roi": 3.22
+     "attente": 0,
+     "mise": 900.0,
+     "mise_reglee": 900.0,
+     "net": 28.65,
+     "roi": 3.18
     }
+   },
+   "detail": {
+    "resume": {
+     "nb": 38,
+     "gagnes": 26,
+     "perdus": 12,
+     "annules": 0,
+     "attente": 0,
+     "mise": 900.0,
+     "mise_reglee": 900.0,
+     "net": 28.65,
+     "roi": 3.18,
+     "winrate": 68
+    },
+    "serie": {
+     "type": "Gagné",
+     "n": 4
+    },
+    "serie_jours": {
+     "type": "positif",
+     "n": 1
+    },
+    "courbe": [
+     {
+      "t": "2026-10-18",
+      "v": -19.3
+     },
+     {
+      "t": "2026-10-21",
+      "v": -4.05
+     },
+     {
+      "t": "2026-10-22",
+      "v": -24.55
+     },
+     {
+      "t": "2026-10-23",
+      "v": 25.05
+     },
+     {
+      "t": "2026-10-24",
+      "v": 41.65
+     },
+     {
+      "t": "2026-10-25",
+      "v": 71.05
+     },
+     {
+      "t": "2026-10-26",
+      "v": 22.55
+     },
+     {
+      "t": "2026-10-27",
+      "v": 1.15
+     },
+     {
+      "t": "2026-10-28",
+      "v": 28.65
+     }
+    ],
+    "courbe_type": "net cumulé",
+    "depart": null,
+    "cagnotte": null,
+    "par_jour": [
+     {
+      "jour": "2026-10-28",
+      "nb": 4,
+      "mise": 100.0,
+      "net": 27.5,
+      "regles": 4,
+      "attente": 0
+     },
+     {
+      "jour": "2026-10-27",
+      "nb": 4,
+      "mise": 100.0,
+      "net": -21.4,
+      "regles": 4,
+      "attente": 0
+     },
+     {
+      "jour": "2026-10-26",
+      "nb": 4,
+      "mise": 100.0,
+      "net": -48.5,
+      "regles": 4,
+      "attente": 0
+     },
+     {
+      "jour": "2026-10-25",
+      "nb": 5,
+      "mise": 100.0,
+      "net": 29.4,
+      "regles": 5,
+      "attente": 0
+     },
+     {
+      "jour": "2026-10-24",
+      "nb": 5,
+      "mise": 100.0,
+      "net": 16.6,
+      "regles": 5,
+      "attente": 0
+     },
+     {
+      "jour": "2026-10-23",
+      "nb": 4,
+      "mise": 100.0,
+      "net": 49.6,
+      "regles": 4,
+      "attente": 0
+     },
+     {
+      "jour": "2026-10-22",
+      "nb": 4,
+      "mise": 100.0,
+      "net": -20.5,
+      "regles": 4,
+      "attente": 0
+     },
+     {
+      "jour": "2026-10-21",
+      "nb": 4,
+      "mise": 100.0,
+      "net": 15.25,
+      "regles": 4,
+      "attente": 0
+     },
+     {
+      "jour": "2026-10-18",
+      "nb": 4,
+      "mise": 100.0,
+      "net": -19.3,
+      "regles": 4,
+      "attente": 0
+     }
+    ],
+    "par_sport": [
+     {
+      "sport": "Basket",
+      "nb": 38,
+      "gagnes": 26,
+      "perdus": 12,
+      "annules": 0,
+      "attente": 0,
+      "mise": 900.0,
+      "mise_reglee": 900.0,
+      "net": 28.65,
+      "roi": 3.18,
+      "winrate": 68
+     }
+    ],
+    "paris": [
+     {
+      "date": "2026-10-28",
+      "sport": "Basket",
+      "competition": "EuroCup J5 (groupe A)",
+      "match": "Tortona – Rostock Seawolves",
+      "pari": "19h30 | score prono 91-77",
+      "cote": 1.23,
+      "mise": 20.0,
+      "statut": "Gagné",
+      "net": 4.6,
+      "retour": 24.6,
+      "resultat": "86-83"
+     },
+     {
+      "date": "2026-10-28",
+      "sport": "Basket",
+      "competition": "EuroCup J5 (groupe A)",
+      "match": "Aris Salonique – Cedevita Olimpija",
+      "pari": "18h30 | score prono 92-74",
+      "cote": 1.11,
+      "mise": 25.0,
+      "statut": "Gagné",
+      "net": 2.75,
+      "retour": 27.75,
+      "resultat": "78-73"
+     },
+     {
+      "date": "2026-10-28",
+      "sport": "Basket",
+      "competition": "EuroCup J5 (groupe A)",
+      "match": "Le Mans – Hapoel Jérusalem",
+      "pari": "20h00 | score prono 79-89",
+      "cote": 1.41,
+      "mise": 25.0,
+      "statut": "Gagné",
+      "net": 10.25,
+      "retour": 35.25,
+      "resultat": "83-90"
+     },
+     {
+      "date": "2026-10-28",
+      "sport": "Basket",
+      "competition": "Euroligue J8",
+      "match": "Hapoel Tel-Aviv – Anadolu Efes (à Sofia)",
+      "pari": "19h00 | score prono 90-78",
+      "cote": 1.33,
+      "mise": 30.0,
+      "statut": "Gagné",
+      "net": 9.9,
+      "retour": 39.9,
+      "resultat": "118-88"
+     },
+     {
+      "date": "2026-10-27",
+      "sport": "Basket",
+      "competition": "Euroligue J8",
+      "match": "Valencia – Fenerbahçe",
+      "pari": "20h30 | score prono 84-88",
+      "cote": 1.85,
+      "mise": 15.0,
+      "statut": "Perdu",
+      "net": -15.0,
+      "retour": 0.0,
+      "resultat": "86-78"
+     },
+     {
+      "date": "2026-10-27",
+      "sport": "Basket",
+      "competition": "Euroligue J8",
+      "match": "Dubai – Paris Basketball",
+      "pari": "17h00 | score prono 91-80",
+      "cote": 1.19,
+      "mise": 25.0,
+      "statut": "Perdu",
+      "net": -25.0,
+      "retour": 0.0,
+      "resultat": "93-99"
+     },
+     {
+      "date": "2026-10-27",
+      "sport": "Basket",
+      "competition": "Euroligue J8",
+      "match": "Crvena Zvezda – Maccabi Tel Aviv",
+      "pari": "20h00 | score prono 88-79",
+      "cote": 1.41,
+      "mise": 30.0,
+      "statut": "Gagné",
+      "net": 12.3,
+      "retour": 42.3,
+      "resultat": "100-78"
+     },
+     {
+      "date": "2026-10-27",
+      "sport": "Basket",
+      "competition": "Euroligue J8",
+      "match": "Baskonia – Real Madrid",
+      "pari": "21h00 | score prono 82-94",
+      "cote": 1.21,
+      "mise": 30.0,
+      "statut": "Gagné",
+      "net": 6.3,
+      "retour": 36.3,
+      "resultat": "86-104"
+     },
+     {
+      "date": "2026-10-26",
+      "sport": "Basket",
+      "competition": "BBL J6",
+      "match": "Würzburg – Niners Chemnitz",
+      "pari": "20h00",
+      "cote": 2.6,
+      "mise": 10.0,
+      "statut": "Perdu",
+      "net": -10.0,
+      "retour": 0.0,
+      "resultat": "98-88"
+     },
+     {
+      "date": "2026-10-26",
+      "sport": "Basket",
+      "competition": "Winner League (Israël) J3",
+      "match": "Bnei Herzliya – Ironi Eilat",
+      "pari": "18h30",
+      "cote": 2.5,
+      "mise": 15.0,
+      "statut": "Perdu",
+      "net": -15.0,
+      "retour": 0.0,
+      "resultat": "96-93"
+     },
+     {
+      "date": "2026-10-26",
+      "sport": "Basket",
+      "competition": "Winner League (Israël) J3",
+      "match": "Maccabi Ashdod – Hapoel Galil Elyon",
+      "pari": "18h40",
+      "cote": 1.58,
+      "mise": 25.0,
+      "statut": "Perdu",
+      "net": -25.0,
+      "retour": 0.0,
+      "resultat": "66-77"
+     },
+     {
+      "date": "2026-10-26",
+      "sport": "Basket",
+      "competition": "VTB United League",
+      "match": "Zenit Saint-Pétersbourg – Enisey",
+      "pari": "17h30",
+      "cote": 1.03,
+      "mise": 50.0,
+      "statut": "Gagné",
+      "net": 1.5,
+      "retour": 51.5,
+      "resultat": null
+     },
+     {
+      "date": "2026-10-25",
+      "sport": "Basket",
+      "competition": "Liga ACB J5",
+      "match": "Lleida – Real Madrid",
+      "pari": "19h00",
+      "cote": 1.13,
+      "mise": 10.0,
+      "statut": "Gagné",
+      "net": 1.3,
+      "retour": 11.3,
+      "resultat": "86-122"
+     },
+     {
+      "date": "2026-10-25",
+      "sport": "Basket",
+      "competition": "NBA",
+      "match": "Lakers @ Jazz",
+      "pari": "22h00",
+      "cote": 1.46,
+      "mise": 20.0,
+      "statut": "Gagné",
+      "net": 9.2,
+      "retour": 29.2,
+      "resultat": "132-123"
+     },
+     {
+      "date": "2026-10-25",
+      "sport": "Basket",
+      "competition": "Betclic Élite J5",
+      "match": "ASVEL – Nancy",
+      "pari": "16h30",
+      "cote": 1.17,
+      "mise": 20.0,
+      "statut": "Gagné",
+      "net": 3.4,
+      "retour": 23.4,
+      "resultat": "78-74"
+     },
+     {
+      "date": "2026-10-25",
+      "sport": "Basket",
+      "competition": "NBA",
+      "match": "Pacers @ Nets",
+      "pari": "23h00",
+      "cote": 1.42,
+      "mise": 25.0,
+      "statut": "Gagné",
+      "net": 10.5,
+      "retour": 35.5,
+      "resultat": "136-109"
+     },
+     {
+      "date": "2026-10-25",
+      "sport": "Basket",
+      "competition": "Liga ACB J5",
+      "match": "Valencia – Baskonia",
+      "pari": "17h00",
+      "cote": 1.2,
+      "mise": 25.0,
+      "statut": "Gagné",
+      "net": 5.0,
+      "retour": 30.0,
+      "resultat": "84-75"
+     },
+     {
+      "date": "2026-10-24",
+      "sport": "Basket",
+      "competition": "Betclic Élite J5",
+      "match": "Nanterre – Cholet",
+      "pari": "20h30",
+      "cote": 3.05,
+      "mise": 10.0,
+      "statut": "Perdu",
+      "net": -10.0,
+      "retour": 0.0,
+      "resultat": "86-69"
+     },
+     {
+      "date": "2026-10-24",
+      "sport": "Basket",
+      "competition": "Betclic Élite J5",
+      "match": "Chalon – Strasbourg",
+      "pari": "18h30",
+      "cote": 1.32,
+      "mise": 15.0,
+      "statut": "Gagné",
+      "net": 4.8,
+      "retour": 19.8,
+      "resultat": "106-79"
+     },
+     {
+      "date": "2026-10-24",
+      "sport": "Basket",
+      "competition": "Liga ACB J5",
+      "match": "Barça – Casademont Zaragoza",
+      "pari": "21h00",
+      "cote": 1.2,
+      "mise": 20.0,
+      "statut": "Gagné",
+      "net": 4.0,
+      "retour": 24.0,
+      "resultat": "99-81"
+     },
+     {
+      "date": "2026-10-24",
+      "sport": "Basket",
+      "competition": "Betclic Élite J5",
+      "match": "Bourg – Gravelines-Dunkerque",
+      "pari": "18h00",
+      "cote": 1.16,
+      "mise": 25.0,
+      "statut": "Gagné",
+      "net": 4.0,
+      "retour": 29.0,
+      "resultat": "89-81"
+     },
+     {
+      "date": "2026-10-24",
+      "sport": "Basket",
+      "competition": "Betclic Élite J5",
+      "match": "Boulazac – Le Mans",
+      "pari": "18h00",
+      "cote": 1.46,
+      "mise": 30.0,
+      "statut": "Gagné",
+      "net": 13.8,
+      "retour": 43.8,
+      "resultat": "72-97"
+     },
+     {
+      "date": "2026-10-23",
+      "sport": "Basket",
+      "competition": "Euroligue J7",
+      "match": "Žalgiris – ASVEL",
+      "pari": "19h00",
+      "cote": 4.76,
+      "mise": 10.0,
+      "statut": "Perdu",
+      "net": -10.0,
+      "retour": 0.0,
+      "resultat": "105-85"
+     },
+     {
+      "date": "2026-10-23",
+      "sport": "Basket",
+      "competition": "Euroligue J7",
+      "match": "Olympiacos – Fenerbahçe",
+      "pari": "20h15",
+      "cote": 2.3,
+      "mise": 25.0,
+      "statut": "Gagné",
+      "net": 32.5,
+      "retour": 57.5,
+      "resultat": "61-64"
+     },
+     {
+      "date": "2026-10-23",
+      "sport": "Basket",
+      "competition": "Euroligue J7",
+      "match": "Paris Basketball – Valencia",
+      "pari": "20h45",
+      "cote": 1.53,
+      "mise": 30.0,
+      "statut": "Gagné",
+      "net": 15.9,
+      "retour": 45.9,
+      "resultat": "93-104"
+     },
+     {
+      "date": "2026-10-23",
+      "sport": "Basket",
+      "competition": "Betclic Élite J5",
+      "match": "Saint-Quentin – Dijon",
+      "pari": "20h00",
+      "cote": 1.32,
+      "mise": 35.0,
+      "statut": "Gagné",
+      "net": 11.2,
+      "retour": 46.2,
+      "resultat": "81-91"
+     },
+     {
+      "date": "2026-10-22",
+      "sport": "Basket",
+      "competition": "Euroligue J7",
+      "match": "Anadolu Efes – Beşiktaş",
+      "pari": "19h30",
+      "cote": 2.67,
+      "mise": 20.0,
+      "statut": "Perdu",
+      "net": -20.0,
+      "retour": 0.0,
+      "resultat": "89-80"
+     },
+     {
+      "date": "2026-10-22",
+      "sport": "Basket",
+      "competition": "Euroligue J7",
+      "match": "Partizan – Crvena Zvezda",
+      "pari": "20h45",
+      "cote": 1.97,
+      "mise": 20.0,
+      "statut": "Perdu",
+      "net": -20.0,
+      "retour": 0.0,
+      "resultat": null
+     },
+     {
+      "date": "2026-10-22",
+      "sport": "Basket",
+      "competition": "Euroligue J7",
+      "match": "Maccabi Tel Aviv – Real Madrid",
+      "pari": "20h05 (à Belgrade)",
+      "cote": 1.55,
+      "mise": 30.0,
+      "statut": "Gagné",
+      "net": 16.5,
+      "retour": 46.5,
+      "resultat": "99-113"
+     },
+     {
+      "date": "2026-10-22",
+      "sport": "Basket",
+      "competition": "Euroligue J7",
+      "match": "Panathinaikos – Baskonia",
+      "pari": "20h15",
+      "cote": 1.1,
+      "mise": 30.0,
+      "statut": "Gagné",
+      "net": 3.0,
+      "retour": 33.0,
+      "resultat": "85-79"
+     },
+     {
+      "date": "2026-10-21",
+      "sport": "Basket",
+      "competition": "EuroCup J4",
+      "match": "Cedevita Olimpija – Le Mans",
+      "pari": "18h30",
+      "cote": 2.2,
+      "mise": 20.0,
+      "statut": "Gagné",
+      "net": 24.0,
+      "retour": 44.0,
+      "resultat": "66-84"
+     },
+     {
+      "date": "2026-10-21",
+      "sport": "Basket",
+      "competition": "EuroCup J4",
+      "match": "JL Bourg – Trento",
+      "pari": "19h30",
+      "cote": 1.41,
+      "mise": 25.0,
+      "statut": "Gagné",
+      "net": 10.25,
+      "retour": 35.25,
+      "resultat": "90-79"
+     },
+     {
+      "date": "2026-10-21",
+      "sport": "Basket",
+      "competition": "BCL J2",
+      "match": "Pallacanestro Reggiana – BC Juventus Utena",
+      "pari": "20h00",
+      "cote": 1.24,
+      "mise": 25.0,
+      "statut": "Perdu",
+      "net": -25.0,
+      "retour": 0.0,
+      "resultat": "75-76"
+     },
+     {
+      "date": "2026-10-21",
+      "sport": "Basket",
+      "competition": "BCL J2",
+      "match": "Joventut Badalona – Telekom Baskets Bonn",
+      "pari": "20h00",
+      "cote": 1.2,
+      "mise": 30.0,
+      "statut": "Gagné",
+      "net": 6.0,
+      "retour": 36.0,
+      "resultat": "76-74"
+     },
+     {
+      "date": "2026-10-18",
+      "sport": "Basket",
+      "competition": "Liga ACB J4",
+      "match": "Real Madrid – Surne Bilbao",
+      "pari": "12h30",
+      "cote": 1.83,
+      "mise": 15.0,
+      "statut": "Perdu",
+      "net": -15.0,
+      "retour": 0.0,
+      "resultat": null
+     },
+     {
+      "date": "2026-10-18",
+      "sport": "Basket",
+      "competition": "Betclic Élite J4",
+      "match": "Paris Basketball – Boulazac",
+      "pari": "16h30",
+      "cote": 1.73,
+      "mise": 25.0,
+      "statut": "Perdu",
+      "net": -25.0,
+      "retour": 0.0,
+      "resultat": null
+     },
+     {
+      "date": "2026-10-18",
+      "sport": "Basket",
+      "competition": "Betclic Élite J4",
+      "match": "Gravelines-Dunkerque – Dijon",
+      "pari": "16h00",
+      "cote": 1.34,
+      "mise": 30.0,
+      "statut": "Gagné",
+      "net": 10.2,
+      "retour": 40.2,
+      "resultat": "83-92"
+     },
+     {
+      "date": "2026-10-18",
+      "sport": "Basket",
+      "competition": "Betclic Élite J4",
+      "match": "Le Mans – Bourg-en-Bresse",
+      "pari": "19h00 (19h05 selon certaines sources)",
+      "cote": 1.35,
+      "mise": 30.0,
+      "statut": "Gagné",
+      "net": 10.5,
+      "retour": 40.5,
+      "resultat": "91-90"
+     }
+    ]
    }
   },
   {
    "nom": "Paris PMU",
    "desc": "Bot Grok hippisme",
+   "type": "fictif",
+   "multisport": false,
+   "dernier_passage": null,
    "ok": true,
    "stats": {
     "jour": {
@@ -487,43 +3172,1407 @@
      "roi": 16.83
     },
     "mois": {
-     "paris": 100,
-     "gagnes": 53,
-     "perdus": 46,
+     "paris": 91,
+     "gagnes": 45,
+     "perdus": 45,
      "annules": 1,
      "attente": 0,
-     "mise": 1119.0,
-     "mise_reglee": 1119.0,
-     "net": -103.8,
-     "roi": -9.28
+     "mise": 1100.0,
+     "mise_reglee": 1100.0,
+     "net": -116.6,
+     "roi": -10.6
     },
     "annee": {
-     "paris": 100,
-     "gagnes": 53,
-     "perdus": 46,
+     "paris": 91,
+     "gagnes": 45,
+     "perdus": 45,
      "annules": 1,
      "attente": 0,
-     "mise": 1119.0,
-     "mise_reglee": 1119.0,
-     "net": -103.8,
-     "roi": -9.28
+     "mise": 1100.0,
+     "mise_reglee": 1100.0,
+     "net": -116.6,
+     "roi": -10.6
     },
     "total": {
-     "paris": 100,
-     "gagnes": 53,
-     "perdus": 46,
+     "paris": 91,
+     "gagnes": 45,
+     "perdus": 45,
      "annules": 1,
      "attente": 0,
-     "mise": 1119.0,
-     "mise_reglee": 1119.0,
-     "net": -103.8,
-     "roi": -9.28
+     "mise": 1100.0,
+     "mise_reglee": 1100.0,
+     "net": -116.6,
+     "roi": -10.6
     }
+   },
+   "detail": {
+    "resume": {
+     "nb": 91,
+     "gagnes": 45,
+     "perdus": 45,
+     "annules": 1,
+     "attente": 0,
+     "mise": 1100.0,
+     "mise_reglee": 1100.0,
+     "net": -116.6,
+     "roi": -10.6,
+     "winrate": 50
+    },
+    "serie": {
+     "type": "Gagné",
+     "n": 2
+    },
+    "serie_jours": {
+     "type": "négatif",
+     "n": 1
+    },
+    "courbe": [
+     {
+      "t": "2026-10-17",
+      "v": -29.4
+     },
+     {
+      "t": "2026-10-18",
+      "v": -54.4
+     },
+     {
+      "t": "2026-10-20",
+      "v": -14.4
+     },
+     {
+      "t": "2026-10-21",
+      "v": -65.8
+     },
+     {
+      "t": "2026-10-22",
+      "v": -109.8
+     },
+     {
+      "t": "2026-10-23",
+      "v": -116.3
+     },
+     {
+      "t": "2026-10-24",
+      "v": -155.1
+     },
+     {
+      "t": "2026-10-25",
+      "v": -167.1
+     },
+     {
+      "t": "2026-10-26",
+      "v": -166.6
+     },
+     {
+      "t": "2026-10-27",
+      "v": -99.6
+     },
+     {
+      "t": "2026-10-28",
+      "v": -116.6
+     }
+    ],
+    "courbe_type": "net cumulé",
+    "depart": null,
+    "cagnotte": null,
+    "par_jour": [
+     {
+      "jour": "2026-10-28",
+      "nb": 4,
+      "mise": 100.0,
+      "net": -17.0,
+      "regles": 4,
+      "attente": 0
+     },
+     {
+      "jour": "2026-10-27",
+      "nb": 4,
+      "mise": 100.0,
+      "net": 67.0,
+      "regles": 4,
+      "attente": 0
+     },
+     {
+      "jour": "2026-10-26",
+      "nb": 4,
+      "mise": 100.0,
+      "net": 0.5,
+      "regles": 4,
+      "attente": 0
+     },
+     {
+      "jour": "2026-10-25",
+      "nb": 7,
+      "mise": 100.0,
+      "net": -12.0,
+      "regles": 7,
+      "attente": 0
+     },
+     {
+      "jour": "2026-10-24",
+      "nb": 7,
+      "mise": 100.0,
+      "net": -38.8,
+      "regles": 7,
+      "attente": 0
+     },
+     {
+      "jour": "2026-10-23",
+      "nb": 7,
+      "mise": 100.0,
+      "net": -6.5,
+      "regles": 7,
+      "attente": 0
+     },
+     {
+      "jour": "2026-10-22",
+      "nb": 7,
+      "mise": 100.0,
+      "net": -44.0,
+      "regles": 7,
+      "attente": 0
+     },
+     {
+      "jour": "2026-10-21",
+      "nb": 7,
+      "mise": 100.0,
+      "net": -51.4,
+      "regles": 7,
+      "attente": 0
+     },
+     {
+      "jour": "2026-10-20",
+      "nb": 7,
+      "mise": 100.0,
+      "net": 40.0,
+      "regles": 7,
+      "attente": 0
+     },
+     {
+      "jour": "2026-10-18",
+      "nb": 14,
+      "mise": 100.0,
+      "net": -25.0,
+      "regles": 14,
+      "attente": 0
+     },
+     {
+      "jour": "2026-10-17",
+      "nb": 23,
+      "mise": 100.0,
+      "net": -29.4,
+      "regles": 23,
+      "attente": 0
+     }
+    ],
+    "par_sport": [
+     {
+      "sport": "Hippisme",
+      "nb": 91,
+      "gagnes": 45,
+      "perdus": 45,
+      "annules": 1,
+      "attente": 0,
+      "mise": 1100.0,
+      "mise_reglee": 1100.0,
+      "net": -116.6,
+      "roi": -10.6,
+      "winrate": 50
+     }
+    ],
+    "paris": [
+     {
+      "date": "2026-10-28",
+      "sport": "Hippisme",
+      "competition": "R3C3 Pont-de-Vivaux, Prix de la Treille (attelé, 13 partants)",
+      "match": "R3C3 Pont-de-Vivaux, Prix de la Treille (attelé, 13 partants) — 13 Krak de Bussières (B. Chauve-Laffay)",
+      "pari": "Simple placé 13 Krak de Bussières (B. Chauve-Laffay) | prono trio 13-12-7",
+      "cote": 2.9,
+      "mise": 20.0,
+      "statut": "Gagné",
+      "net": 8.0,
+      "retour": 28.0,
+      "resultat": "Placé (1er), placé 1,40"
+     },
+     {
+      "date": "2026-10-28",
+      "sport": "Hippisme",
+      "competition": "R1C8 Auteuil, Prix Robert Bates (steeple, 13 partants)",
+      "match": "R1C8 Auteuil, Prix Robert Bates (steeple, 13 partants) — 2 Bel Enjeu (F. Giles)",
+      "pari": "Simple placé 2 Bel Enjeu (F. Giles) | prono trio 12-2-3",
+      "cote": 5.3,
+      "mise": 25.0,
+      "statut": "Gagné",
+      "net": 30.0,
+      "retour": 55.0,
+      "resultat": "Placé (2e), placé 2,20"
+     },
+     {
+      "date": "2026-10-28",
+      "sport": "Hippisme",
+      "competition": "R2C5 Le Mans, Grand Prix du Mans (plat, 8 partants)",
+      "match": "R2C5 Le Mans, Grand Prix du Mans (plat, 8 partants) — 4 Swinguer (PC. Boudot)",
+      "pari": "Simple placé 4 Swinguer (PC. Boudot) | prono trio 1-4-2",
+      "cote": 3.3,
+      "mise": 25.0,
+      "statut": "Perdu",
+      "net": -25.0,
+      "retour": 0.0,
+      "resultat": "Perdu (4e)"
+     },
+     {
+      "date": "2026-10-28",
+      "sport": "Hippisme",
+      "competition": "R1C1 Auteuil, Prix Maurice d'Okhuysen (steeple, 8 partants)",
+      "match": "R1C1 Auteuil, Prix Maurice d'Okhuysen (steeple, 8 partants) — 6 Dedel (J. Phelippe)",
+      "pari": "Simple placé 6 Dedel (J. Phelippe) | prono trio 1-6-4",
+      "cote": 3.8,
+      "mise": 30.0,
+      "statut": "Perdu",
+      "net": -30.0,
+      "retour": 0.0,
+      "resultat": "Perdu (tombé)"
+     },
+     {
+      "date": "2026-10-27",
+      "sport": "Hippisme",
+      "competition": "R4C4 Vincennes, Prix de Loudun (monté)",
+      "match": "R4C4 Vincennes, Prix de Loudun (monté) — 3 Kepi Rouge (J.Y. Ricart)",
+      "pari": "Simple placé 3 Kepi Rouge (J.Y. Ricart) | prono trio 10-3-11",
+      "cote": 6.5,
+      "mise": 30.0,
+      "statut": "Gagné",
+      "net": 12.0,
+      "retour": 42.0,
+      "resultat": "Placé (3e), placé 1,40"
+     },
+     {
+      "date": "2026-10-27",
+      "sport": "Hippisme",
+      "competition": "R1C4 Deauville, Prix d'Audrieu (plat)",
+      "match": "R1C4 Deauville, Prix d'Audrieu (plat) — 5 Liseo (J. Moutard)",
+      "pari": "Simple placé 5 Liseo (J. Moutard) | prono trio 5-4-9",
+      "cote": 6.1,
+      "mise": 20.0,
+      "statut": "Gagné",
+      "net": 20.0,
+      "retour": 40.0,
+      "resultat": "Placé (3e), placé 2,00"
+     },
+     {
+      "date": "2026-10-27",
+      "sport": "Hippisme",
+      "competition": "R1C2 Deauville, Prix du Chenet (plat)",
+      "match": "R1C2 Deauville, Prix du Chenet (plat) — 1 Raqeebb (L. Brechet)",
+      "pari": "Simple placé 1 Raqeebb (L. Brechet) | prono trio 1-12-11",
+      "cote": 5.2,
+      "mise": 25.0,
+      "statut": "Gagné",
+      "net": 15.0,
+      "retour": 40.0,
+      "resultat": "Placé (2e), placé 1,60"
+     },
+     {
+      "date": "2026-10-27",
+      "sport": "Hippisme",
+      "competition": "R3C1 Lyon-Parilly, Prix du Tarn (attelé amateurs)",
+      "match": "R3C1 Lyon-Parilly, Prix du Tarn (attelé amateurs) — 5 Jack Sparck (P. Seiler)",
+      "pari": "Simple placé 5 Jack Sparck (P. Seiler) | prono trio 5-4-7",
+      "cote": 2.6,
+      "mise": 25.0,
+      "statut": "Gagné",
+      "net": 20.0,
+      "retour": 45.0,
+      "resultat": "Placé (1er), placé 1,80"
+     },
+     {
+      "date": "2026-10-26",
+      "sport": "Hippisme",
+      "competition": "R4C3 La Cépière, Prix du Muséum de Toulouse (plat, 9 partants)",
+      "match": "R4C3 La Cépière, Prix du Muséum de Toulouse (plat, 9 partants) — 7 Acotango (L. Gallo)",
+      "pari": "Simple placé 7 Acotango (L. Gallo)",
+      "cote": 3.9,
+      "mise": 25.0,
+      "statut": "Perdu",
+      "net": -25.0,
+      "retour": 0.0,
+      "resultat": "Perdu (5e, arrivée 4-9-3-2-7)"
+     },
+     {
+      "date": "2026-10-26",
+      "sport": "Hippisme",
+      "competition": "R4C1 La Cépière, Prix de la Croix Occitane (plat, 8 partants)",
+      "match": "R4C1 La Cépière, Prix de la Croix Occitane (plat, 8 partants) — 5 Pink Palace (J. Nicoleau)",
+      "pari": "Simple placé 5 Pink Palace (J. Nicoleau)",
+      "cote": 6.7,
+      "mise": 20.0,
+      "statut": "Gagné",
+      "net": 12.0,
+      "retour": 32.0,
+      "resultat": "Placé (2e, arrivée 2-5-8), placé 1,60"
+     },
+     {
+      "date": "2026-10-26",
+      "sport": "Hippisme",
+      "competition": "R2C5 Borély, Prix d'Ensuès (plat, 8 partants)",
+      "match": "R2C5 Borély, Prix d'Ensuès (plat, 8 partants) — 4 Le Doc (A. Crastus)",
+      "pari": "Simple placé 4 Le Doc (A. Crastus)",
+      "cote": 5.6,
+      "mise": 25.0,
+      "statut": "Gagné",
+      "net": 7.5,
+      "retour": 32.5,
+      "resultat": "Placé (1er, arrivée 4-2-6), placé 1,30"
+     },
+     {
+      "date": "2026-10-26",
+      "sport": "Hippisme",
+      "competition": "R1C1 Chantilly, Grand Prix du Nord (plat, 8 partants)",
+      "match": "R1C1 Chantilly, Grand Prix du Nord (plat, 8 partants) — 8 Lefteye (M. Guyon)",
+      "pari": "Simple placé 8 Lefteye (M. Guyon)",
+      "cote": 3.5,
+      "mise": 30.0,
+      "statut": "Gagné",
+      "net": 6.0,
+      "retour": 36.0,
+      "resultat": "Placé (2e ex aequo avec le 5, arrivée 1-5/8-3), placé 1,20"
+     },
+     {
+      "date": "2026-10-25",
+      "sport": "Hippisme",
+      "competition": "R1C7 Prix Belle de Nuit, Saint-Cloud (Gr. III, 13 partants)",
+      "match": "R1C7 Prix Belle de Nuit, Saint-Cloud (Gr. III, 13 partants) — 3 Beset",
+      "pari": "Simple placé 3 Beset",
+      "cote": 7.5,
+      "mise": 10.0,
+      "statut": "Perdu",
+      "net": -10.0,
+      "retour": 0.0,
+      "resultat": "Perdu (7e, arrivée 2-8-11)"
+     },
+     {
+      "date": "2026-10-25",
+      "sport": "Hippisme",
+      "competition": "R5C5 Prix d'Aubervilliers, Enghien (attelé, 14 partants)",
+      "match": "R5C5 Prix d'Aubervilliers, Enghien (attelé, 14 partants) — 9 Kerveléan",
+      "pari": "Simple placé 9 Kerveléan",
+      "cote": 3.2,
+      "mise": 20.0,
+      "statut": "Gagné",
+      "net": 6.0,
+      "retour": 26.0,
+      "resultat": "Placé (1er, arrivée 9-11-13), placé 1,30"
+     },
+     {
+      "date": "2026-10-25",
+      "sport": "Hippisme",
+      "competition": "R1C6 Prix Royal-Oak, Saint-Cloud (Gr. I, 8 partants)",
+      "match": "R1C6 Prix Royal-Oak, Saint-Cloud (Gr. I, 8 partants) — 2 Queenstown",
+      "pari": "Simple placé 2 Queenstown",
+      "cote": 3.0,
+      "mise": 20.0,
+      "statut": "Gagné",
+      "net": 12.0,
+      "retour": 32.0,
+      "resultat": "Placé (1er, arrivée 2-5-6), placé 1,60"
+     },
+     {
+      "date": "2026-10-25",
+      "sport": "Hippisme",
+      "competition": "R1C5 Quinté+ Prix de l'Élevage, Saint-Cloud (handicap, 16 partants)",
+      "match": "R1C5 Quinté+ Prix de l'Élevage, Saint-Cloud (handicap, 16 partants) — 15 Janah",
+      "pari": "Simple placé 15 Janah",
+      "cote": 9.0,
+      "mise": 10.0,
+      "statut": "Perdu",
+      "net": -10.0,
+      "retour": 0.0,
+      "resultat": "Perdu (11e, arrivée 9-13-10-3-4)"
+     },
+     {
+      "date": "2026-10-25",
+      "sport": "Hippisme",
+      "competition": "R1C3 Prix Perth, Saint-Cloud (Gr. III, 10 partants)",
+      "match": "R1C3 Prix Perth, Saint-Cloud (Gr. III, 10 partants) — 4 Half Half",
+      "pari": "Simple placé 4 Half Half",
+      "cote": 4.1,
+      "mise": 15.0,
+      "statut": "Gagné",
+      "net": 15.0,
+      "retour": 30.0,
+      "resultat": "Placé (1er, arrivée 4-6-9), placé 2,00"
+     },
+     {
+      "date": "2026-10-25",
+      "sport": "Hippisme",
+      "competition": "R4C5 Prix d'Automne, Salon (attelé européenne, 11 partants)",
+      "match": "R4C5 Prix d'Automne, Salon (attelé européenne, 11 partants) — 1 Harlequin",
+      "pari": "Simple placé 1 Harlequin",
+      "cote": 13.0,
+      "mise": 10.0,
+      "statut": "Perdu",
+      "net": -10.0,
+      "retour": 0.0,
+      "resultat": "Perdu (4e, arrivée 4-10-11)"
+     },
+     {
+      "date": "2026-10-25",
+      "sport": "Hippisme",
+      "competition": "R4C3 Salon-de-Provence (attelé autostart, 16 partants)",
+      "match": "R4C3 Salon-de-Provence (attelé autostart, 16 partants) — 8 Kapta Jeloca",
+      "pari": "Simple placé 8 Kapta Jeloca",
+      "cote": 3.3,
+      "mise": 15.0,
+      "statut": "Perdu",
+      "net": -15.0,
+      "retour": 0.0,
+      "resultat": "Perdu (7e, arrivée 7-6-9)"
+     },
+     {
+      "date": "2026-10-24",
+      "sport": "Hippisme",
+      "competition": "R4C7 Cabourg (attelé apprentis, 14 partants)",
+      "match": "R4C7 Cabourg (attelé apprentis, 14 partants) — 6 Kingala",
+      "pari": "Simple placé 6 Kingala",
+      "cote": 8.6,
+      "mise": 15.0,
+      "statut": "Perdu",
+      "net": -15.0,
+      "retour": 0.0,
+      "resultat": "Perdu (5e, arrivée 2-1-11)"
+     },
+     {
+      "date": "2026-10-24",
+      "sport": "Hippisme",
+      "competition": "R1C6 Grand Steeple-Chase de Compiègne (Gr. II, 10 partants)",
+      "match": "R1C6 Grand Steeple-Chase de Compiègne (Gr. II, 10 partants) — 10 Bubble Pretty",
+      "pari": "Simple placé 10 Bubble Pretty",
+      "cote": 8.1,
+      "mise": 13.0,
+      "statut": "Perdu",
+      "net": -13.0,
+      "retour": 0.0,
+      "resultat": "Perdu (5e, arrivée 9-8-4)"
+     },
+     {
+      "date": "2026-10-24",
+      "sport": "Hippisme",
+      "competition": "R3C8 Grand Prix de Salon (attelé européenne, 13 partants)",
+      "match": "R3C8 Grand Prix de Salon (attelé européenne, 13 partants) — 7 Kingslayer Pellini",
+      "pari": "Simple placé 7 Kingslayer Pellini",
+      "cote": 2.3,
+      "mise": 15.0,
+      "statut": "Gagné",
+      "net": 9.0,
+      "retour": 24.0,
+      "resultat": "Placé (2e, arrivée 3-7-6), placé 1,60"
+     },
+     {
+      "date": "2026-10-24",
+      "sport": "Hippisme",
+      "competition": "R3C5 Salon-de-Provence (attelé, 13 partants)",
+      "match": "R3C5 Salon-de-Provence (attelé, 13 partants) — 11 Joyeuse du Porto",
+      "pari": "Simple placé 11 Joyeuse du Porto",
+      "cote": 4.2,
+      "mise": 15.0,
+      "statut": "Perdu",
+      "net": -15.0,
+      "retour": 0.0,
+      "resultat": "Perdu (9e, arrivée 4-5-9)"
+     },
+     {
+      "date": "2026-10-24",
+      "sport": "Hippisme",
+      "competition": "R3C4 Salon-de-Provence (attelé, 13 partants)",
+      "match": "R3C4 Salon-de-Provence (attelé, 13 partants) — 11 Lazan de Passieu",
+      "pari": "Simple placé 11 Lazan de Passieu",
+      "cote": 13.0,
+      "mise": 10.0,
+      "statut": "Gagné",
+      "net": 8.0,
+      "retour": 18.0,
+      "resultat": "Placé (3e, arrivée 13-6-11), placé 1,80"
+     },
+     {
+      "date": "2026-10-24",
+      "sport": "Hippisme",
+      "competition": "R1C3 Compiègne (haies handicap, 15 partants)",
+      "match": "R1C3 Compiègne (haies handicap, 15 partants) — 7 Mon Petit Prince",
+      "pari": "Simple placé 7 Mon Petit Prince",
+      "cote": 5.0,
+      "mise": 12.0,
+      "statut": "Gagné",
+      "net": 7.2,
+      "retour": 19.2,
+      "resultat": "Placé (3e, arrivée 9-4-7), placé 1,60"
+     },
+     {
+      "date": "2026-10-24",
+      "sport": "Hippisme",
+      "competition": "R3C1 Salon-de-Provence (attelé amateurs, 11 partants)",
+      "match": "R3C1 Salon-de-Provence (attelé amateurs, 11 partants) — 6 J'Adore Ce Mec",
+      "pari": "Simple placé 6 J'Adore Ce Mec",
+      "cote": 3.7,
+      "mise": 20.0,
+      "statut": "Perdu",
+      "net": -20.0,
+      "retour": 0.0,
+      "resultat": "Perdu (4e, arrivée 8-7-1-6)"
+     },
+     {
+      "date": "2026-10-23",
+      "sport": "Hippisme",
+      "competition": "R1C5 Vincennes (attelé, 9 partants)",
+      "match": "R1C5 Vincennes (attelé, 9 partants) — 7 Nobel du Rib",
+      "pari": "Simple placé 7 Nobel du Rib",
+      "cote": 2.1,
+      "mise": 25.0,
+      "statut": "Gagné",
+      "net": 7.5,
+      "retour": 32.5,
+      "resultat": "Gagne (1er, arrivée 7-6-3), donc placé"
+     },
+     {
+      "date": "2026-10-23",
+      "sport": "Hippisme",
+      "competition": "R1C4 Vincennes (attelé, 18 partants)",
+      "match": "R1C4 Vincennes (attelé, 18 partants) — 11 Jazz de Padd",
+      "pari": "Simple placé 11 Jazz de Padd",
+      "cote": 5.8,
+      "mise": 10.0,
+      "statut": "Perdu",
+      "net": -10.0,
+      "retour": 0.0,
+      "resultat": "Perdu (6e, arrivée 15-12-6)"
+     },
+     {
+      "date": "2026-10-23",
+      "sport": "Hippisme",
+      "competition": "R1C2 Vincennes (attelé, 15 partants)",
+      "match": "R1C2 Vincennes (attelé, 15 partants) — 2 Jog Jeloca",
+      "pari": "Simple placé 2 Jog Jeloca",
+      "cote": 7.0,
+      "mise": 10.0,
+      "statut": "Perdu",
+      "net": -10.0,
+      "retour": 0.0,
+      "resultat": "Perdu (4e, arrivée 8-6-12)"
+     },
+     {
+      "date": "2026-10-23",
+      "sport": "Hippisme",
+      "competition": "R5C3 Lyon La Soie (plat, 13 partants)",
+      "match": "R5C3 Lyon La Soie (plat, 13 partants) — 3 Best Shalaa",
+      "pari": "Simple placé 3 Best Shalaa",
+      "cote": 4.3,
+      "mise": 10.0,
+      "statut": "Gagné",
+      "net": 11.0,
+      "retour": 21.0,
+      "resultat": "Placé (3e, arrivée 2-10-3)"
+     },
+     {
+      "date": "2026-10-23",
+      "sport": "Hippisme",
+      "competition": "R3C8 Strasbourg (attelé, 16 partants)",
+      "match": "R3C8 Strasbourg (attelé, 16 partants) — 13 Ruger",
+      "pari": "Simple placé 13 Ruger",
+      "cote": 2.8,
+      "mise": 15.0,
+      "statut": "Perdu",
+      "net": -15.0,
+      "retour": 0.0,
+      "resultat": "Perdu (9e, arrivée 11-8-5)"
+     },
+     {
+      "date": "2026-10-23",
+      "sport": "Hippisme",
+      "competition": "R3C6 Strasbourg (attelé, 13 partants)",
+      "match": "R3C6 Strasbourg (attelé, 13 partants) — 10 Keep Smiling",
+      "pari": "Simple placé 10 Keep Smiling",
+      "cote": 4.6,
+      "mise": 20.0,
+      "statut": "Gagné",
+      "net": 10.0,
+      "retour": 30.0,
+      "resultat": "Placé (3e, arrivée 13-3-10)"
+     },
+     {
+      "date": "2026-10-23",
+      "sport": "Hippisme",
+      "competition": "R4C1 Clairefontaine (plat, 14 partants)",
+      "match": "R4C1 Clairefontaine (plat, 14 partants) — 4 Too Darn Quick",
+      "pari": "Simple placé 4 Too Darn Quick",
+      "cote": 5.5,
+      "mise": 10.0,
+      "statut": "Annulé",
+      "net": 0.0,
+      "retour": 10.0,
+      "resultat": "Course annulée, mise remboursée"
+     },
+     {
+      "date": "2026-10-22",
+      "sport": "Hippisme",
+      "competition": "R4C3 Deauville (plat, 14 partants)",
+      "match": "R4C3 Deauville (plat, 14 partants) — 11 Imdala",
+      "pari": "Simple placé 11 Imdala",
+      "cote": 3.2,
+      "mise": 20.0,
+      "statut": "Perdu",
+      "net": -20.0,
+      "retour": 0.0,
+      "resultat": "Perdu (4e, arrivée 3-13-4)"
+     },
+     {
+      "date": "2026-10-22",
+      "sport": "Hippisme",
+      "competition": "R1C5 Auteuil (steeple, 10 partants)",
+      "match": "R1C5 Auteuil (steeple, 10 partants) — 2 Liskaria",
+      "pari": "Simple placé 2 Liskaria",
+      "cote": 3.5,
+      "mise": 10.0,
+      "statut": "Perdu",
+      "net": -10.0,
+      "retour": 0.0,
+      "resultat": "Perdu (5e, arrivée 6-1-5)"
+     },
+     {
+      "date": "2026-10-22",
+      "sport": "Hippisme",
+      "competition": "R3C8 Cabourg (monté, 16 partants)",
+      "match": "R3C8 Cabourg (monté, 16 partants) — 16 Kamikaze",
+      "pari": "Simple placé 16 Kamikaze",
+      "cote": 3.6,
+      "mise": 15.0,
+      "statut": "Gagné",
+      "net": 13.5,
+      "retour": 28.5,
+      "resultat": "Placé (2e, arrivée 9-16-15)"
+     },
+     {
+      "date": "2026-10-22",
+      "sport": "Hippisme",
+      "competition": "R1C3 Auteuil (steeple, 8 partants)",
+      "match": "R1C3 Auteuil (steeple, 8 partants) — 2 Muloughboy",
+      "pari": "Simple placé 2 Muloughboy",
+      "cote": 6.4,
+      "mise": 10.0,
+      "statut": "Gagné",
+      "net": 5.0,
+      "retour": 15.0,
+      "resultat": "Placé (3e, arrivée 5-6-2)"
+     },
+     {
+      "date": "2026-10-22",
+      "sport": "Hippisme",
+      "competition": "R3C7 Cabourg (attelé, 15 partants)",
+      "match": "R3C7 Cabourg (attelé, 15 partants) — 6 Lucky Love Thana",
+      "pari": "Simple placé 6 Lucky Love Thana",
+      "cote": 6.6,
+      "mise": 5.0,
+      "statut": "Gagné",
+      "net": 7.5,
+      "retour": 12.5,
+      "resultat": "Gagne (1er, arrivée 6-4-8), donc placé"
+     },
+     {
+      "date": "2026-10-22",
+      "sport": "Hippisme",
+      "competition": "R3C6 Cabourg (attelé, 15 partants)",
+      "match": "R3C6 Cabourg (attelé, 15 partants) — 5 Malker d'Alouette",
+      "pari": "Simple placé 5 Malker d'Alouette",
+      "cote": 3.5,
+      "mise": 15.0,
+      "statut": "Perdu",
+      "net": -15.0,
+      "retour": 0.0,
+      "resultat": "Perdu (disqualifié pour allure irrégulière ; arrivée 15-12-9)"
+     },
+     {
+      "date": "2026-10-22",
+      "sport": "Hippisme",
+      "competition": "R2C3 Les Sables (plat, 11 partants)",
+      "match": "R2C3 Les Sables (plat, 11 partants) — 10 Zelzana",
+      "pari": "Simple placé 10 Zelzana",
+      "cote": 4.0,
+      "mise": 25.0,
+      "statut": "Perdu",
+      "net": -25.0,
+      "retour": 0.0,
+      "resultat": "Perdu (9e, arrivée 7-11-2)"
+     },
+     {
+      "date": "2026-10-21",
+      "sport": "Hippisme",
+      "competition": "R4C7 Deauville (plat, 9 partants)",
+      "match": "R4C7 Deauville (plat, 9 partants) — 7 Magic Inspiration",
+      "pari": "Simple placé 7 Magic Inspiration",
+      "cote": 7.5,
+      "mise": 8.0,
+      "statut": "Gagné",
+      "net": 4.0,
+      "retour": 12.0,
+      "resultat": "Placé (3e, arrivée 1-8-7)"
+     },
+     {
+      "date": "2026-10-21",
+      "sport": "Hippisme",
+      "competition": "R1C7 La Cépière (attelé, 8 partants)",
+      "match": "R1C7 La Cépière (attelé, 8 partants) — 8 Manhattan Emge",
+      "pari": "Simple placé 8 Manhattan Emge",
+      "cote": 1.6,
+      "mise": 30.0,
+      "statut": "Perdu",
+      "net": -30.0,
+      "retour": 0.0,
+      "resultat": "Perdu (disqualifié pour allure irrégulière ; arrivée 6-7-1)"
+     },
+     {
+      "date": "2026-10-21",
+      "sport": "Hippisme",
+      "competition": "R1C6 La Cépière Grand Prix du Sud-Ouest (attelé, 8 partants)",
+      "match": "R1C6 La Cépière Grand Prix du Sud-Ouest (attelé, 8 partants) — 5 Idao de Tillard",
+      "pari": "Simple placé 5 Idao de Tillard",
+      "cote": 1.6,
+      "mise": 22.0,
+      "statut": "Gagné",
+      "net": 1.1,
+      "retour": 23.1,
+      "resultat": "Placé (2e, arrivée 6-5-2)"
+     },
+     {
+      "date": "2026-10-21",
+      "sport": "Hippisme",
+      "competition": "R1C2 La Cépière (attelé, 10 partants)",
+      "match": "R1C2 La Cépière (attelé, 10 partants) — 4 Keeper Dream – 1 Joyau de Fael",
+      "pari": "2sur4 4 Keeper Dream – 1 Joyau de Fael",
+      "cote": 2.4,
+      "mise": 3.0,
+      "statut": "Perdu",
+      "net": -3.0,
+      "retour": 0.0,
+      "resultat": "Perdu (Keeper Dream 2e mais Joyau de Fael 8e ; arrivée 10-4-6-7)"
+     },
+     {
+      "date": "2026-10-21",
+      "sport": "Hippisme",
+      "competition": "R1C2 La Cépière (attelé, 10 partants)",
+      "match": "R1C2 La Cépière (attelé, 10 partants) — 1 Joyau de Fael",
+      "pari": "Simple placé 1 Joyau de Fael",
+      "cote": 7.4,
+      "mise": 10.0,
+      "statut": "Perdu",
+      "net": -10.0,
+      "retour": 0.0,
+      "resultat": "Perdu (8e, arrivée 10-4-6)"
+     },
+     {
+      "date": "2026-10-21",
+      "sport": "Hippisme",
+      "competition": "R3C4 Pau (plat, 14 partants)",
+      "match": "R3C4 Pau (plat, 14 partants) — 9 Ciao Nene",
+      "pari": "Simple placé 9 Ciao Nene",
+      "cote": 3.8,
+      "mise": 18.0,
+      "statut": "Perdu",
+      "net": -18.0,
+      "retour": 0.0,
+      "resultat": "Perdu (7e, arrivée 10-6-2-7)"
+     },
+     {
+      "date": "2026-10-21",
+      "sport": "Hippisme",
+      "competition": "R1C1 La Cépière Quinté+ (attelé, 13 partants)",
+      "match": "R1C1 La Cépière Quinté+ (attelé, 13 partants) — 13 Icare du Beryl",
+      "pari": "Simple placé 13 Icare du Beryl",
+      "cote": 6.2,
+      "mise": 9.0,
+      "statut": "Gagné",
+      "net": 4.5,
+      "retour": 13.5,
+      "resultat": "Gagne (1er, arrivée 13-12-10-4-2), donc placé"
+     },
+     {
+      "date": "2026-10-20",
+      "sport": "Hippisme",
+      "competition": "R4C8 Vincennes (attelé 2 850 m, 14 partants)",
+      "match": "R4C8 Vincennes (attelé 2 850 m, 14 partants) — 8 Natura – 9 Noha Josselyn",
+      "pari": "2sur4 8 Natura – 9 Noha Josselyn",
+      "cote": 2.2,
+      "mise": 3.0,
+      "statut": "Perdu",
+      "net": -3.0,
+      "retour": 0.0,
+      "resultat": "Perdu (Natura disqualifiée pour allure irrégulière ; arrivée 14-2-1-9, Noha Josselyn 4e)"
+     },
+     {
+      "date": "2026-10-20",
+      "sport": "Hippisme",
+      "competition": "R4C6 Vincennes (monté 2 700 m, 13 partants)",
+      "match": "R4C6 Vincennes (monté 2 700 m, 13 partants) — 13 Leda Saint Latuin",
+      "pari": "Simple placé 13 Leda Saint Latuin",
+      "cote": 4.6,
+      "mise": 17.0,
+      "statut": "Gagné",
+      "net": 10.2,
+      "retour": 27.2,
+      "resultat": "Gagne (1re), donc placé"
+     },
+     {
+      "date": "2026-10-20",
+      "sport": "Hippisme",
+      "competition": "R4C4 Vincennes (monté 2 850 m, 11 partants)",
+      "match": "R4C4 Vincennes (monté 2 850 m, 11 partants) — 11 Miss Des Besaces",
+      "pari": "Simple placé 11 Miss Des Besaces",
+      "cote": 9.1,
+      "mise": 20.0,
+      "statut": "Gagné",
+      "net": 10.0,
+      "retour": 30.0,
+      "resultat": "Placé (2e, arrivée 8-11-4)"
+     },
+     {
+      "date": "2026-10-20",
+      "sport": "Hippisme",
+      "competition": "R4C3 Vincennes (attelé 2 175 m, 12 partants)",
+      "match": "R4C3 Vincennes (attelé 2 175 m, 12 partants) — 6 Monarque",
+      "pari": "Simple placé 6 Monarque",
+      "cote": 2.5,
+      "mise": 26.0,
+      "statut": "Gagné",
+      "net": 7.8,
+      "retour": 33.8,
+      "resultat": "Gagne (1er), donc placé"
+     },
+     {
+      "date": "2026-10-20",
+      "sport": "Hippisme",
+      "competition": "R1C5 Clairefontaine (plat 1 600 m, 8 partants)",
+      "match": "R1C5 Clairefontaine (plat 1 600 m, 8 partants) — 5 Vatican",
+      "pari": "Simple placé 5 Vatican",
+      "cote": 8.6,
+      "mise": 10.0,
+      "statut": "Gagné",
+      "net": 3.0,
+      "retour": 13.0,
+      "resultat": "Placé (2e, arrivée 6-5-8)"
+     },
+     {
+      "date": "2026-10-20",
+      "sport": "Hippisme",
+      "competition": "R1C4 Clairefontaine (plat 1 600 m, 9 partants)",
+      "match": "R1C4 Clairefontaine (plat 1 600 m, 9 partants) — 5 Soul Ambassador",
+      "pari": "Simple placé 5 Soul Ambassador",
+      "cote": 4.6,
+      "mise": 14.0,
+      "statut": "Gagné",
+      "net": 7.0,
+      "retour": 21.0,
+      "resultat": "Placé (3e, arrivée 1-9-5)"
+     },
+     {
+      "date": "2026-10-20",
+      "sport": "Hippisme",
+      "competition": "R3C2 Le Bouscat (steeple AA, 8 partants)",
+      "match": "R3C2 Le Bouscat (steeple AA, 8 partants) — 3 Loki De La Brunie",
+      "pari": "Simple placé 3 Loki De La Brunie",
+      "cote": 7.7,
+      "mise": 10.0,
+      "statut": "Gagné",
+      "net": 5.0,
+      "retour": 15.0,
+      "resultat": "Placé (3e, arrivée 5-1-3)"
+     },
+     {
+      "date": "2026-10-18",
+      "sport": "Hippisme",
+      "competition": "R8C5 Le Bouscat (attelé)",
+      "match": "R8C5 Le Bouscat (attelé) — 15 Kiannick Of Nouic – 7 Kashmir Du Bocage",
+      "pari": "Couplé placé 15 Kiannick Of Nouic – 7 Kashmir Du Bocage",
+      "cote": 2.5,
+      "mise": 2.0,
+      "statut": "Perdu",
+      "net": -2.0,
+      "retour": 0.0,
+      "resultat": "Perdu (arrivée 7-1-18, le 15 finit 4e)"
+     },
+     {
+      "date": "2026-10-18",
+      "sport": "Hippisme",
+      "competition": "R6C6 Tarbes (plat AA)",
+      "match": "R6C6 Tarbes (plat AA) — 1 Louxor Pontadour",
+      "pari": "Simple gagnant 1 Louxor Pontadour",
+      "cote": 2.9,
+      "mise": 12.0,
+      "statut": "Perdu",
+      "net": -12.0,
+      "retour": 0.0,
+      "resultat": "Perdu (2e derrière le 2)"
+     },
+     {
+      "date": "2026-10-18",
+      "sport": "Hippisme",
+      "competition": "R1C5 Longchamp (plat)",
+      "match": "R1C5 Longchamp (plat) — 9 Pierchic",
+      "pari": "Simple placé 9 Pierchic",
+      "cote": 1.8,
+      "mise": 12.0,
+      "statut": "Gagné",
+      "net": 2.4,
+      "retour": 14.4,
+      "resultat": "Gagne (1er), donc placé"
+     },
+     {
+      "date": "2026-10-18",
+      "sport": "Hippisme",
+      "competition": "R7C6 Hyères (attelé)",
+      "match": "R7C6 Hyères (attelé) — 2 Jojoba De Queray",
+      "pari": "Simple placé 2 Jojoba De Queray",
+      "cote": 2.8,
+      "mise": 8.0,
+      "statut": "Gagné",
+      "net": 3.2,
+      "retour": 11.2,
+      "resultat": "Placé (2e)"
+     },
+     {
+      "date": "2026-10-18",
+      "sport": "Hippisme",
+      "competition": "R4C1 Amiens (attelé)",
+      "match": "R4C1 Amiens (attelé) — 12 Lolita Charmeuse – 9 Lady Jielhem",
+      "pari": "2sur4 12 Lolita Charmeuse – 9 Lady Jielhem",
+      "cote": 2.7,
+      "mise": 3.0,
+      "statut": "Perdu",
+      "net": -3.0,
+      "retour": 0.0,
+      "resultat": "Perdu (le 12 gagne, le 9 finit 5e)"
+     },
+     {
+      "date": "2026-10-18",
+      "sport": "Hippisme",
+      "competition": "R4C1 Amiens (attelé)",
+      "match": "R4C1 Amiens (attelé) — 9 Lady Jielhem",
+      "pari": "Simple placé 9 Lady Jielhem",
+      "cote": 4.1,
+      "mise": 6.0,
+      "statut": "Perdu",
+      "net": -6.0,
+      "retour": 0.0,
+      "resultat": "Perdu (5e)"
+     },
+     {
+      "date": "2026-10-18",
+      "sport": "Hippisme",
+      "competition": "R6C5 Tarbes (plat AA)",
+      "match": "R6C5 Tarbes (plat AA) — 7 Neron De La Brunie",
+      "pari": "Simple placé 7 Neron De La Brunie",
+      "cote": 2.6,
+      "mise": 6.0,
+      "statut": "Gagné",
+      "net": 1.2,
+      "retour": 7.2,
+      "resultat": "Gagne (1er), donc placé"
+     },
+     {
+      "date": "2026-10-18",
+      "sport": "Hippisme",
+      "competition": "R6C4 Tarbes (plat AA)",
+      "match": "R6C4 Tarbes (plat AA) — 8 Focosa Du Pecos",
+      "pari": "Simple gagnant 8 Focosa Du Pecos",
+      "cote": 2.0,
+      "mise": 10.0,
+      "statut": "Perdu",
+      "net": -10.0,
+      "retour": 0.0,
+      "resultat": "Perdu (3e, arrivée 4-6-8)"
+     },
+     {
+      "date": "2026-10-18",
+      "sport": "Hippisme",
+      "competition": "R3C8 Caen (attelé)",
+      "match": "R3C8 Caen (attelé) — 5 Jack Des Ass",
+      "pari": "Simple gagnant 5 Jack Des Ass",
+      "cote": 2.9,
+      "mise": 4.0,
+      "statut": "Perdu",
+      "net": -4.0,
+      "retour": 0.0,
+      "resultat": "Perdu (disqualifié pour allure irrégulière)"
+     },
+     {
+      "date": "2026-10-18",
+      "sport": "Hippisme",
+      "competition": "R1C3 Longchamp – Quinté+",
+      "match": "R1C3 Longchamp – Quinté+ — 8 – 4 – 12 – 10 Dempy – 7 Step Morning",
+      "pari": "Quinté+ unitaire 8 – 4 – 12 – 10 Dempy – 7 Step Morning",
+      "cote": 4.9,
+      "mise": 2.0,
+      "statut": "Perdu",
+      "net": -2.0,
+      "retour": 0.0,
+      "resultat": "Perdu (arrivée 4-5-9-10-11 : 2 chevaux sur 5, pas de bonus)"
+     },
+     {
+      "date": "2026-10-18",
+      "sport": "Hippisme",
+      "competition": "R1C3 Longchamp – Quinté+",
+      "match": "R1C3 Longchamp – Quinté+ — 8 Mighty Boy – 4 Princesse d'Amour – 12 Vendomya",
+      "pari": "2sur4 (3 combinaisons) 8 Mighty Boy – 4 Princesse d'Amour – 12 Vendomya",
+      "cote": 4.9,
+      "mise": 9.0,
+      "statut": "Perdu",
+      "net": -9.0,
+      "retour": 0.0,
+      "resultat": "Perdu (arrivée 4-5-9-10 : seul le 4 dans les 4, le 12 finit 8e, le 8 finit 9e)"
+     },
+     {
+      "date": "2026-10-18",
+      "sport": "Hippisme",
+      "competition": "R6C3 Tarbes (plat AA)",
+      "match": "R6C3 Tarbes (plat AA) — 8 No War Laboueyrie",
+      "pari": "Simple gagnant 8 No War Laboueyrie",
+      "cote": 2.4,
+      "mise": 8.0,
+      "statut": "Gagné",
+      "net": 5.6,
+      "retour": 13.6,
+      "resultat": "Gagne (1er)"
+     },
+     {
+      "date": "2026-10-18",
+      "sport": "Hippisme",
+      "competition": "R3C5 Caen (attelé)",
+      "match": "R3C5 Caen (attelé) — 5 Matador",
+      "pari": "Simple placé 5 Matador",
+      "cote": 3.0,
+      "mise": 8.0,
+      "statut": "Gagné",
+      "net": 5.6,
+      "retour": 13.6,
+      "resultat": "Placé (2e)"
+     },
+     {
+      "date": "2026-10-18",
+      "sport": "Hippisme",
+      "competition": "R3C1 Caen (monté)",
+      "match": "R3C1 Caen (monté) — 6 Ma Jolie Chose",
+      "pari": "Simple gagnant 6 Ma Jolie Chose",
+      "cote": 1.6,
+      "mise": 10.0,
+      "statut": "Gagné",
+      "net": 5.0,
+      "retour": 15.0,
+      "resultat": "Gagne (1re)"
+     },
+     {
+      "date": "2026-10-17",
+      "sport": "Hippisme",
+      "competition": "R5C8 Enghien (monté)",
+      "match": "R5C8 Enghien (monté) — 6 Nico Du Rib",
+      "pari": "Simple placé 6 Nico Du Rib",
+      "cote": 4.0,
+      "mise": 2.0,
+      "statut": "Perdu",
+      "net": -2.0,
+      "retour": 0.0,
+      "resultat": "Perdu (4e)"
+     },
+     {
+      "date": "2026-10-17",
+      "sport": "Hippisme",
+      "competition": "R5C7 Enghien (attelé)",
+      "match": "R5C7 Enghien (attelé) — 4 Nino Tosca",
+      "pari": "Simple placé 4 Nino Tosca",
+      "cote": 3.9,
+      "mise": 4.0,
+      "statut": "Gagné",
+      "net": 1.6,
+      "retour": 5.6,
+      "resultat": "Placé (3e)"
+     },
+     {
+      "date": "2026-10-17",
+      "sport": "Hippisme",
+      "competition": "R5C6 Enghien (attelé)",
+      "match": "R5C6 Enghien (attelé) — 4 Nabucco Josselyn",
+      "pari": "Simple placé 4 Nabucco Josselyn",
+      "cote": 3.0,
+      "mise": 6.0,
+      "statut": "Gagné",
+      "net": 1.8,
+      "retour": 7.8,
+      "resultat": "Gagne (1er), donc placé"
+     },
+     {
+      "date": "2026-10-17",
+      "sport": "Hippisme",
+      "competition": "R5C5 Enghien (attelé)",
+      "match": "R5C5 Enghien (attelé) — 2 Manuella Bella",
+      "pari": "Simple placé 2 Manuella Bella",
+      "cote": 2.8,
+      "mise": 2.0,
+      "statut": "Gagné",
+      "net": 1.6,
+      "retour": 3.6,
+      "resultat": "Gagne (1er), donc placé"
+     },
+     {
+      "date": "2026-10-17",
+      "sport": "Hippisme",
+      "competition": "R1C8 Auteuil (steeplechase)",
+      "match": "R1C8 Auteuil (steeplechase) — 8 Lord Brett",
+      "pari": "Simple gagnant 8 Lord Brett",
+      "cote": 2.3,
+      "mise": 4.0,
+      "statut": "Gagné",
+      "net": 5.6,
+      "retour": 9.6,
+      "resultat": "Gagne (1er)"
+     },
+     {
+      "date": "2026-10-17",
+      "sport": "Hippisme",
+      "competition": "R5C3 Enghien (attelé)",
+      "match": "R5C3 Enghien (attelé) — 5 Kannabis Jeloca – 1 King Babel",
+      "pari": "Couplé gagnant 5 Kannabis Jeloca – 1 King Babel",
+      "cote": 3.7,
+      "mise": 2.0,
+      "statut": "Perdu",
+      "net": -2.0,
+      "retour": 0.0,
+      "resultat": "Perdu (arrivée 1-4, le 5 finit 4e)"
+     },
+     {
+      "date": "2026-10-17",
+      "sport": "Hippisme",
+      "competition": "R1C6 Auteuil (steeplechase)",
+      "match": "R1C6 Auteuil (steeplechase) — 3 Goliath Du Rheu",
+      "pari": "Simple placé 3 Goliath Du Rheu",
+      "cote": 3.9,
+      "mise": 2.0,
+      "statut": "Perdu",
+      "net": -2.0,
+      "retour": 0.0,
+      "resultat": "Perdu (4e)"
+     },
+     {
+      "date": "2026-10-17",
+      "sport": "Hippisme",
+      "competition": "R5C2 Enghien (attelé)",
+      "match": "R5C2 Enghien (attelé) — 7 One Way To Win",
+      "pari": "Simple gagnant 7 One Way To Win",
+      "cote": 2.0,
+      "mise": 6.0,
+      "statut": "Perdu",
+      "net": -6.0,
+      "retour": 0.0,
+      "resultat": "Perdu (2e derrière le 6)"
+     },
+     {
+      "date": "2026-10-17",
+      "sport": "Hippisme",
+      "competition": "R1C5 Auteuil (haies)",
+      "match": "R1C5 Auteuil (haies) — 2 Delmegan",
+      "pari": "Simple gagnant 2 Delmegan",
+      "cote": 1.5,
+      "mise": 8.0,
+      "statut": "Perdu",
+      "net": -8.0,
+      "retour": 0.0,
+      "resultat": "Perdu (2e derrière le 6)"
+     },
+     {
+      "date": "2026-10-17",
+      "sport": "Hippisme",
+      "competition": "R5C1 Enghien (attelé)",
+      "match": "R5C1 Enghien (attelé) — 7 Line Majyc – 4 L'Elite Du Choquel",
+      "pari": "2sur4 7 Line Majyc – 4 L'Elite Du Choquel",
+      "cote": 3.7,
+      "mise": 3.0,
+      "statut": "Perdu",
+      "net": -3.0,
+      "retour": 0.0,
+      "resultat": "Perdu (le 4 finit 2e, le 7 finit 8e)"
+     },
+     {
+      "date": "2026-10-17",
+      "sport": "Hippisme",
+      "competition": "R7C5 Dax (steeplechase)",
+      "match": "R7C5 Dax (steeplechase) — 4 Kloe De Laprelle – 1 Ilestbo De Houelle",
+      "pari": "Couplé gagnant 4 Kloe De Laprelle – 1 Ilestbo De Houelle",
+      "cote": 3.3,
+      "mise": 2.0,
+      "statut": "Perdu",
+      "net": -2.0,
+      "retour": 0.0,
+      "resultat": "Perdu (arrivée 4-5-1)"
+     },
+     {
+      "date": "2026-10-17",
+      "sport": "Hippisme",
+      "competition": "R1C4 Auteuil (haies)",
+      "match": "R1C4 Auteuil (haies) — 2 Mondialito D'Huez – 5 Mox",
+      "pari": "Couplé gagnant 2 Mondialito D'Huez – 5 Mox",
+      "cote": 3.9,
+      "mise": 2.0,
+      "statut": "Gagné",
+      "net": 4.8,
+      "retour": 6.8,
+      "resultat": "Gagne (arrivée 5-2)"
+     },
+     {
+      "date": "2026-10-17",
+      "sport": "Hippisme",
+      "competition": "R1C4 Auteuil (haies)",
+      "match": "R1C4 Auteuil (haies) — 2 Mondialito D'Huez",
+      "pari": "Simple placé 2 Mondialito D'Huez",
+      "cote": 3.9,
+      "mise": 4.0,
+      "statut": "Gagné",
+      "net": 1.6,
+      "retour": 5.6,
+      "resultat": "Placé (2e)"
+     },
+     {
+      "date": "2026-10-17",
+      "sport": "Hippisme",
+      "competition": "R3C8 Borély (plat)",
+      "match": "R3C8 Borély (plat) — 8 Marie De Prusse",
+      "pari": "Simple placé 8 Marie De Prusse",
+      "cote": 3.0,
+      "mise": 6.0,
+      "statut": "Perdu",
+      "net": -6.0,
+      "retour": 0.0,
+      "resultat": "Perdu (6e)"
+     },
+     {
+      "date": "2026-10-17",
+      "sport": "Hippisme",
+      "competition": "R7C4 Dax (plat)",
+      "match": "R7C4 Dax (plat) — 1 Tuwari – 2 Solikhiev",
+      "pari": "Couplé placé 1 Tuwari – 2 Solikhiev",
+      "cote": 3.2,
+      "mise": 2.0,
+      "statut": "Perdu",
+      "net": -2.0,
+      "retour": 0.0,
+      "resultat": "Perdu (arrivée 9-5-2, le 1 finit 4e)"
+     },
+     {
+      "date": "2026-10-17",
+      "sport": "Hippisme",
+      "competition": "R1C3 Auteuil (haies) – Quinté+",
+      "match": "R1C3 Auteuil (haies) – Quinté+ — 6 Grey Fighter – 2 Loquas – 19 Chant De Garde – 11 Robin Hill – 12 Interdit De Jeu",
+      "pari": "Quinté+ unitaire 6 Grey Fighter – 2 Loquas – 19 Chant De Garde – 11 Robin Hill – 12 Interdit De Jeu",
+      "cote": 4.8,
+      "mise": 2.0,
+      "statut": "Perdu",
+      "net": -2.0,
+      "retour": 0.0,
+      "resultat": "Perdu (arrivée 1-6-4-11-2 : 3 chevaux sur 5, pas de bonus)"
+     },
+     {
+      "date": "2026-10-17",
+      "sport": "Hippisme",
+      "competition": "R1C3 Auteuil (haies) – Quinté+",
+      "match": "R1C3 Auteuil (haies) – Quinté+ — 6 Grey Fighter – 2 Loquas – 19 Chant De Garde",
+      "pari": "2sur4 (3 combinaisons) 6 Grey Fighter – 2 Loquas – 19 Chant De Garde",
+      "cote": 4.8,
+      "mise": 9.0,
+      "statut": "Perdu",
+      "net": -9.0,
+      "retour": 0.0,
+      "resultat": "Perdu (arrivée 1-6-4-11 : seul le 6 dans les 4, 2 finit 5e, 19 arrêté)"
+     },
+     {
+      "date": "2026-10-17",
+      "sport": "Hippisme",
+      "competition": "R1C2 Auteuil (steeplechase)",
+      "match": "R1C2 Auteuil (steeplechase) — 1 Metronomique",
+      "pari": "Simple gagnant 1 Metronomique",
+      "cote": 1.3,
+      "mise": 10.0,
+      "statut": "Perdu",
+      "net": -10.0,
+      "retour": 0.0,
+      "resultat": "Perdu (2e derrière le 7)"
+     },
+     {
+      "date": "2026-10-17",
+      "sport": "Hippisme",
+      "competition": "R3C6 Borély (plat)",
+      "match": "R3C6 Borély (plat) — 2 Horizon Dore",
+      "pari": "Simple gagnant 2 Horizon Dore",
+      "cote": 1.2,
+      "mise": 10.0,
+      "statut": "Gagné",
+      "net": 6.0,
+      "retour": 16.0,
+      "resultat": "Gagne (1er)"
+     },
+     {
+      "date": "2026-10-17",
+      "sport": "Hippisme",
+      "competition": "R7C1 Dax (steeplechase)",
+      "match": "R7C1 Dax (steeplechase) — 6 Ma Coralie Aa",
+      "pari": "Simple gagnant 6 Ma Coralie Aa",
+      "cote": 2.3,
+      "mise": 2.0,
+      "statut": "Perdu",
+      "net": -2.0,
+      "retour": 0.0,
+      "resultat": "Perdu (3e, arrivée 2-1-6)"
+     },
+     {
+      "date": "2026-10-17",
+      "sport": "Hippisme",
+      "competition": "R1C1 Auteuil (haies)",
+      "match": "R1C1 Auteuil (haies) — 4 Noirci",
+      "pari": "Simple placé 4 Noirci",
+      "cote": 3.5,
+      "mise": 4.0,
+      "statut": "Gagné",
+      "net": 2.4,
+      "retour": 6.4,
+      "resultat": "Gagne (1er), donc placé"
+     },
+     {
+      "date": "2026-10-17",
+      "sport": "Hippisme",
+      "competition": "R3C4 Borély (plat)",
+      "match": "R3C4 Borély (plat) — 3 Pleasetomeetyou",
+      "pari": "Simple gagnant 3 Pleasetomeetyou",
+      "cote": 2.4,
+      "mise": 4.0,
+      "statut": "Perdu",
+      "net": -4.0,
+      "retour": 0.0,
+      "resultat": "Perdu (6e)"
+     },
+     {
+      "date": "2026-10-17",
+      "sport": "Hippisme",
+      "competition": "R3C1 Borély (plat)",
+      "match": "R3C1 Borély (plat) — 5 La Reine Chris",
+      "pari": "Simple gagnant 5 La Reine Chris",
+      "cote": 1.6,
+      "mise": 4.0,
+      "statut": "Gagné",
+      "net": 5.2,
+      "retour": 9.2,
+      "resultat": "Gagne (1er)"
+     }
+    ]
    }
   },
   {
    "nom": "Paris Libre IA",
    "desc": "Bot Grok tous sports",
+   "type": "fictif",
+   "multisport": true,
+   "dernier_passage": null,
    "ok": true,
    "stats": {
     "jour": {
@@ -581,6 +4630,357 @@
      "net": -2.5,
      "roi": -1.25
     }
+   },
+   "detail": {
+    "resume": {
+     "nb": 18,
+     "gagnes": 9,
+     "perdus": 2,
+     "annules": 0,
+     "attente": 7,
+     "mise": 300.0,
+     "mise_reglee": 200.0,
+     "net": -2.5,
+     "roi": -1.25,
+     "winrate": 82
+    },
+    "serie": {
+     "type": "Gagné",
+     "n": 3
+    },
+    "serie_jours": {
+     "type": "négatif",
+     "n": 2
+    },
+    "courbe": [
+     {
+      "t": "2026-10-26",
+      "v": -0.9
+     },
+     {
+      "t": "2026-10-27",
+      "v": -2.5
+     }
+    ],
+    "courbe_type": "net cumulé",
+    "depart": null,
+    "cagnotte": null,
+    "par_jour": [
+     {
+      "jour": "2026-10-28",
+      "nb": 7,
+      "mise": 100.0,
+      "net": 0.0,
+      "regles": 0,
+      "attente": 7
+     },
+     {
+      "jour": "2026-10-27",
+      "nb": 6,
+      "mise": 100.0,
+      "net": -1.6,
+      "regles": 6,
+      "attente": 0
+     },
+     {
+      "jour": "2026-10-26",
+      "nb": 5,
+      "mise": 100.0,
+      "net": -0.9,
+      "regles": 5,
+      "attente": 0
+     }
+    ],
+    "par_sport": [
+     {
+      "sport": "Foot",
+      "nb": 7,
+      "gagnes": 5,
+      "perdus": 0,
+      "annules": 0,
+      "attente": 2,
+      "mise": 145.0,
+      "mise_reglee": 105.0,
+      "net": 32.05,
+      "roi": 30.52,
+      "winrate": 100
+     },
+     {
+      "sport": "Tennis",
+      "nb": 6,
+      "gagnes": 3,
+      "perdus": 0,
+      "annules": 0,
+      "attente": 3,
+      "mise": 75.0,
+      "mise_reglee": 40.0,
+      "net": 9.45,
+      "roi": 23.62,
+      "winrate": 100
+     },
+     {
+      "sport": "Basket",
+      "nb": 3,
+      "gagnes": 1,
+      "perdus": 0,
+      "annules": 0,
+      "attente": 2,
+      "mise": 35.0,
+      "mise_reglee": 10.0,
+      "net": 1.0,
+      "roi": 10.0,
+      "winrate": 100
+     },
+     {
+      "sport": "Multi (combiné)",
+      "nb": 2,
+      "gagnes": 0,
+      "perdus": 2,
+      "annules": 0,
+      "attente": 0,
+      "mise": 45.0,
+      "mise_reglee": 45.0,
+      "net": -45.0,
+      "roi": -100.0,
+      "winrate": 0
+     }
+    ],
+    "paris": [
+     {
+      "date": "2026-10-28",
+      "sport": "Basket",
+      "competition": "Ligue des Champions FIBA",
+      "match": "Cholet - Spartak Subotica",
+      "pari": "Victoire Cholet (simple)",
+      "cote": 1.26,
+      "mise": 10.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
+     {
+      "date": "2026-10-28",
+      "sport": "Tennis",
+      "competition": "ATP Bâle",
+      "match": "Nuno Borges - Casper Ruud",
+      "pari": "Victoire Ruud (simple)",
+      "cote": 1.42,
+      "mise": 10.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
+     {
+      "date": "2026-10-28",
+      "sport": "Tennis",
+      "competition": "ATP Vienne",
+      "match": "Jakub Mensik - Adrian Mannarino",
+      "pari": "Victoire Mensik (simple)",
+      "cote": 1.16,
+      "mise": 10.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
+     {
+      "date": "2026-10-28",
+      "sport": "Basket",
+      "competition": "Euroligue",
+      "match": "Hapoel Tel-Aviv - Anadolu Efes",
+      "pari": "Victoire Hapoel Tel-Aviv (simple)",
+      "cote": 1.35,
+      "mise": 15.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
+     {
+      "date": "2026-10-28",
+      "sport": "Tennis",
+      "competition": "ATP Vienne",
+      "match": "Daniel Mérida - Daniil Medvedev",
+      "pari": "Victoire Medvedev (simple)",
+      "cote": 1.25,
+      "mise": 15.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
+     {
+      "date": "2026-10-28",
+      "sport": "Foot",
+      "competition": "Premiership (SCO)",
+      "match": "Celtic Glasgow - Dundee United",
+      "pari": "Victoire Celtic (simple)",
+      "cote": 1.19,
+      "mise": 18.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
+     {
+      "date": "2026-10-28",
+      "sport": "Foot",
+      "competition": "Serie A",
+      "match": "Venise - Inter Milan",
+      "pari": "Victoire Inter (simple)",
+      "cote": 1.28,
+      "mise": 22.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
+     {
+      "date": "2026-10-27",
+      "sport": "Basket",
+      "competition": "Euroligue",
+      "match": "Panathinaikos - EA7 Emporio Milano",
+      "pari": "Victoire Panathinaikos (simple)",
+      "cote": 1.1,
+      "mise": 10.0,
+      "statut": "Gagné",
+      "net": 1.0,
+      "retour": 11.0,
+      "resultat": "80-75"
+     },
+     {
+      "date": "2026-10-27",
+      "sport": "Tennis",
+      "competition": "ATP Bâle",
+      "match": "Ben Shelton - Aleksandar Kovacevic",
+      "pari": "Victoire Shelton (simple)",
+      "cote": 1.18,
+      "mise": 10.0,
+      "statut": "Gagné",
+      "net": 1.8,
+      "retour": 11.8,
+      "resultat": "6-7(4) 7-6(3) 7-6(4) (Shelton)"
+     },
+     {
+      "date": "2026-10-27",
+      "sport": "Tennis",
+      "competition": "ATP Vienne",
+      "match": "Karen Khachanov - Carlos Alcaraz",
+      "pari": "Victoire Alcaraz (simple)",
+      "cote": 1.19,
+      "mise": 15.0,
+      "statut": "Gagné",
+      "net": 2.85,
+      "retour": 17.85,
+      "resultat": "4-6 6-7(5) (Alcaraz 6-4 7-6)"
+     },
+     {
+      "date": "2026-10-27",
+      "sport": "Multi (combiné)",
+      "competition": "EFL Cup + ATP Vienne + Coupe d'Allemagne",
+      "match": "Fleetwood - Arsenal / Zverev - Landaluce / Rot-Weiss Essen - Leipzig",
+      "pari": "Victoire Arsenal + Victoire Zverev + Victoire Leipzig (90 min) (combiné)",
+      "cote": 1.28,
+      "mise": 20.0,
+      "statut": "Perdu",
+      "net": -20.0,
+      "retour": 0.0,
+      "resultat": "1-1 (Fleetwood qualifié 5-3 tab) / 7-5 3-6 7-6(11) Zverev / 1-2"
+     },
+     {
+      "date": "2026-10-27",
+      "sport": "Foot",
+      "competition": "Coupe de la Ligue (POR)",
+      "match": "Sporting Portugal - Maritimo",
+      "pari": "Victoire Sporting (90 min) (simple)",
+      "cote": 1.3,
+      "mise": 20.0,
+      "statut": "Gagné",
+      "net": 6.0,
+      "retour": 26.0,
+      "resultat": "2-1"
+     },
+     {
+      "date": "2026-10-27",
+      "sport": "Foot",
+      "competition": "Serie A",
+      "match": "AS Rome - Cagliari",
+      "pari": "Victoire AS Rome (simple)",
+      "cote": 1.27,
+      "mise": 25.0,
+      "statut": "Gagné",
+      "net": 6.75,
+      "retour": 31.75,
+      "resultat": "4-2"
+     },
+     {
+      "date": "2026-10-26",
+      "sport": "Foot",
+      "competition": "Süper Lig",
+      "match": "Besiktas - Istanbul Basaksehir",
+      "pari": "Victoire Besiktas (simple)",
+      "cote": 1.32,
+      "mise": 10.0,
+      "statut": "Gagné",
+      "net": 3.2,
+      "retour": 13.2,
+      "resultat": "2-0"
+     },
+     {
+      "date": "2026-10-26",
+      "sport": "Tennis",
+      "competition": "ATP Bâle",
+      "match": "Dominic Stricker - Casper Ruud",
+      "pari": "Victoire Ruud (simple)",
+      "cote": 1.32,
+      "mise": 15.0,
+      "statut": "Gagné",
+      "net": 4.8,
+      "retour": 19.8,
+      "resultat": "4-6 7-5 6-3 (Ruud)"
+     },
+     {
+      "date": "2026-10-26",
+      "sport": "Foot",
+      "competition": "Liga Portugal",
+      "match": "Santa Clara - Benfica",
+      "pari": "Victoire Benfica (simple)",
+      "cote": 1.31,
+      "mise": 20.0,
+      "statut": "Gagné",
+      "net": 6.2,
+      "retour": 26.2,
+      "resultat": "1-2"
+     },
+     {
+      "date": "2026-10-26",
+      "sport": "Multi (combiné)",
+      "competition": "ATP Vienne + Superliga DK",
+      "match": "Jakub Mensik - Lukas Neumayer / Copenhague - Odense",
+      "pari": "Victoire Mensik + Victoire Copenhague (combiné)",
+      "cote": 1.55,
+      "mise": 25.0,
+      "statut": "Perdu",
+      "net": -25.0,
+      "retour": 0.0,
+      "resultat": "6-2 6-2 / 1-1"
+     },
+     {
+      "date": "2026-10-26",
+      "sport": "Foot",
+      "competition": "Ligue 1",
+      "match": "Paris SG - Lyon",
+      "pari": "Victoire PSG (simple)",
+      "cote": 1.33,
+      "mise": 30.0,
+      "statut": "Gagné",
+      "net": 9.9,
+      "retour": 39.9,
+      "resultat": "2-0"
+     }
+    ]
    }
   }
  ]

@@ -46,6 +46,28 @@
   .btn { display:block; width:100%; min-height:50px; border-radius:14px; border:2px solid var(--line); background:transparent;
     color:var(--muted); font-size:16px; font-weight:600; margin-top:14px; cursor:pointer; }
   .warn { background:var(--kobg); border:1px solid var(--ko); border-radius:12px; padding:8px 12px; font-size:14px; margin-bottom:10px; }
+  a.card { display:block; color:inherit; text-decoration:none; }
+  .tap:active { background:var(--card2); }
+  .chev { color:var(--muted); font-size:26px; line-height:22px; margin-left:2px; }
+  .more { color:var(--acc); font-size:13px; font-weight:600; margin-top:8px; text-align:right; }
+  .tag.demo { background:#0c2a31; color:var(--acc); } .tag.fictif { background:#2a1f3a; color:#c4b5fd; }
+  .nd { color:var(--muted); font-style:italic; font-weight:500; font-size:13px; }
+  .back { display:inline-block; color:var(--acc); text-decoration:none; font-weight:700; font-size:17px; padding:8px 0; min-height:44px; }
+  .dhead { margin:2px 0 12px; } .dn { font-size:21px; }
+  .chart { margin-top:2px; } .chart-t { font-size:14px; font-weight:700; margin-bottom:6px; }
+  .chart svg { width:100%; height:120px; display:block; background:var(--card2); border-radius:10px; }
+  .chart-l { display:flex; justify-content:space-between; color:var(--muted); font-size:12px; margin-top:4px; gap:8px; }
+  table { width:100%; border-collapse:collapse; font-size:14px; }
+  th { text-align:left; color:var(--muted); font-weight:600; font-size:12px; padding:4px 4px; border-bottom:1px solid var(--line); }
+  td { padding:6px 4px; border-bottom:1px solid var(--line); vertical-align:top; }
+  tr:last-child td { border-bottom:none; }
+  .bet { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:10px 12px; margin-bottom:8px; }
+  .bm { min-width:0; } .bt { font-weight:700; font-size:15px; } .bp { font-size:14px; margin-top:4px; }
+  .bl { display:flex; flex-wrap:wrap; gap:4px 14px; font-size:13px; color:var(--muted); margin-top:6px; }
+  .bl b { color:var(--text); }
+  .badge { display:inline-block; font-size:12px; font-weight:700; padding:3px 8px; border-radius:8px; white-space:nowrap; }
+  .b-ok { background:var(--okbg); color:var(--ok); } .b-ko { background:var(--kobg); color:var(--ko); }
+  .b-wa { background:#3a3214; color:var(--acc2); } .b-mu { background:var(--card2); color:var(--muted); }
 </style>
 </head>
 <body>
@@ -57,7 +79,7 @@
   <div class="tabs" id="tabs"></div>
   <div id="app"></div>
   <button class="btn" id="refresh">↻ Recharger</button>
-  <p class="note">Tout est en argent fictif : comptes MT5 démo (3 000 € chacun) et paris fictifs. Paris classés par ROI. Les stats d'une période comptent les trades fermés et les paris réglés dans la période (les paris « en attente » ne comptent pas dans le ROI).</p>
+  <p class="note">Tout est en argent fictif : paris <b>fictifs</b> (aucun vrai pari) et comptes MT5 <b>démo</b> (3 000 € chacun). Touche un robot pour voir tous ses paris ou trades et ses stats. Paris classés par ROI ; les paris « en attente » ne comptent pas dans le ROI. « non dispo » = info absente dans la source du robot.</p>
 </main>
 <script src="/robots/app.js"></script>
 <script>

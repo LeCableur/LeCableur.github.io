@@ -1,4 +1,4 @@
-const CACHE = "mes-robots-v1";
+const CACHE = "mes-robots-v2";
 const FILES = ["/robots/", "/robots/index.html", "/robots/app.js", "/robots/manifest.webmanifest", "/robots/data.json",
   "/robots/icons/apple-touch-icon.png", "/robots/icons/icon-192.png", "/robots/icons/icon-512.png"];
 self.addEventListener("install", (e) => {
