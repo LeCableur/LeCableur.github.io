@@ -1,7 +1,7 @@
 {
  "version": 2,
- "updated_at": "2026-10-30T03:25:43+01:00",
- "updated_label": "30/10/2026 à 03:25 (heure de Paris)",
+ "updated_at": "2026-10-30T03:29:36+01:00",
+ "updated_label": "30/10/2026 à 03:29 (heure de Paris)",
  "periodes": [
   {
    "id": "jour",
@@ -1005,7 +1005,7 @@
   },
   {
    "nom": "Paris Foot",
-   "disciplines": "Foot",
+   "disciplines": "Foot + grilles Winamax",
    "desc": "Bot Grok foot",
    "type": "fictif",
    "multisport": false,
@@ -3537,7 +3537,7 @@
   },
   {
    "nom": "Paris PMU",
-   "disciplines": "Hippisme",
+   "disciplines": "Courses hippiques",
    "desc": "Bot Grok hippisme",
    "type": "fictif",
    "multisport": false,
