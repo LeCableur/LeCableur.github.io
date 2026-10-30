@@ -70,15 +70,16 @@
   function saisonBandeau() {
     var S = DATA.saison;
     if (!S) return "";
-    if (!S.actif) return '<div class="card info">🏁 <b>Saison 1</b> : le dimanche 01/11 au soir, tous les robots de paris repartent à 0 (paris comptés dès le lundi ' + jour(S.debut) + ' à 00:01). L\'historique actuel sera gardé dans « Archive saison 0 ».</div>';
+    if (!S.actif) return '<div class="card info">🏁 <b>Saison 1</b> : le samedi 31/10 au soir, tous les robots de paris repartent à 0 (saison du dimanche ' + jour(S.debut) + ' 00:01 au 30/11 inclus). L\'historique actuel sera gardé dans « Archive saison 0 ».</div>';
     return '<div class="card info">🏁 <b>Saison 1</b> depuis le ' + jour(S.debut) + ' : tout le monde est reparti à 0. <a href="#/archive">Voir l\'archive saison 0 ›</a></div>';
   }
 
+  function nomD(r) { return r.nom + (r.disciplines ? " (" + r.disciplines + ")" : ""); }
   function nd(r) { return '<div class="empty">Pas encore de données' + (r.raison && r.raison !== "pas encore de données" ? " (" + esc(r.raison) + ")" : "") + "</div>"; }
 
   // ---- liste ----
   function mt5Card(r) {
-    var h = '<a class="card tap" href="#/mt5/' + encodeURIComponent(r.nom) + '"><div class="top"><div><div class="name">' + esc(r.nom) +
+    var h = '<a class="card tap" href="#/mt5/' + encodeURIComponent(r.nom) + '"><div class="top"><div><div class="name">' + esc(nomD(r)) +
       '<span class="tag demo">DÉMO</span>' + (r.simulation ? '<span class="tag">SIMULATION</span>' : "") + '</div><div class="desc">' + esc(r.desc) + "</div></div>";
     if (!r.ok) return h + '<div class="chev">›</div></div>' + nd(r) + "</a>";
     var s = r.stats[periode] || {};
@@ -95,7 +96,7 @@
 
   function parisCard(r, rang, idx, arch) {
     var per = arch ? "total" : periode;
-    var h = '<a class="card tap" href="' + (arch ? "#/archive/" : "#/paris/") + idx + '"><div class="top"><div><div class="name">' + (rang ? '<span class="rank">' + rang + "</span>" : "") + esc(r.nom) +
+    var h = '<a class="card tap" href="' + (arch ? "#/archive/" : "#/paris/") + idx + '"><div class="top"><div><div class="name">' + (rang ? '<span class="rank">' + rang + "</span>" : "") + esc(nomD(r)) +
       '<span class="tag fictif">FICTIF</span></div><div class="desc">' + esc(r.desc) + "</div></div>";
     if (!r.ok) return h + '<div class="chev">›</div></div>' + nd(r) + "</a>";
     var s = r.stats[per] || {}, t = r.stats.total || {};
@@ -130,7 +131,7 @@
     $("app").innerHTML = h;
   }
 
-  // ---- archive saison 0 (figée, tout l'historique jusqu'au 01/11) ----
+  // ---- archive saison 0 (figée, tout l'historique jusqu'au 31/10) ----
   function archive() {
     tabs(false);
     var A = DATA.archive_saison0;
@@ -156,7 +157,7 @@
     tabs(false);
     var r = ((arch ? DATA.archive_saison0 : DATA.paris) || [])[idx];
     if (!r) { location.hash = arch ? "#/archive" : "#/"; return; }
-    var h = back(r.nom, (arch ? "Archive saison 0 · " : saisonOn() ? "Saison 1 · " : "") + r.desc, '<span class="tag fictif">FICTIF</span>', arch ? "#/archive" : "#/");
+    var h = back(nomD(r), (arch ? "Archive saison 0 · " : saisonOn() ? "Saison 1 · " : "") + r.desc, '<span class="tag fictif">FICTIF</span>', arch ? "#/archive" : "#/");
     if (!r.ok) { $("app").innerHTML = h + '<div class="card">' + nd(r) + (r.depart ? '<div class="desc">Cagnotte de départ : ' + eur(r.depart) + "</div>" : "") + "</div>"; return; }
     var d = r.detail, s = d.resume;
     h += '<div class="card"><div class="grid">' +
@@ -194,7 +195,7 @@
     tabs(false);
     var r = (DATA.mt5 || []).filter(function (x) { return x.nom === nom; })[0];
     if (!r) { location.hash = "#/"; return; }
-    var h = back("Robot " + r.nom, r.desc, '<span class="tag demo">DÉMO</span>' + (r.simulation ? '<span class="tag">SIMULATION</span>' : ""));
+    var h = back("Robot " + nomD(r), r.desc, '<span class="tag demo">DÉMO</span>' + (r.simulation ? '<span class="tag">SIMULATION</span>' : ""));
     if (!r.ok) { $("app").innerHTML = h + '<div class="card">' + nd(r) + "</div>"; return; }
     var d = r.detail;
     h += '<div class="card"><div class="grid">' +
