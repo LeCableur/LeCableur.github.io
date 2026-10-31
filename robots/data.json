@@ -1,12 +1,12 @@
 {
  "version": 2,
- "updated_at": "2026-10-31T00:19:25+01:00",
- "updated_label": "31/10/2026 à 00:19 (heure de Paris)",
+ "updated_at": "2026-11-01T00:23:45+01:00",
+ "updated_label": "01/11/2026 à 00:23 (heure de Paris)",
  "periodes": [
   {
    "id": "jour",
    "label": "Aujourd'hui",
-   "depuis": "2026-10-31"
+   "depuis": "2026-11-01"
   },
   {
    "id": "semaine",
@@ -16,7 +16,7 @@
   {
    "id": "mois",
    "label": "Mois",
-   "depuis": "2026-10-01"
+   "depuis": "2026-11-01"
   },
   {
    "id": "annee",
@@ -24,7 +24,7 @@
    "depuis": "2026-01-01"
   }
  ],
- "tour_lue_le": "2026-10-31T00:19:15+01:00",
+ "tour_lue_le": "2026-11-01T00:23:21+01:00",
  "mt5": [
   {
    "nom": "Swing",
@@ -118,6 +118,12 @@
       "lu_le": "2026-10-31T00:19:15+01:00",
       "solde": 3000.0,
       "equite": 2995.17
+     },
+     {
+      "jour": "2026-11-01",
+      "lu_le": "2026-11-01T00:23:21+01:00",
+      "solde": 3000.0,
+      "equite": 2995.17
      }
     ],
     "trades": []
@@ -158,12 +164,12 @@
      "winrate": 100
     },
     "mois": {
-     "trades": 1,
-     "gagnes": 1,
+     "trades": 0,
+     "gagnes": 0,
      "perdus": 0,
-     "pnl": 0.66,
-     "pct": 0.02,
-     "winrate": 100
+     "pnl": 0,
+     "pct": 0.0,
+     "winrate": null
     },
     "annee": {
      "trades": 1,
@@ -238,6 +244,12 @@
       "lu_le": "2026-10-31T00:19:15+01:00",
       "solde": 3000.66,
       "equite": 3000.66
+     },
+     {
+      "jour": "2026-11-01",
+      "lu_le": "2026-11-01T00:23:21+01:00",
+      "solde": 3000.66,
+      "equite": 3000.66
      }
     ],
     "trades": [
@@ -292,12 +304,12 @@
      "winrate": 0
     },
     "mois": {
-     "trades": 1,
+     "trades": 0,
      "gagnes": 0,
-     "perdus": 1,
-     "pnl": -29.56,
-     "pct": -0.99,
-     "winrate": 0
+     "perdus": 0,
+     "pnl": 0,
+     "pct": 0.0,
+     "winrate": null
     },
     "annee": {
      "trades": 1,
@@ -372,6 +384,12 @@
       "lu_le": "2026-10-31T00:19:15+01:00",
       "solde": 2970.44,
       "equite": 2970.44
+     },
+     {
+      "jour": "2026-11-01",
+      "lu_le": "2026-11-01T00:23:21+01:00",
+      "solde": 2970.44,
+      "equite": 2970.44
      }
     ],
     "trades": [
@@ -407,7 +425,7 @@
    "positions": 1,
    "positions_detail": null,
    "simulation": false,
-   "dernier_passage": "31/10/2026 00:19",
+   "dernier_passage": "01/11/2026 00:23",
    "stats": {
     "jour": {
      "trades": 0,
@@ -473,6 +491,12 @@
       "lu_le": "2026-10-31T00:19:15+01:00",
       "solde": 3000.0,
       "equite": 2994.09
+     },
+     {
+      "jour": "2026-11-01",
+      "lu_le": "2026-11-01T00:23:21+01:00",
+      "solde": 3000.0,
+      "equite": 2994.09
      }
     ],
     "trades": []
@@ -486,7 +510,7 @@
    "desc": "Robot Gemini sur la tour (cotes Winamax)",
    "type": "fictif",
    "multisport": true,
-   "dernier_passage": "31/10/2026 00:07 (Paris)",
+   "dernier_passage": "01/11/2026 00:07 (Paris)",
    "ok": true,
    "stats": {
     "jour": {
@@ -501,70 +525,785 @@
      "roi": null
     },
     "semaine": {
-     "paris": 10,
-     "gagnes": 7,
-     "perdus": 3,
+     "paris": 0,
+     "gagnes": 0,
+     "perdus": 0,
      "annules": 0,
      "attente": 0,
-     "mise": 500.0,
-     "mise_reglee": 500.0,
-     "net": 152.05,
-     "roi": 30.41
+     "mise": 0,
+     "mise_reglee": 0,
+     "net": 0,
+     "roi": null
     },
     "mois": {
-     "paris": 10,
-     "gagnes": 7,
-     "perdus": 3,
+     "paris": 0,
+     "gagnes": 0,
+     "perdus": 0,
      "annules": 0,
      "attente": 0,
-     "mise": 500.0,
-     "mise_reglee": 500.0,
-     "net": 152.05,
-     "roi": 30.41
+     "mise": 0,
+     "mise_reglee": 0,
+     "net": 0,
+     "roi": null
     },
     "annee": {
-     "paris": 10,
-     "gagnes": 7,
-     "perdus": 3,
+     "paris": 0,
+     "gagnes": 0,
+     "perdus": 0,
      "annules": 0,
      "attente": 0,
-     "mise": 500.0,
-     "mise_reglee": 500.0,
-     "net": 152.05,
-     "roi": 30.41
+     "mise": 0,
+     "mise_reglee": 0,
+     "net": 0,
+     "roi": null
     },
     "total": {
-     "paris": 10,
-     "gagnes": 7,
-     "perdus": 3,
+     "paris": 0,
+     "gagnes": 0,
+     "perdus": 0,
      "annules": 0,
      "attente": 0,
-     "mise": 500.0,
-     "mise_reglee": 500.0,
-     "net": 152.05,
-     "roi": 30.41
+     "mise": 0,
+     "mise_reglee": 0,
+     "net": 0,
+     "roi": null
     }
    },
    "detail": {
     "resume": {
-     "nb": 10,
-     "gagnes": 7,
-     "perdus": 3,
+     "nb": 0,
+     "gagnes": 0,
+     "perdus": 0,
      "annules": 0,
      "attente": 0,
-     "mise": 500.0,
-     "mise_reglee": 500.0,
-     "net": 152.05,
-     "roi": 30.41,
-     "winrate": 70
+     "mise": 0,
+     "mise_reglee": 0,
+     "net": null,
+     "roi": null,
+     "winrate": null
+    },
+    "serie": null,
+    "serie_jours": null,
+    "courbe": [],
+    "courbe_type": "net cumulé",
+    "depart": null,
+    "cagnotte": null,
+    "par_jour": [],
+    "par_sport": [],
+    "paris": []
+   }
+  },
+  {
+   "nom": "Nouveau robot de la tour",
+   "disciplines": "Foot, Tennis, Basket, PMU",
+   "desc": "Tous sports sur la tour, 100 € par sport et par jour",
+   "type": "fictif",
+   "multisport": true,
+   "dernier_passage": "01/11/2026 00:20 (Paris)",
+   "ok": true,
+   "stats": {
+    "jour": {
+     "paris": 6,
+     "gagnes": 0,
+     "perdus": 0,
+     "annules": 0,
+     "attente": 6,
+     "mise": 300.0,
+     "mise_reglee": 0,
+     "net": 0,
+     "roi": null
+    },
+    "semaine": {
+     "paris": 6,
+     "gagnes": 0,
+     "perdus": 0,
+     "annules": 0,
+     "attente": 6,
+     "mise": 300.0,
+     "mise_reglee": 0,
+     "net": 0,
+     "roi": null
+    },
+    "mois": {
+     "paris": 6,
+     "gagnes": 0,
+     "perdus": 0,
+     "annules": 0,
+     "attente": 6,
+     "mise": 300.0,
+     "mise_reglee": 0,
+     "net": 0,
+     "roi": null
+    },
+    "annee": {
+     "paris": 6,
+     "gagnes": 0,
+     "perdus": 0,
+     "annules": 0,
+     "attente": 6,
+     "mise": 300.0,
+     "mise_reglee": 0,
+     "net": 0,
+     "roi": null
+    },
+    "total": {
+     "paris": 6,
+     "gagnes": 0,
+     "perdus": 0,
+     "annules": 0,
+     "attente": 6,
+     "mise": 300.0,
+     "mise_reglee": 0,
+     "net": 0,
+     "roi": null
+    }
+   },
+   "detail": {
+    "resume": {
+     "nb": 6,
+     "gagnes": 0,
+     "perdus": 0,
+     "annules": 0,
+     "attente": 6,
+     "mise": 300.0,
+     "mise_reglee": 0,
+     "net": null,
+     "roi": null,
+     "winrate": null
+    },
+    "serie": null,
+    "serie_jours": null,
+    "courbe": [],
+    "courbe_type": "cagnotte",
+    "depart": 4000.0,
+    "cagnotte": 4000.0,
+    "par_jour": [
+     {
+      "jour": "2026-11-01",
+      "nb": 6,
+      "mise": 300.0,
+      "net": 0.0,
+      "regles": 0,
+      "attente": 6
+     }
+    ],
+    "par_sport": [
+     {
+      "sport": "Foot",
+      "nb": 2,
+      "gagnes": 0,
+      "perdus": 0,
+      "annules": 0,
+      "attente": 2,
+      "mise": 100.0,
+      "mise_reglee": 0,
+      "net": null,
+      "roi": null,
+      "winrate": null
+     },
+     {
+      "sport": "Tennis",
+      "nb": 2,
+      "gagnes": 0,
+      "perdus": 0,
+      "annules": 0,
+      "attente": 2,
+      "mise": 100.0,
+      "mise_reglee": 0,
+      "net": null,
+      "roi": null,
+      "winrate": null
+     },
+     {
+      "sport": "Basket",
+      "nb": 2,
+      "gagnes": 0,
+      "perdus": 0,
+      "annules": 0,
+      "attente": 2,
+      "mise": 100.0,
+      "mise_reglee": 0,
+      "net": null,
+      "roi": null,
+      "winrate": null
+     }
+    ],
+    "paris": [
+     {
+      "date": "2026-11-01",
+      "sport": "Basket",
+      "competition": "NBA",
+      "match": "Memphis Grizzlies - Sacramento Kings",
+      "pari": "Vainqueur du match (prolongation incluse) : Memphis Grizzlies",
+      "cote": 1.26,
+      "mise": 50.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
+     {
+      "date": "2026-11-01",
+      "sport": "Basket",
+      "competition": "NBA",
+      "match": "Milwaukee Bucks - Cleveland Cavaliers",
+      "pari": "Vainqueur du match (prolongation incluse) : Cleveland Cavaliers",
+      "cote": 1.24,
+      "mise": 50.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
+     {
+      "date": "2026-11-01",
+      "sport": "Foot",
+      "competition": "Super Lig",
+      "match": "Trabzonspor - Gaziantep FK",
+      "pari": "Resultat du match (1N2, temps reglementaire) : Trabzonspor",
+      "cote": 1.27,
+      "mise": 50.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
+     {
+      "date": "2026-11-01",
+      "sport": "Tennis",
+      "competition": "Rolex Paris Masters (ATP, Qualifying Final)",
+      "match": "Mattia Bellucci - Thiago Agustin Tirante",
+      "pari": "Vainqueur du match : Mattia Bellucci",
+      "cote": 1.45,
+      "mise": 50.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
+     {
+      "date": "2026-11-01",
+      "sport": "Tennis",
+      "competition": "Toray Pan Pacific Open Tennis (WTA, Final)",
+      "match": "Diana Shnaider - Leylah Fernandez",
+      "pari": "Vainqueur du match : Diana Shnaider",
+      "cote": 1.56,
+      "mise": 50.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
+     {
+      "date": "2026-11-01",
+      "sport": "Foot",
+      "competition": "Super Lig",
+      "match": "Amed SFK - Eyupspor",
+      "pari": "Resultat du match (1N2, temps reglementaire) : Amed SFK",
+      "cote": 1.25,
+      "mise": 50.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     }
+    ]
+   }
+  },
+  {
+   "nom": "Paris Foot",
+   "disciplines": "Foot + grilles Winamax",
+   "desc": "Bot Grok foot",
+   "type": "fictif",
+   "multisport": false,
+   "dernier_passage": null,
+   "ok": true,
+   "stats": {
+    "jour": {
+     "paris": 0,
+     "gagnes": 0,
+     "perdus": 0,
+     "annules": 0,
+     "attente": 0,
+     "mise": 0,
+     "mise_reglee": 0,
+     "net": 0,
+     "roi": null
+    },
+    "semaine": {
+     "paris": 0,
+     "gagnes": 0,
+     "perdus": 0,
+     "annules": 0,
+     "attente": 0,
+     "mise": 0,
+     "mise_reglee": 0,
+     "net": 0,
+     "roi": null
+    },
+    "mois": {
+     "paris": 0,
+     "gagnes": 0,
+     "perdus": 0,
+     "annules": 0,
+     "attente": 0,
+     "mise": 0,
+     "mise_reglee": 0,
+     "net": 0,
+     "roi": null
+    },
+    "annee": {
+     "paris": 0,
+     "gagnes": 0,
+     "perdus": 0,
+     "annules": 0,
+     "attente": 0,
+     "mise": 0,
+     "mise_reglee": 0,
+     "net": 0,
+     "roi": null
+    },
+    "total": {
+     "paris": 0,
+     "gagnes": 0,
+     "perdus": 0,
+     "annules": 0,
+     "attente": 0,
+     "mise": 0,
+     "mise_reglee": 0,
+     "net": 0,
+     "roi": null
+    }
+   },
+   "detail": {
+    "resume": {
+     "nb": 0,
+     "gagnes": 0,
+     "perdus": 0,
+     "annules": 0,
+     "attente": 0,
+     "mise": 0,
+     "mise_reglee": 0,
+     "net": null,
+     "roi": null,
+     "winrate": null
+    },
+    "serie": null,
+    "serie_jours": null,
+    "courbe": [],
+    "courbe_type": "net cumulé",
+    "depart": null,
+    "cagnotte": null,
+    "par_jour": [],
+    "par_sport": [],
+    "paris": []
+   }
+  },
+  {
+   "nom": "Paris Tennis",
+   "disciplines": "Tennis",
+   "desc": "Bot Grok tennis",
+   "type": "fictif",
+   "multisport": false,
+   "dernier_passage": null,
+   "ok": true,
+   "stats": {
+    "jour": {
+     "paris": 0,
+     "gagnes": 0,
+     "perdus": 0,
+     "annules": 0,
+     "attente": 0,
+     "mise": 0,
+     "mise_reglee": 0,
+     "net": 0,
+     "roi": null
+    },
+    "semaine": {
+     "paris": 0,
+     "gagnes": 0,
+     "perdus": 0,
+     "annules": 0,
+     "attente": 0,
+     "mise": 0,
+     "mise_reglee": 0,
+     "net": 0,
+     "roi": null
+    },
+    "mois": {
+     "paris": 0,
+     "gagnes": 0,
+     "perdus": 0,
+     "annules": 0,
+     "attente": 0,
+     "mise": 0,
+     "mise_reglee": 0,
+     "net": 0,
+     "roi": null
+    },
+    "annee": {
+     "paris": 0,
+     "gagnes": 0,
+     "perdus": 0,
+     "annules": 0,
+     "attente": 0,
+     "mise": 0,
+     "mise_reglee": 0,
+     "net": 0,
+     "roi": null
+    },
+    "total": {
+     "paris": 0,
+     "gagnes": 0,
+     "perdus": 0,
+     "annules": 0,
+     "attente": 0,
+     "mise": 0,
+     "mise_reglee": 0,
+     "net": 0,
+     "roi": null
+    }
+   },
+   "detail": {
+    "resume": {
+     "nb": 0,
+     "gagnes": 0,
+     "perdus": 0,
+     "annules": 0,
+     "attente": 0,
+     "mise": 0,
+     "mise_reglee": 0,
+     "net": null,
+     "roi": null,
+     "winrate": null
+    },
+    "serie": null,
+    "serie_jours": null,
+    "courbe": [],
+    "courbe_type": "net cumulé",
+    "depart": null,
+    "cagnotte": null,
+    "par_jour": [],
+    "par_sport": [],
+    "paris": []
+   }
+  },
+  {
+   "nom": "Paris Basket",
+   "disciplines": "Basket",
+   "desc": "Bot Grok basket",
+   "type": "fictif",
+   "multisport": false,
+   "dernier_passage": null,
+   "ok": true,
+   "stats": {
+    "jour": {
+     "paris": 0,
+     "gagnes": 0,
+     "perdus": 0,
+     "annules": 0,
+     "attente": 0,
+     "mise": 0,
+     "mise_reglee": 0,
+     "net": 0,
+     "roi": null
+    },
+    "semaine": {
+     "paris": 0,
+     "gagnes": 0,
+     "perdus": 0,
+     "annules": 0,
+     "attente": 0,
+     "mise": 0,
+     "mise_reglee": 0,
+     "net": 0,
+     "roi": null
+    },
+    "mois": {
+     "paris": 0,
+     "gagnes": 0,
+     "perdus": 0,
+     "annules": 0,
+     "attente": 0,
+     "mise": 0,
+     "mise_reglee": 0,
+     "net": 0,
+     "roi": null
+    },
+    "annee": {
+     "paris": 0,
+     "gagnes": 0,
+     "perdus": 0,
+     "annules": 0,
+     "attente": 0,
+     "mise": 0,
+     "mise_reglee": 0,
+     "net": 0,
+     "roi": null
+    },
+    "total": {
+     "paris": 0,
+     "gagnes": 0,
+     "perdus": 0,
+     "annules": 0,
+     "attente": 0,
+     "mise": 0,
+     "mise_reglee": 0,
+     "net": 0,
+     "roi": null
+    }
+   },
+   "detail": {
+    "resume": {
+     "nb": 0,
+     "gagnes": 0,
+     "perdus": 0,
+     "annules": 0,
+     "attente": 0,
+     "mise": 0,
+     "mise_reglee": 0,
+     "net": null,
+     "roi": null,
+     "winrate": null
+    },
+    "serie": null,
+    "serie_jours": null,
+    "courbe": [],
+    "courbe_type": "net cumulé",
+    "depart": null,
+    "cagnotte": null,
+    "par_jour": [],
+    "par_sport": [],
+    "paris": []
+   }
+  },
+  {
+   "nom": "Paris PMU",
+   "disciplines": "Courses hippiques",
+   "desc": "Bot Grok hippisme",
+   "type": "fictif",
+   "multisport": false,
+   "dernier_passage": null,
+   "ok": true,
+   "stats": {
+    "jour": {
+     "paris": 0,
+     "gagnes": 0,
+     "perdus": 0,
+     "annules": 0,
+     "attente": 0,
+     "mise": 0,
+     "mise_reglee": 0,
+     "net": 0,
+     "roi": null
+    },
+    "semaine": {
+     "paris": 0,
+     "gagnes": 0,
+     "perdus": 0,
+     "annules": 0,
+     "attente": 0,
+     "mise": 0,
+     "mise_reglee": 0,
+     "net": 0,
+     "roi": null
+    },
+    "mois": {
+     "paris": 0,
+     "gagnes": 0,
+     "perdus": 0,
+     "annules": 0,
+     "attente": 0,
+     "mise": 0,
+     "mise_reglee": 0,
+     "net": 0,
+     "roi": null
+    },
+    "annee": {
+     "paris": 0,
+     "gagnes": 0,
+     "perdus": 0,
+     "annules": 0,
+     "attente": 0,
+     "mise": 0,
+     "mise_reglee": 0,
+     "net": 0,
+     "roi": null
+    },
+    "total": {
+     "paris": 0,
+     "gagnes": 0,
+     "perdus": 0,
+     "annules": 0,
+     "attente": 0,
+     "mise": 0,
+     "mise_reglee": 0,
+     "net": 0,
+     "roi": null
+    }
+   },
+   "detail": {
+    "resume": {
+     "nb": 0,
+     "gagnes": 0,
+     "perdus": 0,
+     "annules": 0,
+     "attente": 0,
+     "mise": 0,
+     "mise_reglee": 0,
+     "net": null,
+     "roi": null,
+     "winrate": null
+    },
+    "serie": null,
+    "serie_jours": null,
+    "courbe": [],
+    "courbe_type": "net cumulé",
+    "depart": null,
+    "cagnotte": null,
+    "par_jour": [],
+    "par_sport": [],
+    "paris": []
+   }
+  },
+  {
+   "nom": "Paris Libre IA",
+   "disciplines": "Foot, Tennis, Basket",
+   "desc": "Bot Grok tous sports",
+   "type": "fictif",
+   "multisport": true,
+   "dernier_passage": null,
+   "ok": true,
+   "stats": {
+    "jour": {
+     "paris": 0,
+     "gagnes": 0,
+     "perdus": 0,
+     "annules": 0,
+     "attente": 0,
+     "mise": 0,
+     "mise_reglee": 0,
+     "net": 0,
+     "roi": null
+    },
+    "semaine": {
+     "paris": 0,
+     "gagnes": 0,
+     "perdus": 0,
+     "annules": 0,
+     "attente": 0,
+     "mise": 0,
+     "mise_reglee": 0,
+     "net": 0,
+     "roi": null
+    },
+    "mois": {
+     "paris": 0,
+     "gagnes": 0,
+     "perdus": 0,
+     "annules": 0,
+     "attente": 0,
+     "mise": 0,
+     "mise_reglee": 0,
+     "net": 0,
+     "roi": null
+    },
+    "annee": {
+     "paris": 0,
+     "gagnes": 0,
+     "perdus": 0,
+     "annules": 0,
+     "attente": 0,
+     "mise": 0,
+     "mise_reglee": 0,
+     "net": 0,
+     "roi": null
+    },
+    "total": {
+     "paris": 0,
+     "gagnes": 0,
+     "perdus": 0,
+     "annules": 0,
+     "attente": 0,
+     "mise": 0,
+     "mise_reglee": 0,
+     "net": 0,
+     "roi": null
+    }
+   },
+   "detail": {
+    "resume": {
+     "nb": 0,
+     "gagnes": 0,
+     "perdus": 0,
+     "annules": 0,
+     "attente": 0,
+     "mise": 0,
+     "mise_reglee": 0,
+     "net": null,
+     "roi": null,
+     "winrate": null
+    },
+    "serie": null,
+    "serie_jours": null,
+    "courbe": [],
+    "courbe_type": "net cumulé",
+    "depart": null,
+    "cagnotte": null,
+    "par_jour": [],
+    "par_sport": [],
+    "paris": []
+   }
+  }
+ ],
+ "saison": {
+  "actif": true,
+  "nom": "Saison 1",
+  "debut": "2026-11-01",
+  "archive_jusqu_au": "2026-10-31"
+ },
+ "archive_saison0": [
+  {
+   "nom": "Ancien robot de la tour",
+   "disciplines": "Foot, Tennis, Basket, Volley",
+   "desc": "Robot Gemini sur la tour (cotes Winamax)",
+   "type": "fictif",
+   "multisport": true,
+   "dernier_passage": null,
+   "ok": true,
+   "stats": {
+    "total": {
+     "paris": 12,
+     "gagnes": 8,
+     "perdus": 4,
+     "annules": 0,
+     "attente": 0,
+     "mise": 600.0,
+     "mise_reglee": 600.0,
+     "net": 134.55,
+     "roi": 22.42
+    }
+   },
+   "detail": {
+    "resume": {
+     "nb": 12,
+     "gagnes": 8,
+     "perdus": 4,
+     "annules": 0,
+     "attente": 0,
+     "mise": 600.0,
+     "mise_reglee": 600.0,
+     "net": 134.55,
+     "roi": 22.42,
+     "winrate": 67
     },
     "serie": {
-     "type": "Gagné",
+     "type": "Perdu",
      "n": 1
     },
     "serie_jours": {
      "type": "négatif",
-     "n": 1
+     "n": 2
     },
     "courbe": [
      {
@@ -586,12 +1325,24 @@
      {
       "t": "2026-10-30",
       "v": 152.05
+     },
+     {
+      "t": "2026-10-31",
+      "v": 134.55
      }
     ],
     "courbe_type": "net cumulé",
     "depart": null,
     "cagnotte": null,
     "par_jour": [
+     {
+      "jour": "2026-10-31",
+      "nb": 2,
+      "mise": 100.0,
+      "net": -17.5,
+      "regles": 2,
+      "attente": 0
+     },
      {
       "jour": "2026-10-30",
       "nb": 2,
@@ -636,16 +1387,16 @@
     "par_sport": [
      {
       "sport": "Football",
-      "nb": 5,
-      "gagnes": 3,
+      "nb": 6,
+      "gagnes": 4,
       "perdus": 2,
       "annules": 0,
       "attente": 0,
-      "mise": 320.0,
-      "mise_reglee": 320.0,
-      "net": 77.1,
-      "roi": 24.09,
-      "winrate": 60
+      "mise": 370.0,
+      "mise_reglee": 370.0,
+      "net": 109.6,
+      "roi": 29.62,
+      "winrate": 67
      },
      {
       "sport": "Football + Tennis",
@@ -698,9 +1449,48 @@
       "net": 22.4,
       "roi": 56.0,
       "winrate": 100
+     },
+     {
+      "sport": "Football + Hockey",
+      "nb": 1,
+      "gagnes": 0,
+      "perdus": 1,
+      "annules": 0,
+      "attente": 0,
+      "mise": 50.0,
+      "mise_reglee": 50.0,
+      "net": -50.0,
+      "roi": -100.0,
+      "winrate": 0
      }
     ],
     "paris": [
+     {
+      "date": "2026-10-31",
+      "sport": "Football + Hockey",
+      "competition": "Premier League + National Hockey League",
+      "match": "Manchester City - Brighton & Hove Albion + Boston Bruins - Chicago Blackhawks",
+      "pari": "Manchester City (Résultat) + Boston Bruins (Vainqueur (prolong. incluses)) (combiné)",
+      "cote": 2.4,
+      "mise": 50.0,
+      "statut": "Perdu",
+      "net": -50.0,
+      "retour": 0.0,
+      "resultat": "0:1 + ?"
+     },
+     {
+      "date": "2026-10-31",
+      "sport": "Football",
+      "competition": "Premier League",
+      "match": "Tottenham Hotspur - Crystal Palace",
+      "pari": "Tottenham Hotspur (Résultat) (simple)",
+      "cote": 1.65,
+      "mise": 50.0,
+      "statut": "Gagné",
+      "net": 32.5,
+      "retour": 82.5,
+      "resultat": "2:0"
+     },
      {
       "date": "2026-10-30",
       "sport": "Football américain",
@@ -840,81 +1630,37 @@
    "desc": "Tous sports sur la tour, 100 € par sport et par jour",
    "type": "fictif",
    "multisport": true,
-   "dernier_passage": "31/10/2026 00:01 (Paris)",
+   "dernier_passage": null,
    "ok": true,
    "stats": {
-    "jour": {
-     "paris": 0,
-     "gagnes": 0,
-     "perdus": 0,
-     "annules": 0,
-     "attente": 0,
-     "mise": 0,
-     "mise_reglee": 0,
-     "net": 0,
-     "roi": null
-    },
-    "semaine": {
-     "paris": 12,
-     "gagnes": 6,
-     "perdus": 6,
-     "annules": 0,
-     "attente": 0,
-     "mise": 800.0,
-     "mise_reglee": 800.0,
-     "net": -391.0,
-     "roi": -48.88
-    },
-    "mois": {
-     "paris": 12,
-     "gagnes": 6,
-     "perdus": 6,
-     "annules": 0,
-     "attente": 0,
-     "mise": 800.0,
-     "mise_reglee": 800.0,
-     "net": -391.0,
-     "roi": -48.88
-    },
-    "annee": {
-     "paris": 12,
-     "gagnes": 6,
-     "perdus": 6,
-     "annules": 0,
-     "attente": 0,
-     "mise": 800.0,
-     "mise_reglee": 800.0,
-     "net": -391.0,
-     "roi": -48.88
-    },
     "total": {
-     "paris": 12,
-     "gagnes": 6,
-     "perdus": 6,
+     "paris": 20,
+     "gagnes": 10,
+     "perdus": 9,
      "annules": 0,
-     "attente": 0,
-     "mise": 800.0,
-     "mise_reglee": 800.0,
-     "net": -391.0,
-     "roi": -48.88
+     "attente": 1,
+     "mise": 1200.0,
+     "mise_reglee": 1150.0,
+     "net": -470.5,
+     "roi": -40.91
     }
    },
    "detail": {
     "resume": {
-     "nb": 12,
-     "gagnes": 6,
-     "perdus": 6,
+     "nb": 20,
+     "gagnes": 10,
+     "perdus": 9,
      "annules": 0,
-     "attente": 0,
-     "mise": 800.0,
-     "mise_reglee": 800.0,
-     "net": -391.0,
-     "roi": -48.88,
-     "winrate": 50
+     "attente": 1,
+     "mise": 1200.0,
+     "mise_reglee": 1150.0,
+     "net": -470.5,
+     "roi": -40.91,
+     "winrate": 53
     },
     "serie": {
      "type": "Gagné",
-     "n": 1
+     "n": 2
     },
     "serie_jours": {
      "type": "négatif",
@@ -928,12 +1674,24 @@
      {
       "t": "2026-10-30",
       "v": 3609.0
+     },
+     {
+      "t": "2026-10-31",
+      "v": 3529.5
      }
     ],
     "courbe_type": "cagnotte",
     "depart": 4000.0,
-    "cagnotte": 3609.0,
+    "cagnotte": 3529.5,
     "par_jour": [
+     {
+      "jour": "2026-10-31",
+      "nb": 8,
+      "mise": 400.0,
+      "net": -79.5,
+      "regles": 7,
+      "attente": 1
+     },
      {
       "jour": "2026-10-30",
       "nb": 5,
@@ -954,58 +1712,162 @@
     "par_sport": [
      {
       "sport": "PMU",
-      "nb": 6,
+      "nb": 8,
       "gagnes": 4,
-      "perdus": 2,
+      "perdus": 4,
       "annules": 0,
       "attente": 0,
-      "mise": 200.0,
-      "mise_reglee": 200.0,
-      "net": -53.0,
-      "roi": -26.5,
-      "winrate": 67
+      "mise": 300.0,
+      "mise_reglee": 300.0,
+      "net": -153.0,
+      "roi": -51.0,
+      "winrate": 50
      },
      {
       "sport": "Foot",
-      "nb": 2,
-      "gagnes": 1,
-      "perdus": 1,
+      "nb": 4,
+      "gagnes": 2,
+      "perdus": 2,
       "annules": 0,
       "attente": 0,
-      "mise": 200.0,
-      "mise_reglee": 200.0,
-      "net": -65.0,
-      "roi": -32.5,
+      "mise": 300.0,
+      "mise_reglee": 300.0,
+      "net": -101.5,
+      "roi": -33.83,
       "winrate": 50
      },
      {
       "sport": "Tennis",
-      "nb": 2,
-      "gagnes": 0,
+      "nb": 4,
+      "gagnes": 2,
       "perdus": 2,
       "annules": 0,
       "attente": 0,
-      "mise": 200.0,
-      "mise_reglee": 200.0,
-      "net": -200.0,
-      "roi": -100.0,
-      "winrate": 0
+      "mise": 300.0,
+      "mise_reglee": 300.0,
+      "net": -162.5,
+      "roi": -54.17,
+      "winrate": 50
      },
      {
       "sport": "Basket",
-      "nb": 2,
-      "gagnes": 1,
+      "nb": 4,
+      "gagnes": 2,
       "perdus": 1,
       "annules": 0,
-      "attente": 0,
-      "mise": 200.0,
-      "mise_reglee": 200.0,
-      "net": -73.0,
-      "roi": -36.5,
-      "winrate": 50
+      "attente": 1,
+      "mise": 300.0,
+      "mise_reglee": 250.0,
+      "net": -53.5,
+      "roi": -21.4,
+      "winrate": 67
      }
     ],
     "paris": [
+     {
+      "date": "2026-10-31",
+      "sport": "Basket",
+      "competition": "NBA",
+      "match": "Utah Jazz - Portland Trail Blazers",
+      "pari": "Vainqueur du match (prolongation incluse) : Portland Trail Blazers",
+      "cote": 1.39,
+      "mise": 50.0,
+      "statut": "Gagné",
+      "net": 19.5,
+      "retour": 69.5,
+      "resultat": "score 90-112"
+     },
+     {
+      "date": "2026-10-31",
+      "sport": "Tennis",
+      "competition": "Chennai Open (WTA, Qualifying 1st Round)",
+      "match": "Shrivalli Bhamidipaty - Viktoria Morvayova",
+      "pari": "Vainqueur du match : Viktoria Morvayova",
+      "cote": 1.32,
+      "mise": 50.0,
+      "statut": "Gagné",
+      "net": 16.0,
+      "retour": 66.0,
+      "resultat": "vainqueur Viktoria Morvayova"
+     },
+     {
+      "date": "2026-10-31",
+      "sport": "Foot",
+      "competition": "Super Lig",
+      "match": "Fenerbahce - Goztepe",
+      "pari": "Resultat du match (1N2, temps reglementaire) : Fenerbahce",
+      "cote": 1.29,
+      "mise": 50.0,
+      "statut": "Perdu",
+      "net": -50.0,
+      "retour": 0.0,
+      "resultat": "score 1-2"
+     },
+     {
+      "date": "2026-10-31",
+      "sport": "Basket",
+      "competition": "NBA",
+      "match": "Houston Rockets - Oklahoma City Thunder",
+      "pari": "Vainqueur du match (prolongation incluse) : Houston Rockets",
+      "cote": 1.56,
+      "mise": 50.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
+     {
+      "date": "2026-10-31",
+      "sport": "Tennis",
+      "competition": "Swiss Indoors Basel (ATP, Semifinal)",
+      "match": "Jan-Lennard Struff - Jiri Lehecka",
+      "pari": "Vainqueur du match : Jiri Lehecka",
+      "cote": 1.43,
+      "mise": 50.0,
+      "statut": "Gagné",
+      "net": 21.5,
+      "retour": 71.5,
+      "resultat": "vainqueur Jiri Lehecka"
+     },
+     {
+      "date": "2026-10-31",
+      "sport": "Foot",
+      "competition": "Liga",
+      "match": "Real Betis - Málaga",
+      "pari": "Resultat du match (1N2, temps reglementaire) : Real Betis",
+      "cote": 1.27,
+      "mise": 50.0,
+      "statut": "Gagné",
+      "net": 13.5,
+      "retour": 63.5,
+      "resultat": "score 2-1"
+     },
+     {
+      "date": "2026-10-31",
+      "sport": "PMU",
+      "competition": "R2C1 ANGERS",
+      "match": "PRIX ANDRE ADELE (haie, 3400 m, 10 partants)",
+      "pari": "Simple gagnant (G<num>) ou simple place (P<num>) : Simple place n3 BRUN DE TZAR",
+      "cote": 0.0,
+      "mise": 50.0,
+      "statut": "Perdu",
+      "net": -50.0,
+      "retour": 0.0,
+      "resultat": "n3 hors des places"
+     },
+     {
+      "date": "2026-10-31",
+      "sport": "PMU",
+      "competition": "R1C3 DEAUVILLE",
+      "match": "PRIX DU PAYS DE BRAY (plat, 1900 m, 16 partants)",
+      "pari": "Simple gagnant (G<num>) ou simple place (P<num>) : Simple place n6 VICTORY PACE",
+      "cote": 0.0,
+      "mise": 50.0,
+      "statut": "Perdu",
+      "net": -50.0,
+      "retour": 0.0,
+      "resultat": "n6 hors des places"
+     },
      {
       "date": "2026-10-30",
       "sport": "PMU",
@@ -1174,82 +2036,38 @@
    "dernier_passage": null,
    "ok": true,
    "stats": {
-    "jour": {
-     "paris": 0,
-     "gagnes": 0,
-     "perdus": 0,
-     "annules": 0,
-     "attente": 0,
-     "mise": 0,
-     "mise_reglee": 0,
-     "net": 0,
-     "roi": null
-    },
-    "semaine": {
-     "paris": 15,
-     "gagnes": 5,
-     "perdus": 10,
-     "annules": 0,
-     "attente": 0,
-     "mise": 500.0,
-     "mise_reglee": 500.0,
-     "net": -245.9,
-     "roi": -49.18
-    },
-    "mois": {
-     "paris": 50,
-     "gagnes": 22,
-     "perdus": 26,
-     "annules": 2,
-     "attente": 0,
-     "mise": 1400.0,
-     "mise_reglee": 1400.0,
-     "net": -489.6,
-     "roi": -34.97
-    },
-    "annee": {
-     "paris": 50,
-     "gagnes": 22,
-     "perdus": 26,
-     "annules": 2,
-     "attente": 0,
-     "mise": 1400.0,
-     "mise_reglee": 1400.0,
-     "net": -489.6,
-     "roi": -34.97
-    },
     "total": {
-     "paris": 50,
-     "gagnes": 22,
+     "paris": 53,
+     "gagnes": 25,
      "perdus": 26,
      "annules": 2,
      "attente": 0,
-     "mise": 1400.0,
-     "mise_reglee": 1400.0,
-     "net": -489.6,
-     "roi": -34.97
+     "mise": 1500.0,
+     "mise_reglee": 1500.0,
+     "net": -441.25,
+     "roi": -29.42
     }
    },
    "detail": {
     "resume": {
-     "nb": 50,
-     "gagnes": 22,
+     "nb": 53,
+     "gagnes": 25,
      "perdus": 26,
      "annules": 2,
      "attente": 0,
-     "mise": 1400.0,
-     "mise_reglee": 1400.0,
-     "net": -489.6,
-     "roi": -34.97,
-     "winrate": 46
+     "mise": 1500.0,
+     "mise_reglee": 1500.0,
+     "net": -441.25,
+     "roi": -29.42,
+     "winrate": 49
     },
     "serie": {
      "type": "Gagné",
-     "n": 1
+     "n": 4
     },
     "serie_jours": {
-     "type": "négatif",
-     "n": 5
+     "type": "positif",
+     "n": 1
     },
     "courbe": [
      {
@@ -1307,12 +2125,24 @@
      {
       "t": "2026-10-30",
       "v": -489.6
+     },
+     {
+      "t": "2026-10-31",
+      "v": -441.25
      }
     ],
     "courbe_type": "net cumulé",
     "depart": null,
     "cagnotte": null,
     "par_jour": [
+     {
+      "jour": "2026-10-31",
+      "nb": 3,
+      "mise": 100.0,
+      "net": 48.35,
+      "regles": 3,
+      "attente": 0
+     },
      {
       "jour": "2026-10-30",
       "nb": 3,
@@ -1429,19 +2259,58 @@
     "par_sport": [
      {
       "sport": "Foot",
-      "nb": 50,
-      "gagnes": 22,
+      "nb": 53,
+      "gagnes": 25,
       "perdus": 26,
       "annules": 2,
       "attente": 0,
-      "mise": 1400.0,
-      "mise_reglee": 1400.0,
-      "net": -489.6,
-      "roi": -34.97,
-      "winrate": 46
+      "mise": 1500.0,
+      "mise_reglee": 1500.0,
+      "net": -441.25,
+      "roi": -29.42,
+      "winrate": 49
      }
     ],
     "paris": [
+     {
+      "date": "2026-10-31",
+      "sport": "Foot",
+      "competition": "Championship J13",
+      "match": "Norwich - Watford",
+      "pari": "Norwich (1N2) | score prono 2-0",
+      "cote": 1.47,
+      "mise": 25.0,
+      "statut": "Gagné",
+      "net": 11.75,
+      "retour": 36.75,
+      "resultat": "3-2, bbc.com + skysports.com"
+     },
+     {
+      "date": "2026-10-31",
+      "sport": "Foot",
+      "competition": "Premier League J10",
+      "match": "Tottenham - Crystal Palace",
+      "pari": "Tottenham (1N2) | score prono 2-1",
+      "cote": 1.52,
+      "mise": 35.0,
+      "statut": "Gagné",
+      "net": 18.2,
+      "retour": 53.2,
+      "resultat": "2-0, bbc.com + tottenhamhotspur.com"
+     },
+     {
+      "date": "2026-10-31",
+      "sport": "Foot",
+      "competition": "LaLiga J11",
+      "match": "Levante - Atletico Madrid",
+      "pari": "Atletico Madrid (1N2) | score prono 0-2",
+      "cote": 1.46,
+      "mise": 40.0,
+      "statut": "Gagné",
+      "net": 18.4,
+      "retour": 58.4,
+      "resultat": "0-2, levanteud.com + laliga.com/skysports.com"
+     },
      {
       "date": "2026-10-30",
       "sport": "Foot",
@@ -2104,82 +2973,38 @@
    "dernier_passage": null,
    "ok": true,
    "stats": {
-    "jour": {
-     "paris": 0,
-     "gagnes": 0,
-     "perdus": 0,
-     "annules": 0,
-     "attente": 0,
-     "mise": 0,
-     "mise_reglee": 0,
-     "net": 0,
-     "roi": null
-    },
-    "semaine": {
-     "paris": 21,
-     "gagnes": 7,
-     "perdus": 12,
-     "annules": 2,
-     "attente": 0,
-     "mise": 500.0,
-     "mise_reglee": 500.0,
-     "net": -117.3,
-     "roi": -23.46
-    },
-    "mois": {
-     "paris": 49,
-     "gagnes": 21,
-     "perdus": 26,
-     "annules": 2,
-     "attente": 0,
-     "mise": 1300.0,
-     "mise_reglee": 1300.0,
-     "net": -158.77,
-     "roi": -12.21
-    },
-    "annee": {
-     "paris": 49,
-     "gagnes": 21,
-     "perdus": 26,
-     "annules": 2,
-     "attente": 0,
-     "mise": 1300.0,
-     "mise_reglee": 1300.0,
-     "net": -158.77,
-     "roi": -12.21
-    },
     "total": {
-     "paris": 49,
-     "gagnes": 21,
-     "perdus": 26,
+     "paris": 53,
+     "gagnes": 24,
+     "perdus": 27,
      "annules": 2,
      "attente": 0,
-     "mise": 1300.0,
-     "mise_reglee": 1300.0,
-     "net": -158.77,
-     "roi": -12.21
+     "mise": 1400.0,
+     "mise_reglee": 1400.0,
+     "net": -121.77,
+     "roi": -8.7
     }
    },
    "detail": {
     "resume": {
-     "nb": 49,
-     "gagnes": 21,
-     "perdus": 26,
+     "nb": 53,
+     "gagnes": 24,
+     "perdus": 27,
      "annules": 2,
      "attente": 0,
-     "mise": 1300.0,
-     "mise_reglee": 1300.0,
-     "net": -158.77,
-     "roi": -12.21,
-     "winrate": 45
+     "mise": 1400.0,
+     "mise_reglee": 1400.0,
+     "net": -121.77,
+     "roi": -8.7,
+     "winrate": 47
     },
     "serie": {
      "type": "Gagné",
-     "n": 2
+     "n": 3
     },
     "serie_jours": {
-     "type": "négatif",
-     "n": 2
+     "type": "positif",
+     "n": 1
     },
     "courbe": [
      {
@@ -2233,12 +3058,24 @@
      {
       "t": "2026-10-30",
       "v": -158.77
+     },
+     {
+      "t": "2026-10-31",
+      "v": -121.77
      }
     ],
     "courbe_type": "net cumulé",
     "depart": null,
     "cagnotte": null,
     "par_jour": [
+     {
+      "jour": "2026-10-31",
+      "nb": 4,
+      "mise": 100.0,
+      "net": 37.0,
+      "regles": 4,
+      "attente": 0
+     },
      {
       "jour": "2026-10-30",
       "nb": 4,
@@ -2347,19 +3184,71 @@
     "par_sport": [
      {
       "sport": "Tennis",
-      "nb": 49,
-      "gagnes": 21,
-      "perdus": 26,
+      "nb": 53,
+      "gagnes": 24,
+      "perdus": 27,
       "annules": 2,
       "attente": 0,
-      "mise": 1300.0,
-      "mise_reglee": 1300.0,
-      "net": -158.77,
-      "roi": -12.21,
-      "winrate": 45
+      "mise": 1400.0,
+      "mise_reglee": 1400.0,
+      "net": -121.77,
+      "roi": -8.7,
+      "winrate": 47
      }
     ],
     "paris": [
+     {
+      "date": "2026-10-31",
+      "sport": "Tennis",
+      "competition": "Simple",
+      "match": "Alcaraz (vs Medvedev)",
+      "pari": "Simple : Alcaraz (vs Medvedev)",
+      "cote": 1.4,
+      "mise": 25.0,
+      "statut": "Gagné",
+      "net": 10.0,
+      "retour": 35.0,
+      "resultat": "Gagné"
+     },
+     {
+      "date": "2026-10-31",
+      "sport": "Tennis",
+      "competition": "Simple",
+      "match": "Lehecka (vs Struff)",
+      "pari": "Simple : Lehecka (vs Struff)",
+      "cote": 1.4,
+      "mise": 25.0,
+      "statut": "Gagné",
+      "net": 10.0,
+      "retour": 35.0,
+      "resultat": "Gagné"
+     },
+     {
+      "date": "2026-10-31",
+      "sport": "Tennis",
+      "competition": "Simple",
+      "match": "Vacherot (vs Fritz)",
+      "pari": "Simple : Vacherot (vs Fritz)",
+      "cote": 3.35,
+      "mise": 20.0,
+      "statut": "Gagné",
+      "net": 47.0,
+      "retour": 67.0,
+      "resultat": "Gagné"
+     },
+     {
+      "date": "2026-10-31",
+      "sport": "Tennis",
+      "competition": "Simple",
+      "match": "Quevedo (vs Tagger)",
+      "pari": "Simple : Quevedo (vs Tagger)",
+      "cote": 2.7,
+      "mise": 30.0,
+      "statut": "Perdu",
+      "net": -30.0,
+      "retour": 0.0,
+      "resultat": "Perdu"
+     },
      {
       "date": "2026-10-30",
       "sport": "Tennis",
@@ -3009,74 +3898,30 @@
    "dernier_passage": null,
    "ok": true,
    "stats": {
-    "jour": {
-     "paris": 0,
-     "gagnes": 0,
-     "perdus": 0,
-     "annules": 0,
-     "attente": 0,
-     "mise": 0,
-     "mise_reglee": 0,
-     "net": 0,
-     "roi": null
-    },
-    "semaine": {
-     "paris": 19,
-     "gagnes": 12,
-     "perdus": 7,
-     "annules": 0,
-     "attente": 0,
-     "mise": 500.0,
-     "mise_reglee": 500.0,
-     "net": -15.4,
-     "roi": -3.08
-    },
-    "mois": {
-     "paris": 45,
-     "gagnes": 31,
-     "perdus": 14,
-     "annules": 0,
-     "attente": 0,
-     "mise": 1100.0,
-     "mise_reglee": 1100.0,
-     "net": 55.65,
-     "roi": 5.06
-    },
-    "annee": {
-     "paris": 45,
-     "gagnes": 31,
-     "perdus": 14,
-     "annules": 0,
-     "attente": 0,
-     "mise": 1100.0,
-     "mise_reglee": 1100.0,
-     "net": 55.65,
-     "roi": 5.06
-    },
     "total": {
-     "paris": 45,
-     "gagnes": 31,
-     "perdus": 14,
+     "paris": 47,
+     "gagnes": 32,
+     "perdus": 15,
      "annules": 0,
      "attente": 0,
-     "mise": 1100.0,
-     "mise_reglee": 1100.0,
-     "net": 55.65,
-     "roi": 5.06
+     "mise": 1200.0,
+     "mise_reglee": 1200.0,
+     "net": 27.65,
+     "roi": 2.3
     }
    },
    "detail": {
     "resume": {
-     "nb": 45,
-     "gagnes": 31,
-     "perdus": 14,
+     "nb": 47,
+     "gagnes": 32,
+     "perdus": 15,
      "annules": 0,
      "attente": 0,
-     "mise": 1100.0,
-     "mise_reglee": 1100.0,
-     "net": 55.65,
-     "roi": 5.06,
-     "winrate": 69
+     "mise": 1200.0,
+     "mise_reglee": 1200.0,
+     "net": 27.65,
+     "roi": 2.3,
+     "winrate": 68
     },
     "serie": {
      "type": "Gagné",
@@ -3084,7 +3929,7 @@
     },
     "serie_jours": {
      "type": "négatif",
-     "n": 1
+     "n": 2
     },
     "courbe": [
      {
@@ -3130,12 +3975,24 @@
      {
       "t": "2026-10-30",
       "v": 55.65
+     },
+     {
+      "t": "2026-10-31",
+      "v": 27.65
      }
     ],
     "courbe_type": "net cumulé",
     "depart": null,
     "cagnotte": null,
     "par_jour": [
+     {
+      "jour": "2026-10-31",
+      "nb": 2,
+      "mise": 100.0,
+      "net": -28.0,
+      "regles": 2,
+      "attente": 0
+     },
      {
       "jour": "2026-10-30",
       "nb": 4,
@@ -3228,19 +4085,45 @@
     "par_sport": [
      {
       "sport": "Basket",
-      "nb": 45,
-      "gagnes": 31,
-      "perdus": 14,
+      "nb": 47,
+      "gagnes": 32,
+      "perdus": 15,
       "annules": 0,
       "attente": 0,
-      "mise": 1100.0,
-      "mise_reglee": 1100.0,
-      "net": 55.65,
-      "roi": 5.06,
-      "winrate": 69
+      "mise": 1200.0,
+      "mise_reglee": 1200.0,
+      "net": 27.65,
+      "roi": 2.3,
+      "winrate": 68
      }
     ],
     "paris": [
+     {
+      "date": "2026-10-31",
+      "sport": "Basket",
+      "competition": "LBA Serie A J6",
+      "match": "Treviso – Reggio Emilia",
+      "pari": "20h30 | score prono 88-77",
+      "cote": 1.44,
+      "mise": 50.0,
+      "statut": "Gagné",
+      "net": 22.0,
+      "retour": 72.0,
+      "resultat": "81-68"
+     },
+     {
+      "date": "2026-10-31",
+      "sport": "Basket",
+      "competition": "Liga ACB J6",
+      "match": "Leyma Coruña – La Laguna Tenerife",
+      "pari": "21h00 | score prono 79-90",
+      "cote": 1.44,
+      "mise": 50.0,
+      "statut": "Perdu",
+      "net": -50.0,
+      "retour": 0.0,
+      "resultat": null
+     },
      {
       "date": "2026-10-30",
       "sport": "Basket",
@@ -3838,82 +4721,38 @@
    "dernier_passage": null,
    "ok": true,
    "stats": {
-    "jour": {
-     "paris": 0,
-     "gagnes": 0,
-     "perdus": 0,
-     "annules": 0,
-     "attente": 0,
-     "mise": 0,
-     "mise_reglee": 0,
-     "net": 0,
-     "roi": null
-    },
-    "semaine": {
-     "paris": 20,
-     "gagnes": 14,
-     "perdus": 6,
-     "annules": 0,
-     "attente": 0,
-     "mise": 500.0,
-     "mise_reglee": 500.0,
-     "net": 192.5,
-     "roi": 38.5
-    },
-    "mois": {
-     "paris": 99,
-     "gagnes": 50,
-     "perdus": 48,
-     "annules": 1,
-     "attente": 0,
-     "mise": 1300.0,
-     "mise_reglee": 1300.0,
-     "net": 25.4,
-     "roi": 1.95
-    },
-    "annee": {
-     "paris": 99,
-     "gagnes": 50,
-     "perdus": 48,
-     "annules": 1,
-     "attente": 0,
-     "mise": 1300.0,
-     "mise_reglee": 1300.0,
-     "net": 25.4,
-     "roi": 1.95
-    },
     "total": {
-     "paris": 99,
-     "gagnes": 50,
-     "perdus": 48,
+     "paris": 103,
+     "gagnes": 52,
+     "perdus": 50,
      "annules": 1,
      "attente": 0,
-     "mise": 1300.0,
-     "mise_reglee": 1300.0,
-     "net": 25.4,
-     "roi": 1.95
+     "mise": 1400.0,
+     "mise_reglee": 1400.0,
+     "net": 98.9,
+     "roi": 7.06
     }
    },
    "detail": {
     "resume": {
-     "nb": 99,
-     "gagnes": 50,
-     "perdus": 48,
+     "nb": 103,
+     "gagnes": 52,
+     "perdus": 50,
      "annules": 1,
      "attente": 0,
-     "mise": 1300.0,
-     "mise_reglee": 1300.0,
-     "net": 25.4,
-     "roi": 1.95,
+     "mise": 1400.0,
+     "mise_reglee": 1400.0,
+     "net": 98.9,
+     "roi": 7.06,
      "winrate": 51
     },
     "serie": {
-     "type": "Perdu",
+     "type": "Gagné",
      "n": 1
     },
     "serie_jours": {
      "type": "positif",
-     "n": 2
+     "n": 3
     },
     "courbe": [
      {
@@ -3967,12 +4806,24 @@
      {
       "t": "2026-10-30",
       "v": 25.4
+     },
+     {
+      "t": "2026-10-31",
+      "v": 98.9
      }
     ],
     "courbe_type": "net cumulé",
     "depart": null,
     "cagnotte": null,
     "par_jour": [
+     {
+      "jour": "2026-10-31",
+      "nb": 4,
+      "mise": 100.0,
+      "net": 73.5,
+      "regles": 4,
+      "attente": 0
+     },
      {
       "jour": "2026-10-30",
       "nb": 4,
@@ -4081,19 +4932,71 @@
     "par_sport": [
      {
       "sport": "Hippisme",
-      "nb": 99,
-      "gagnes": 50,
-      "perdus": 48,
+      "nb": 103,
+      "gagnes": 52,
+      "perdus": 50,
       "annules": 1,
       "attente": 0,
-      "mise": 1300.0,
-      "mise_reglee": 1300.0,
-      "net": 25.4,
-      "roi": 1.95,
+      "mise": 1400.0,
+      "mise_reglee": 1400.0,
+      "net": 98.9,
+      "roi": 7.06,
       "winrate": 51
      }
     ],
     "paris": [
+     {
+      "date": "2026-10-31",
+      "sport": "Hippisme",
+      "competition": "R2C4 Angers, Prix Tello (plat, 9 partants, 3 places)",
+      "match": "R2C4 Angers, Prix Tello (plat, 9 partants, 3 places) — 3 VICTORSTRUNG",
+      "pari": "Simple placé 3 VICTORSTRUNG | prono trio 3-7-6",
+      "cote": 3.3,
+      "mise": 20.0,
+      "statut": "Gagné",
+      "net": 46.0,
+      "retour": 66.0,
+      "resultat": "Placé (3e), placé 1,20"
+     },
+     {
+      "date": "2026-10-31",
+      "sport": "Hippisme",
+      "competition": "R1C4 Deauville, Prix Zeddaan (plat, 7 partants, 2 places)",
+      "match": "R1C4 Deauville, Prix Zeddaan (plat, 7 partants, 2 places) — 5 MOONDANCE",
+      "pari": "Simple placé 5 MOONDANCE | prono trio 1-5-7",
+      "cote": 5.4,
+      "mise": 25.0,
+      "statut": "Perdu",
+      "net": -25.0,
+      "retour": 0.0,
+      "resultat": "Perdu (4e, 2 places payées)"
+     },
+     {
+      "date": "2026-10-31",
+      "sport": "Hippisme",
+      "competition": "R1C2 Deauville, Prix La Bamba (plat, 11 partants, 3 places)",
+      "match": "R1C2 Deauville, Prix La Bamba (plat, 11 partants, 3 places) — 11 DIVINA FE",
+      "pari": "Simple placé 11 DIVINA FE | prono trio 11-5-4",
+      "cote": 4.3,
+      "mise": 25.0,
+      "statut": "Gagné",
+      "net": 82.5,
+      "retour": 107.5,
+      "resultat": "Placé (1re), placé 1,30"
+     },
+     {
+      "date": "2026-10-31",
+      "sport": "Hippisme",
+      "competition": "R1C1 Deauville, Prix Nonoalco (plat, 8 partants, 3 places)",
+      "match": "R1C1 Deauville, Prix Nonoalco (plat, 8 partants, 3 places) — 5 CALYX EXPRESS",
+      "pari": "Simple placé 5 CALYX EXPRESS | prono trio 5-1-3",
+      "cote": 2.1,
+      "mise": 30.0,
+      "statut": "Perdu",
+      "net": -30.0,
+      "retour": 0.0,
+      "resultat": "Perdu (6e)"
+     },
      {
       "date": "2026-10-30",
       "sport": "Hippisme",
@@ -5393,82 +6296,38 @@
    "dernier_passage": null,
    "ok": true,
    "stats": {
-    "jour": {
-     "paris": 0,
-     "gagnes": 0,
-     "perdus": 0,
-     "annules": 0,
-     "attente": 0,
-     "mise": 0,
-     "mise_reglee": 0,
-     "net": 0,
-     "roi": null
-    },
-    "semaine": {
-     "paris": 31,
-     "gagnes": 18,
-     "perdus": 6,
-     "annules": 0,
-     "attente": 7,
-     "mise": 500.0,
-     "mise_reglee": 400.0,
-     "net": -8.84,
-     "roi": -2.21
-    },
-    "mois": {
-     "paris": 31,
-     "gagnes": 18,
-     "perdus": 6,
-     "annules": 0,
-     "attente": 7,
-     "mise": 500.0,
-     "mise_reglee": 400.0,
-     "net": -8.84,
-     "roi": -2.21
-    },
-    "annee": {
-     "paris": 31,
-     "gagnes": 18,
-     "perdus": 6,
-     "annules": 0,
-     "attente": 7,
-     "mise": 500.0,
-     "mise_reglee": 400.0,
-     "net": -8.84,
-     "roi": -2.21
-    },
     "total": {
-     "paris": 31,
-     "gagnes": 18,
-     "perdus": 6,
+     "paris": 38,
+     "gagnes": 24,
+     "perdus": 7,
      "annules": 0,
      "attente": 7,
-     "mise": 500.0,
-     "mise_reglee": 400.0,
-     "net": -8.84,
-     "roi": -2.21
+     "mise": 600.0,
+     "mise_reglee": 500.0,
+     "net": -7.14,
+     "roi": -1.43
     }
    },
    "detail": {
     "resume": {
-     "nb": 31,
-     "gagnes": 18,
-     "perdus": 6,
+     "nb": 38,
+     "gagnes": 24,
+     "perdus": 7,
      "annules": 0,
      "attente": 7,
-     "mise": 500.0,
-     "mise_reglee": 400.0,
-     "net": -8.84,
-     "roi": -2.21,
-     "winrate": 75
+     "mise": 600.0,
+     "mise_reglee": 500.0,
+     "net": -7.14,
+     "roi": -1.43,
+     "winrate": 77
     },
     "serie": {
      "type": "Gagné",
-     "n": 6
+     "n": 3
     },
     "serie_jours": {
      "type": "positif",
-     "n": 1
+     "n": 2
     },
     "courbe": [
      {
@@ -5486,6 +6345,10 @@
      {
       "t": "2026-10-29",
       "v": -8.84
+     },
+     {
+      "t": "2026-10-30",
+      "v": -7.14
      }
     ],
     "courbe_type": "net cumulé",
@@ -5493,12 +6356,20 @@
     "cagnotte": null,
     "par_jour": [
      {
-      "jour": "2026-10-30",
+      "jour": "2026-10-31",
       "nb": 7,
       "mise": 100.0,
       "net": 0.0,
       "regles": 0,
       "attente": 7
+     },
+     {
+      "jour": "2026-10-30",
+      "nb": 7,
+      "mise": 100.0,
+      "net": 1.7,
+      "regles": 7,
+      "attente": 0
      },
      {
       "jour": "2026-10-29",
@@ -5536,42 +6407,42 @@
     "par_sport": [
      {
       "sport": "Foot",
-      "nb": 14,
-      "gagnes": 9,
-      "perdus": 1,
+      "nb": 19,
+      "gagnes": 12,
+      "perdus": 2,
       "annules": 0,
-      "attente": 4,
-      "mise": 260.0,
-      "mise_reglee": 200.0,
-      "net": 34.91,
-      "roi": 17.46,
-      "winrate": 90
+      "attente": 5,
+      "mise": 340.0,
+      "mise_reglee": 260.0,
+      "net": 29.61,
+      "roi": 11.39,
+      "winrate": 86
      },
      {
       "sport": "Tennis",
-      "nb": 8,
-      "gagnes": 5,
+      "nb": 9,
+      "gagnes": 6,
       "perdus": 2,
       "annules": 0,
       "attente": 1,
-      "mise": 100.0,
-      "mise_reglee": 90.0,
-      "net": -4.4,
-      "roi": -4.89,
-      "winrate": 71
+      "mise": 110.0,
+      "mise_reglee": 100.0,
+      "net": -3.4,
+      "roi": -3.4,
+      "winrate": 75
      },
      {
       "sport": "Basket",
-      "nb": 7,
-      "gagnes": 4,
+      "nb": 8,
+      "gagnes": 6,
       "perdus": 1,
       "annules": 0,
-      "attente": 2,
-      "mise": 95.0,
-      "mise_reglee": 65.0,
-      "net": 5.65,
-      "roi": 8.69,
-      "winrate": 80
+      "attente": 1,
+      "mise": 105.0,
+      "mise_reglee": 95.0,
+      "net": 11.65,
+      "roi": 12.26,
+      "winrate": 86
      },
      {
       "sport": "Multi (combiné)",
@@ -5589,6 +6460,97 @@
     ],
     "paris": [
      {
+      "date": "2026-10-31",
+      "sport": "Basket",
+      "competition": "Liga ENDESA",
+      "match": "Leyma Coruna - CB Canarias",
+      "pari": "Victoire Canarias (simple)",
+      "cote": 1.3,
+      "mise": 10.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
+     {
+      "date": "2026-10-31",
+      "sport": "Tennis",
+      "competition": "ATP Vienne",
+      "match": "Alexander Zverev - Alex De Minaur",
+      "pari": "Victoire Zverev (simple)",
+      "cote": 1.35,
+      "mise": 10.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
+     {
+      "date": "2026-10-31",
+      "sport": "Foot",
+      "competition": "HNL",
+      "match": "Hajduk Split - HNK Gorica",
+      "pari": "Victoire Hajduk (simple)",
+      "cote": 1.27,
+      "mise": 15.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
+     {
+      "date": "2026-10-31",
+      "sport": "Foot",
+      "competition": "Super League (GRE)",
+      "match": "Kifisia FC - Olympiakos",
+      "pari": "Victoire Olympiakos (simple)",
+      "cote": 1.38,
+      "mise": 15.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
+     {
+      "date": "2026-10-31",
+      "sport": "Foot",
+      "competition": "LaLiga",
+      "match": "Levante - Atletico Madrid",
+      "pari": "Victoire Atletico (simple)",
+      "cote": 1.46,
+      "mise": 15.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
+     {
+      "date": "2026-10-31",
+      "sport": "Foot",
+      "competition": "Süper Lig",
+      "match": "Fenerbahce - Göztepe",
+      "pari": "Victoire Fenerbahce (simple)",
+      "cote": 1.29,
+      "mise": 15.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
+     {
+      "date": "2026-10-31",
+      "sport": "Foot",
+      "competition": "Bundesliga",
+      "match": "Bayern Munich - Borussia Dortmund",
+      "pari": "Victoire Bayern (simple)",
+      "cote": 1.28,
+      "mise": 20.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
+     {
       "date": "2026-10-30",
       "sport": "Foot",
       "competition": "Premier League (UKR)",
@@ -5596,10 +6558,10 @@
       "pari": "Victoire Shakhtar (simple)",
       "cote": 1.07,
       "mise": 10.0,
-      "statut": "En attente",
-      "net": null,
-      "retour": null,
-      "resultat": null
+      "statut": "Gagné",
+      "net": 0.7,
+      "retour": 10.7,
+      "resultat": "2-0"
      },
      {
       "date": "2026-10-30",
@@ -5609,10 +6571,10 @@
       "pari": "Victoire Zverev (simple)",
       "cote": 1.1,
       "mise": 10.0,
-      "statut": "En attente",
-      "net": null,
-      "retour": null,
-      "resultat": null
+      "statut": "Gagné",
+      "net": 1.0,
+      "retour": 11.0,
+      "resultat": "6-0 6-2 (Zverev)"
      },
      {
       "date": "2026-10-30",
@@ -5622,10 +6584,10 @@
       "pari": "Victoire Sporting (simple)",
       "cote": 1.24,
       "mise": 15.0,
-      "statut": "En attente",
-      "net": null,
-      "retour": null,
-      "resultat": null
+      "statut": "Gagné",
+      "net": 3.6,
+      "retour": 18.6,
+      "resultat": "0-2"
      },
      {
       "date": "2026-10-30",
@@ -5635,10 +6597,10 @@
       "pari": "Victoire Villarreal (simple)",
       "cote": 1.35,
       "mise": 15.0,
-      "statut": "En attente",
-      "net": null,
-      "retour": null,
-      "resultat": null
+      "statut": "Perdu",
+      "net": -15.0,
+      "retour": 0.0,
+      "resultat": "0-1"
      },
      {
       "date": "2026-10-30",
@@ -5648,10 +6610,10 @@
       "pari": "Victoire PSG (simple)",
       "cote": 1.27,
       "mise": 20.0,
-      "statut": "En attente",
-      "net": null,
-      "retour": null,
-      "resultat": null
+      "statut": "Gagné",
+      "net": 5.4,
+      "retour": 25.4,
+      "resultat": "1-5"
      },
      {
       "date": "2026-10-30",
@@ -5661,10 +6623,10 @@
       "pari": "Victoire Zalgiris (simple)",
       "cote": 1.27,
       "mise": 15.0,
-      "statut": "En attente",
-      "net": null,
-      "retour": null,
-      "resultat": null
+      "statut": "Gagné",
+      "net": 4.05,
+      "retour": 19.05,
+      "resultat": "87-80"
      },
      {
       "date": "2026-10-30",
@@ -5674,10 +6636,10 @@
       "pari": "Victoire Olympiakos (simple)",
       "cote": 1.13,
       "mise": 15.0,
-      "statut": "En attente",
-      "net": null,
-      "retour": null,
-      "resultat": null
+      "statut": "Gagné",
+      "net": 1.95,
+      "retour": 16.95,
+      "resultat": "84-78"
      },
      {
       "date": "2026-10-29",
@@ -5994,11 +6956,5 @@
     ]
    }
   }
- ],
- "saison": {
-  "actif": false,
-  "nom": "Saison 0",
-  "debut": "2026-11-01",
-  "archive_jusqu_au": "2026-10-31"
- }
+ ]
 }
