@@ -112,7 +112,9 @@
     tabs(true);
     var lab = ((DATA.periodes || []).filter(function (p) { return p.id === periode; })[0] || {}).label || "";
     var h = "";
-    var paris = (DATA.paris || []).map(function (r, i) { return { r: r, i: i }; });
+    var tous = (DATA.paris || []).map(function (r, i) { return { r: r, i: i }; });
+    var paris = tous.filter(function (o) { return !o.r.hors_competition; });
+    var hors = tous.filter(function (o) { return o.r.hors_competition; });
     paris.sort(function (a, b) {
       var ra = a.r.ok && a.r.stats[periode] ? a.r.stats[periode].roi : null, rb = b.r.ok && b.r.stats[periode] ? b.r.stats[periode].roi : null;
       if (ra == null && rb == null) return 0; if (ra == null) return 1; if (rb == null) return -1; return rb - ra;
@@ -124,6 +126,10 @@
       var ok = o.r.ok && o.r.stats[periode] && o.r.stats[periode].roi != null;
       h += parisCard(o.r, ok ? ++rang : 0, o.i);
     });
+    if (hors.length) {
+      h += "<h2>Hors compétition<small>tableau à part, pas dans le classement</small></h2>";
+      hors.forEach(function (o) { h += parisCard(o.r, 0, o.i); });
+    }
     var mt5 = DATA.mt5 || [], totPnl = 0, n = 0;
     mt5.forEach(function (r) { if (r.ok && r.stats[periode]) { totPnl += r.stats[periode].pnl || 0; n++; } });
     h += "<h2>Robots de trading (MT5 démo)" + (n ? '<small class="' + cls(totPnl) + '">' + eur(totPnl, true) + " · " + esc(lab) + "</small>" : "") + "</h2>";
