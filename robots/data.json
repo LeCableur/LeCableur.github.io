@@ -1,12 +1,12 @@
 {
  "version": 2,
- "updated_at": "2026-11-18T00:38:36+01:00",
- "updated_label": "18/11/2026 à 00:38 (heure de Paris)",
+ "updated_at": "2026-11-19T00:38:39+01:00",
+ "updated_label": "19/11/2026 à 00:38 (heure de Paris)",
  "periodes": [
   {
    "id": "jour",
    "label": "Aujourd'hui",
-   "depuis": "2026-11-18"
+   "depuis": "2026-11-19"
   },
   {
    "id": "semaine",
@@ -24,7 +24,7 @@
    "depuis": "2026-01-01"
   }
  ],
- "tour_lue_le": "2026-11-18T00:38:29+01:00",
+ "tour_lue_le": "2026-11-19T00:38:31+01:00",
  "mt5": [
   {
    "nom": "Swing",
@@ -243,6 +243,12 @@
       "lu_le": "2026-11-18T00:38:29+01:00",
       "solde": 2971.2,
       "equite": 2971.2
+     },
+     {
+      "jour": "2026-11-19",
+      "lu_le": "2026-11-19T00:38:31+01:00",
+      "solde": 2971.2,
+      "equite": 2971.2
      }
     ],
     "trades": [
@@ -268,13 +274,13 @@
    "desc": "Day trading (M15)",
    "type": "démo",
    "ok": true,
-   "solde": 2994.72,
-   "equite": 2994.72,
+   "solde": 3005.94,
+   "equite": 3005.94,
    "depart": 3000.0,
    "flottant": 0.0,
    "devise": "EUR",
-   "depuis_debut": -5.28,
-   "depuis_debut_pct": -0.18,
+   "depuis_debut": 5.94,
+   "depuis_debut_pct": 0.2,
    "positions": 0,
    "positions_detail": [],
    "simulation": false,
@@ -289,37 +295,37 @@
      "winrate": null
     },
     "semaine": {
-     "trades": 2,
-     "gagnes": 0,
+     "trades": 3,
+     "gagnes": 1,
      "perdus": 2,
-     "pnl": -60.28,
-     "pct": -2.01,
-     "winrate": 0
+     "pnl": -49.06,
+     "pct": -1.64,
+     "winrate": 33
     },
     "mois": {
-     "trades": 6,
-     "gagnes": 3,
-     "perdus": 3,
-     "pnl": -5.94,
-     "pct": -0.2,
-     "winrate": 50
-    },
-    "annee": {
      "trades": 7,
      "gagnes": 4,
      "perdus": 3,
-     "pnl": -5.28,
-     "pct": -0.18,
+     "pnl": 5.28,
+     "pct": 0.18,
      "winrate": 57
+    },
+    "annee": {
+     "trades": 8,
+     "gagnes": 5,
+     "perdus": 3,
+     "pnl": 5.94,
+     "pct": 0.2,
+     "winrate": 62
     }
    },
    "detail": {
-    "nb": 7,
-    "gagnes": 4,
+    "nb": 8,
+    "gagnes": 5,
     "perdus": 3,
-    "net": -5.28,
-    "winrate": 57,
-    "profit_factor": 0.92,
+    "net": 5.94,
+    "winrate": 62,
+    "profit_factor": 1.09,
     "profit_factor_info": null,
     "max_dd": 60.28,
     "max_dd_pct": 1.97,
@@ -381,6 +387,10 @@
      {
       "t": "2026-11-17T09:28",
       "v": 2994.72
+     },
+     {
+      "t": "2026-11-18T17:50",
+      "v": 3005.94
      }
     ],
     "historique": [
@@ -503,9 +513,28 @@
       "lu_le": "2026-11-18T00:38:29+01:00",
       "solde": 2994.72,
       "equite": 2994.72
+     },
+     {
+      "jour": "2026-11-19",
+      "lu_le": "2026-11-19T00:38:31+01:00",
+      "solde": 3005.94,
+      "equite": 3005.94
      }
     ],
     "trades": [
+     {
+      "fermeture": "2026-11-18T17:50:00+01:00",
+      "ouverture": "2026-11-18T16:45:00+01:00",
+      "ticket": 59402116616,
+      "symbole": "EURUSD",
+      "sens": "vente",
+      "volume": 0.3,
+      "prix_entree": 1.09662,
+      "prix_sortie": 1.09621,
+      "profit": 11.22,
+      "frais": 0.0,
+      "net": 11.22
+     },
      {
       "fermeture": "2026-11-17T09:28:55+01:00",
       "ouverture": "2026-11-17T09:00:00+01:00",
@@ -606,13 +635,13 @@
    "desc": "Scalping (M5)",
    "type": "démo",
    "ok": true,
-   "solde": 2970.44,
-   "equite": 2970.44,
+   "solde": 2940.77,
+   "equite": 2940.77,
    "depart": 3000.0,
    "flottant": 0.0,
    "devise": "EUR",
-   "depuis_debut": -29.56,
-   "depuis_debut_pct": -0.99,
+   "depuis_debut": -59.23,
+   "depuis_debut_pct": -1.97,
    "positions": 0,
    "positions_detail": [],
    "simulation": false,
@@ -627,40 +656,40 @@
      "winrate": null
     },
     "semaine": {
-     "trades": 0,
-     "gagnes": 0,
-     "perdus": 0,
-     "pnl": 0,
-     "pct": 0.0,
-     "winrate": null
-    },
-    "mois": {
-     "trades": 0,
-     "gagnes": 0,
-     "perdus": 0,
-     "pnl": 0,
-     "pct": 0.0,
-     "winrate": null
-    },
-    "annee": {
      "trades": 1,
      "gagnes": 0,
      "perdus": 1,
-     "pnl": -29.56,
+     "pnl": -29.67,
      "pct": -0.99,
+     "winrate": 0
+    },
+    "mois": {
+     "trades": 1,
+     "gagnes": 0,
+     "perdus": 1,
+     "pnl": -29.67,
+     "pct": -0.99,
+     "winrate": 0
+    },
+    "annee": {
+     "trades": 2,
+     "gagnes": 0,
+     "perdus": 2,
+     "pnl": -59.23,
+     "pct": -1.97,
      "winrate": 0
     }
    },
    "detail": {
-    "nb": 1,
+    "nb": 2,
     "gagnes": 0,
-    "perdus": 1,
-    "net": -29.56,
+    "perdus": 2,
+    "net": -59.23,
     "winrate": 0,
     "profit_factor": 0.0,
     "profit_factor_info": null,
-    "max_dd": 29.56,
-    "max_dd_pct": 0.99,
+    "max_dd": 59.23,
+    "max_dd_pct": 1.97,
     "meilleur": {
      "fermeture": "2026-10-30T15:57:26+01:00",
      "ouverture": "2026-10-30T15:45:00+01:00",
@@ -675,17 +704,17 @@
      "net": -29.56
     },
     "pire": {
-     "fermeture": "2026-10-30T15:57:26+01:00",
-     "ouverture": "2026-10-30T15:45:00+01:00",
-     "ticket": 59121593910,
+     "fermeture": "2026-11-18T10:58:52+01:00",
+     "ouverture": "2026-11-18T10:50:00+01:00",
+     "ticket": 59393252497,
      "symbole": "EURUSD",
      "sens": "vente",
-     "volume": 0.55,
-     "prix_entree": 1.11591,
-     "prix_sortie": 1.11651,
-     "profit": -29.56,
+     "volume": 0.88,
+     "prix_entree": 1.09716,
+     "prix_sortie": 1.09753,
+     "profit": -29.67,
      "frais": 0.0,
-     "net": -29.56
+     "net": -29.67
     },
     "courbe_solde": [
      {
@@ -695,6 +724,10 @@
      {
       "t": "2026-10-30T15:57",
       "v": 2970.44
+     },
+     {
+      "t": "2026-11-18T10:58",
+      "v": 2940.77
      }
     ],
     "historique": [
@@ -811,9 +844,28 @@
       "lu_le": "2026-11-18T00:38:29+01:00",
       "solde": 2970.44,
       "equite": 2970.44
+     },
+     {
+      "jour": "2026-11-19",
+      "lu_le": "2026-11-19T00:38:31+01:00",
+      "solde": 2940.77,
+      "equite": 2940.77
      }
     ],
     "trades": [
+     {
+      "fermeture": "2026-11-18T10:58:52+01:00",
+      "ouverture": "2026-11-18T10:50:00+01:00",
+      "ticket": 59393252497,
+      "symbole": "EURUSD",
+      "sens": "vente",
+      "volume": 0.88,
+      "prix_entree": 1.09716,
+      "prix_sortie": 1.09753,
+      "profit": -29.67,
+      "frais": 0.0,
+      "net": -29.67
+     },
      {
       "fermeture": "2026-10-30T15:57:26+01:00",
       "ouverture": "2026-10-30T15:45:00+01:00",
@@ -836,17 +888,17 @@
    "desc": "Robot IA Gemini",
    "type": "démo",
    "ok": true,
-   "solde": 3085.0,
-   "equite": 3106.2,
+   "solde": 3126.38,
+   "equite": 3126.38,
    "depart": 3000.0,
    "flottant": null,
    "devise": "EUR",
-   "depuis_debut": 106.2,
-   "depuis_debut_pct": 3.54,
-   "positions": 1,
+   "depuis_debut": 126.38,
+   "depuis_debut_pct": 4.21,
+   "positions": 0,
    "positions_detail": null,
    "simulation": false,
-   "dernier_passage": "18/11/2026 00:38",
+   "dernier_passage": "19/11/2026 00:38",
    "stats": {
     "jour": {
      "trades": 0,
@@ -857,37 +909,37 @@
      "winrate": null
     },
     "semaine": {
-     "trades": 2,
-     "gagnes": 2,
+     "trades": 3,
+     "gagnes": 3,
      "perdus": 0,
-     "pnl": 51.71,
-     "pct": 1.72,
+     "pnl": 93.09,
+     "pct": 3.1,
      "winrate": 100
     },
     "mois": {
-     "trades": 9,
-     "gagnes": 5,
+     "trades": 10,
+     "gagnes": 6,
      "perdus": 4,
-     "pnl": 85.0,
-     "pct": 2.83,
-     "winrate": 56
+     "pnl": 126.38,
+     "pct": 4.21,
+     "winrate": 60
     },
     "annee": {
-     "trades": 9,
-     "gagnes": 5,
+     "trades": 10,
+     "gagnes": 6,
      "perdus": 4,
-     "pnl": 85.0,
-     "pct": 2.83,
-     "winrate": 56
+     "pnl": 126.38,
+     "pct": 4.21,
+     "winrate": 60
     }
    },
    "detail": {
-    "nb": 9,
-    "gagnes": 5,
+    "nb": 10,
+    "gagnes": 6,
     "perdus": 4,
-    "net": 85.0,
-    "winrate": 56,
-    "profit_factor": 2.06,
+    "net": 126.38,
+    "winrate": 60,
+    "profit_factor": 2.58,
     "profit_factor_info": null,
     "max_dd": 50.62,
     "max_dd_pct": 1.69,
@@ -949,6 +1001,10 @@
      {
       "t": "2026-11-17T16:43",
       "v": 3085.0
+     },
+     {
+      "t": "2026-11-18T10:37",
+      "v": 3126.38
      }
     ],
     "historique": [
@@ -1071,9 +1127,24 @@
       "lu_le": "2026-11-18T00:38:29+01:00",
       "solde": 3085.0,
       "equite": 3106.2
+     },
+     {
+      "jour": "2026-11-19",
+      "lu_le": "2026-11-19T00:38:31+01:00",
+      "solde": 3126.38,
+      "equite": 3126.38
      }
     ],
     "trades": [
+     {
+      "fermeture": "2026-11-18T10:37:03",
+      "symbole": "EURUSD",
+      "sens": "sell",
+      "volume": 0.1,
+      "prix_sortie": 1.09709,
+      "ticket": "59379683993",
+      "net": 41.38
+     },
      {
       "fermeture": "2026-11-17T16:43:02",
       "symbole": "XAUUSD",
@@ -1166,7 +1237,7 @@
    "desc": "Robot Gemini sur la tour (cotes Winamax)",
    "type": "fictif",
    "multisport": true,
-   "dernier_passage": "18/11/2026 00:37 (Paris)",
+   "dernier_passage": "19/11/2026 00:37 (Paris)",
    "ok": true,
    "stats": {
     "jour": {
@@ -1181,69 +1252,69 @@
      "roi": null
     },
     "semaine": {
-     "paris": 12,
-     "gagnes": 7,
-     "perdus": 1,
+     "paris": 22,
+     "gagnes": 13,
+     "perdus": 3,
      "annules": 0,
-     "attente": 4,
-     "mise": 1124.0,
-     "mise_reglee": 724.0,
-     "net": 222.4,
-     "roi": 30.72
+     "attente": 6,
+     "mise": 1736.0,
+     "mise_reglee": 1336.0,
+     "net": 61.5,
+     "roi": 4.6
     },
     "mois": {
-     "paris": 93,
-     "gagnes": 43,
-     "perdus": 19,
+     "paris": 103,
+     "gagnes": 49,
+     "perdus": 21,
      "annules": 1,
-     "attente": 30,
-     "mise": 7772.0,
-     "mise_reglee": 5222.0,
-     "net": -136.3,
-     "roi": -2.61
+     "attente": 32,
+     "mise": 8384.0,
+     "mise_reglee": 5834.0,
+     "net": -297.2,
+     "roi": -5.09
     },
     "annee": {
-     "paris": 93,
-     "gagnes": 43,
-     "perdus": 19,
+     "paris": 103,
+     "gagnes": 49,
+     "perdus": 21,
      "annules": 1,
-     "attente": 30,
-     "mise": 7772.0,
-     "mise_reglee": 5222.0,
-     "net": -136.3,
-     "roi": -2.61
+     "attente": 32,
+     "mise": 8384.0,
+     "mise_reglee": 5834.0,
+     "net": -297.2,
+     "roi": -5.09
     },
     "total": {
-     "paris": 93,
-     "gagnes": 43,
-     "perdus": 19,
+     "paris": 103,
+     "gagnes": 49,
+     "perdus": 21,
      "annules": 1,
-     "attente": 30,
-     "mise": 7772.0,
-     "mise_reglee": 5222.0,
-     "net": -136.3,
-     "roi": -2.61
+     "attente": 32,
+     "mise": 8384.0,
+     "mise_reglee": 5834.0,
+     "net": -297.2,
+     "roi": -5.09
     }
    },
    "detail": {
     "resume": {
-     "nb": 93,
-     "gagnes": 43,
-     "perdus": 19,
+     "nb": 103,
+     "gagnes": 49,
+     "perdus": 21,
      "annules": 1,
-     "attente": 30,
-     "mise": 7772.0,
-     "mise_reglee": 5222.0,
-     "net": -136.3,
-     "roi": -2.61,
-     "winrate": 69
+     "attente": 32,
+     "mise": 8384.0,
+     "mise_reglee": 5834.0,
+     "net": -297.2,
+     "roi": -5.09,
+     "winrate": 70
     },
     "serie": {
      "type": "Gagné",
-     "n": 4
+     "n": 3
     },
     "serie_jours": {
-     "type": "négatif",
+     "type": "positif",
      "n": 1
     },
     "courbe": [
@@ -1309,7 +1380,11 @@
      },
      {
       "t": "2026-11-17",
-      "v": -136.3
+      "v": -204.3
+     },
+     {
+      "t": "2026-11-18",
+      "v": -297.2
      }
     ],
     "courbe_type": "net cumulé",
@@ -1317,12 +1392,20 @@
     "cagnotte": null,
     "par_jour": [
      {
+      "jour": "2026-11-18",
+      "nb": 10,
+      "mise": 612.0,
+      "net": -92.9,
+      "regles": 6,
+      "attente": 4
+     },
+     {
       "jour": "2026-11-17",
       "nb": 6,
       "mise": 512.0,
-      "net": 209.4,
-      "regles": 4,
-      "attente": 2
+      "net": 141.4,
+      "regles": 6,
+      "attente": 0
      },
      {
       "jour": "2026-11-16",
@@ -1448,81 +1531,81 @@
     "par_sport": [
      {
       "sport": "Football",
-      "nb": 22,
-      "gagnes": 12,
+      "nb": 24,
+      "gagnes": 14,
       "perdus": 8,
       "annules": 0,
       "attente": 2,
-      "mise": 1540.0,
-      "mise_reglee": 1340.0,
-      "net": -48.6,
-      "roi": -3.63,
-      "winrate": 60
+      "mise": 1640.0,
+      "mise_reglee": 1440.0,
+      "net": -29.1,
+      "roi": -2.02,
+      "winrate": 64
      },
      {
       "sport": "Tennis",
-      "nb": 18,
-      "gagnes": 10,
+      "nb": 19,
+      "gagnes": 11,
       "perdus": 3,
       "annules": 0,
       "attente": 5,
-      "mise": 1800.0,
-      "mise_reglee": 1200.0,
-      "net": -134.0,
-      "roi": -11.17,
-      "winrate": 77
+      "mise": 1900.0,
+      "mise_reglee": 1300.0,
+      "net": -117.0,
+      "roi": -9.0,
+      "winrate": 79
      },
      {
       "sport": "Hockey",
-      "nb": 16,
+      "nb": 18,
       "gagnes": 4,
-      "perdus": 1,
+      "perdus": 2,
       "annules": 0,
-      "attente": 11,
-      "mise": 1230.0,
-      "mise_reglee": 380.0,
-      "net": 6.9,
-      "roi": 1.82,
-      "winrate": 80
+      "attente": 12,
+      "mise": 1330.0,
+      "mise_reglee": 480.0,
+      "net": -93.1,
+      "roi": -19.4,
+      "winrate": 67
      },
      {
       "sport": "PMU",
-      "nb": 15,
-      "gagnes": 10,
-      "perdus": 4,
+      "nb": 17,
+      "gagnes": 11,
+      "perdus": 5,
       "annules": 1,
       "attente": 0,
-      "mise": 1400.0,
-      "mise_reglee": 1400.0,
-      "net": 345.0,
-      "roi": 24.64,
-      "winrate": 71
+      "mise": 1500.0,
+      "mise_reglee": 1500.0,
+      "net": 310.0,
+      "roi": 20.67,
+      "winrate": 69
      },
      {
       "sport": "Basket",
-      "nb": 15,
-      "gagnes": 3,
+      "nb": 17,
+      "gagnes": 4,
       "perdus": 0,
       "annules": 0,
-      "attente": 12,
-      "mise": 1200.0,
-      "mise_reglee": 300.0,
-      "net": 104.0,
-      "roi": 34.67,
+      "attente": 13,
+      "mise": 1300.0,
+      "mise_reglee": 400.0,
+      "net": 136.0,
+      "roi": 34.0,
       "winrate": 100
      },
      {
       "sport": "Quinté+ 8 chevaux",
-      "nb": 6,
-      "gagnes": 4,
+      "nb": 7,
+      "gagnes": 5,
       "perdus": 2,
       "annules": 0,
       "attente": 0,
-      "mise": 572.0,
-      "mise_reglee": 572.0,
-      "net": -379.6,
-      "roi": -66.36,
-      "winrate": 67
+      "mise": 684.0,
+      "mise_reglee": 684.0,
+      "net": -474.0,
+      "roi": -69.3,
+      "winrate": 71
      },
      {
       "sport": "Football américain",
@@ -1539,6 +1622,136 @@
      }
     ],
     "paris": [
+     {
+      "date": "2026-11-18",
+      "sport": "Quinté+ 8 chevaux",
+      "competition": "MAUQUENCHY - Quinté+ R1C1",
+      "match": "R1C1 MAUQUENCHY - GRAND NATIONAL DU TROT",
+      "pari": "Quinté+ combiné 8 chevaux (56 x 2 €) : 8 IALTO D'HERTALS - 13 IDEAL DU ROCHER - 9 ISOFOU DU CHENE - 12 JINGLE DU PONT - 14 HULYSSE DIGEO - 18 INA DU RIB - 6 IGUANE DE CAPONET - 1 KEMIA DU CHENE (Quinté+ combiné 8)",
+      "cote": null,
+      "mise": 112.0,
+      "statut": "Gagné",
+      "net": -94.4,
+      "retour": 17.6,
+      "resultat": "arrivee 2-1-14-12-8 ; 4/5 des 5 premiers dans mes 8 ; gagnant : e-Bonus 4sur5 x4 (4.40 EUR) ; retour 17.60 EUR pour 112 EUR"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "Hockey",
+      "competition": "NHL",
+      "match": "New Jersey Devils - Montreal Canadiens",
+      "pari": "New Jersey Devils (Résultat) (simple)",
+      "cote": 1.86,
+      "mise": 50.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "Hockey",
+      "competition": "Extraliga",
+      "match": "HC Ocelari Trinec - HC Olomouc",
+      "pari": "HC Ocelari Trinec (Résultat) (simple)",
+      "cote": 1.28,
+      "mise": 50.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": "non vérifié par le robot"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "Basket",
+      "competition": "NBA",
+      "match": "Miami Heat - Milwaukee Bucks",
+      "pari": "Miami Heat (Vainqueur) (simple)",
+      "cote": 1.1,
+      "mise": 50.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "Basket",
+      "competition": "Eurocoupe",
+      "match": "Buducnost - Slask",
+      "pari": "Buducnost (Vainqueur) (simple)",
+      "cote": 1.05,
+      "mise": 50.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "Tennis",
+      "competition": "Finals",
+      "match": "Carlos Alcaraz  - Daniil Medvedev",
+      "pari": "C. Alcaraz  (Vainqueur) (simple)",
+      "cote": 1.17,
+      "mise": 100.0,
+      "statut": "Gagné",
+      "net": 17.0,
+      "retour": 117.0,
+      "resultat": "1:0"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "BORELY (FRA)",
+      "match": "R6C1 BORELY - PRIX DU COTERAN",
+      "pari": "Simple placé n3 OSCAR DES CHARMES (Simple gagnant / simple placé) (simple)",
+      "cote": null,
+      "mise": 50.0,
+      "statut": "Gagné",
+      "net": 15.0,
+      "retour": 65.0,
+      "resultat": "arrivée 4-3-5-10-6 ; rapport 1.30 € pour 1 €"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "PAU (FRA)",
+      "match": "R2C1 PAU - PRIX DE BILHERES",
+      "pari": "Simple placé n3 ROMANUS PONTIFEX (Simple gagnant / simple placé) (simple)",
+      "cote": null,
+      "mise": 50.0,
+      "statut": "Perdu",
+      "net": -50.0,
+      "retour": 0.0,
+      "resultat": "arrivée 5-1-3-6-2"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "Football",
+      "competition": "Ligue des Champions (F)",
+      "match": "Chelsea (F) - Paris SG (F)",
+      "pari": "Chelsea (F) (Résultat) (simple)",
+      "cote": 1.23,
+      "mise": 50.0,
+      "statut": "Gagné",
+      "net": 11.5,
+      "retour": 61.5,
+      "resultat": "1:0"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "Football",
+      "competition": "Ligue des Champions (F)",
+      "match": "Real Madrid (F) - Inter (F)",
+      "pari": "Real Madrid (F) (Résultat) (simple)",
+      "cote": 1.16,
+      "mise": 50.0,
+      "statut": "Gagné",
+      "net": 8.0,
+      "retour": 58.0,
+      "resultat": "3:1"
+     },
      {
       "date": "2026-11-17",
       "sport": "Quinté+ 8 chevaux",
@@ -1560,10 +1773,10 @@
       "pari": "Boston Bruins (Vainqueur (prolong. incluses)) (simple)",
       "cote": 1.65,
       "mise": 100.0,
-      "statut": "En attente",
-      "net": null,
-      "retour": null,
-      "resultat": null
+      "statut": "Perdu",
+      "net": -100.0,
+      "retour": 0.0,
+      "resultat": "0:3"
      },
      {
       "date": "2026-11-17",
@@ -1573,10 +1786,10 @@
       "pari": "Los Angeles Lakers (Vainqueur (prolong. incluses)) (simple)",
       "cote": 1.32,
       "mise": 100.0,
-      "statut": "En attente",
-      "net": null,
-      "retour": null,
-      "resultat": null
+      "statut": "Gagné",
+      "net": 32.0,
+      "retour": 132.0,
+      "resultat": "118:114"
      },
      {
       "date": "2026-11-17",
@@ -2757,7 +2970,7 @@
    "desc": "Tous sports sur la tour, 100 € par sport et par jour",
    "type": "fictif",
    "multisport": true,
-   "dernier_passage": "18/11/2026 00:33 (Paris)",
+   "dernier_passage": "19/11/2026 00:31 (Paris)",
    "ok": true,
    "stats": {
     "jour": {
@@ -2772,62 +2985,62 @@
      "roi": null
     },
     "semaine": {
-     "paris": 20,
-     "gagnes": 6,
-     "perdus": 3,
+     "paris": 27,
+     "gagnes": 8,
+     "perdus": 6,
      "annules": 0,
-     "attente": 11,
-     "mise": 900.0,
-     "mise_reglee": 450.0,
-     "net": 25.0,
-     "roi": 5.56
+     "attente": 13,
+     "mise": 1300.0,
+     "mise_reglee": 750.0,
+     "net": -112.0,
+     "roi": -14.93
     },
     "mois": {
-     "paris": 154,
-     "gagnes": 62,
-     "perdus": 29,
-     "annules": 39,
-     "attente": 24,
-     "mise": 7600.0,
-     "mise_reglee": 6500.0,
-     "net": -132.5,
-     "roi": -2.04
+     "paris": 161,
+     "gagnes": 64,
+     "perdus": 32,
+     "annules": 46,
+     "attente": 19,
+     "mise": 8000.0,
+     "mise_reglee": 7150.0,
+     "net": -269.5,
+     "roi": -3.77
     },
     "annee": {
-     "paris": 154,
-     "gagnes": 62,
-     "perdus": 29,
-     "annules": 39,
-     "attente": 24,
-     "mise": 7600.0,
-     "mise_reglee": 6500.0,
-     "net": -132.5,
-     "roi": -2.04
+     "paris": 161,
+     "gagnes": 64,
+     "perdus": 32,
+     "annules": 46,
+     "attente": 19,
+     "mise": 8000.0,
+     "mise_reglee": 7150.0,
+     "net": -269.5,
+     "roi": -3.77
     },
     "total": {
-     "paris": 154,
-     "gagnes": 62,
-     "perdus": 29,
-     "annules": 39,
-     "attente": 24,
-     "mise": 7600.0,
-     "mise_reglee": 6500.0,
-     "net": -132.5,
-     "roi": -2.04
+     "paris": 161,
+     "gagnes": 64,
+     "perdus": 32,
+     "annules": 46,
+     "attente": 19,
+     "mise": 8000.0,
+     "mise_reglee": 7150.0,
+     "net": -269.5,
+     "roi": -3.77
     }
    },
    "detail": {
     "resume": {
-     "nb": 154,
-     "gagnes": 62,
-     "perdus": 29,
-     "annules": 39,
-     "attente": 24,
-     "mise": 7600.0,
-     "mise_reglee": 6500.0,
-     "net": -132.5,
-     "roi": -2.04,
-     "winrate": 68
+     "nb": 161,
+     "gagnes": 64,
+     "perdus": 32,
+     "annules": 46,
+     "attente": 19,
+     "mise": 8000.0,
+     "mise_reglee": 7150.0,
+     "net": -269.5,
+     "roi": -3.77,
+     "winrate": 67
     },
     "serie": {
      "type": "Perdu",
@@ -2835,7 +3048,7 @@
     },
     "serie_jours": {
      "type": "négatif",
-     "n": 2
+     "n": 4
     },
     "courbe": [
      {
@@ -2900,20 +3113,32 @@
      },
      {
       "t": "2026-11-17",
-      "v": 3867.5
+      "v": 3855.5
+     },
+     {
+      "t": "2026-11-18",
+      "v": 3730.5
      }
     ],
     "courbe_type": "cagnotte",
     "depart": 4000.0,
-    "cagnotte": 3867.5,
+    "cagnotte": 3730.5,
     "par_jour": [
+     {
+      "jour": "2026-11-18",
+      "nb": 7,
+      "mise": 400.0,
+      "net": -125.0,
+      "regles": 3,
+      "attente": 4
+     },
      {
       "jour": "2026-11-17",
       "nb": 8,
       "mise": 400.0,
-      "net": -43.0,
-      "regles": 6,
-      "attente": 2
+      "net": -55.0,
+      "regles": 8,
+      "attente": 0
      },
      {
       "jour": "2026-11-16",
@@ -2936,8 +3161,8 @@
       "nb": 10,
       "mise": 500.0,
       "net": -8.0,
-      "regles": 3,
-      "attente": 7
+      "regles": 10,
+      "attente": 0
      },
      {
       "jour": "2026-11-13",
@@ -3039,54 +3264,54 @@
     "par_sport": [
      {
       "sport": "Foot",
-      "nb": 32,
+      "nb": 34,
       "gagnes": 12,
       "perdus": 3,
-      "annules": 11,
+      "annules": 13,
       "attente": 6,
-      "mise": 1600.0,
-      "mise_reglee": 1300.0,
+      "mise": 1700.0,
+      "mise_reglee": 1400.0,
       "net": 99.0,
-      "roi": 7.62,
+      "roi": 7.07,
       "winrate": 80
      },
      {
-      "sport": "Tennis",
-      "nb": 32,
-      "gagnes": 13,
-      "perdus": 3,
-      "annules": 12,
-      "attente": 4,
-      "mise": 1600.0,
-      "mise_reglee": 1400.0,
-      "net": 109.0,
-      "roi": 7.79,
-      "winrate": 81
+      "sport": "Basket",
+      "nb": 34,
+      "gagnes": 14,
+      "perdus": 6,
+      "annules": 9,
+      "attente": 5,
+      "mise": 1700.0,
+      "mise_reglee": 1500.0,
+      "net": -34.5,
+      "roi": -2.3,
+      "winrate": 70
      },
      {
-      "sport": "Basket",
-      "nb": 32,
+      "sport": "Tennis",
+      "nb": 33,
       "gagnes": 13,
-      "perdus": 5,
-      "annules": 7,
-      "attente": 7,
-      "mise": 1600.0,
-      "mise_reglee": 1300.0,
-      "net": -22.5,
-      "roi": -1.73,
-      "winrate": 72
+      "perdus": 4,
+      "annules": 13,
+      "attente": 3,
+      "mise": 1700.0,
+      "mise_reglee": 1550.0,
+      "net": 9.0,
+      "roi": 0.58,
+      "winrate": 76
      },
      {
       "sport": "PMU",
-      "nb": 31,
-      "gagnes": 18,
-      "perdus": 13,
+      "nb": 33,
+      "gagnes": 19,
+      "perdus": 14,
       "annules": 0,
       "attente": 0,
-      "mise": 1500.0,
-      "mise_reglee": 1500.0,
-      "net": -178.0,
-      "roi": -11.87,
+      "mise": 1600.0,
+      "mise_reglee": 1600.0,
+      "net": -203.0,
+      "roi": -12.69,
       "winrate": 58
      },
      {
@@ -3094,16 +3319,107 @@
       "nb": 27,
       "gagnes": 6,
       "perdus": 5,
-      "annules": 9,
-      "attente": 7,
+      "annules": 11,
+      "attente": 5,
       "mise": 1300.0,
-      "mise_reglee": 1000.0,
+      "mise_reglee": 1100.0,
       "net": -140.0,
-      "roi": -14.0,
+      "roi": -12.73,
       "winrate": 55
      }
     ],
     "paris": [
+     {
+      "date": "2026-11-18",
+      "sport": "Basket",
+      "competition": "NBA",
+      "match": "Brooklyn Nets - Chicago Bulls",
+      "pari": "Vainqueur du match (prolongation incluse) : Brooklyn Nets",
+      "cote": 1.62,
+      "mise": 50.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "Basket",
+      "competition": "NBA",
+      "match": "Toronto Raptors - Washington Wizards",
+      "pari": "Vainqueur du match (prolongation incluse) : Toronto Raptors",
+      "cote": 1.35,
+      "mise": 50.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "Tennis",
+      "competition": "Nitto ATP Finals (ATP, Group Stage)",
+      "match": "Frances Tiafoe - Flavio Cobolli",
+      "pari": "Vainqueur du match : Flavio Cobolli",
+      "cote": 2.0,
+      "mise": 100.0,
+      "statut": "Perdu",
+      "net": -100.0,
+      "retour": 0.0,
+      "resultat": "vainqueur Frances Tiafoe"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "Foot",
+      "competition": "Bresil Serie A",
+      "match": "Remo - Chapecoense",
+      "pari": "Resultat du match (1N2, temps reglementaire) : Remo",
+      "cote": 1.41,
+      "mise": 50.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "Foot",
+      "competition": "Bresil Serie A",
+      "match": "Cruzeiro - Palmeiras",
+      "pari": "Resultat du match (1N2, temps reglementaire) : Cruzeiro",
+      "cote": 2.45,
+      "mise": 50.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R6C1 BORELY",
+      "match": "PRIX DU COTERAN (attele, 2300 m, 10 partants)",
+      "pari": "Simple gagnant (G<num>) ou simple place (P<num>) : Simple place n4 ODESSA ELLIS",
+      "cote": 0.0,
+      "mise": 50.0,
+      "statut": "Gagné",
+      "net": 25.0,
+      "retour": 75.0,
+      "resultat": "cheval n4 place, rapport 1.50"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R1C1 MAUQUENCHY",
+      "match": "GRAND NATIONAL DU TROT (attele, 2850 m, 18 partants)",
+      "pari": "Simple gagnant (G<num>) ou simple place (P<num>) : Simple place n8 IALTO D'HERTALS",
+      "cote": 0.0,
+      "mise": 50.0,
+      "statut": "Perdu",
+      "net": -50.0,
+      "retour": 0.0,
+      "resultat": "n8 hors des places"
+     },
      {
       "date": "2026-11-17",
       "sport": "Tennis",
@@ -3151,10 +3467,10 @@
       "pari": "Vainqueur du match (prolongation incluse) : Charlotte Hornets",
       "cote": 2.9,
       "mise": 50.0,
-      "statut": "En attente",
-      "net": null,
-      "retour": null,
-      "resultat": null
+      "statut": "Perdu",
+      "net": -50.0,
+      "retour": 0.0,
+      "resultat": "score 118-114"
      },
      {
       "date": "2026-11-17",
@@ -3164,10 +3480,10 @@
       "pari": "Vainqueur du match (prolongation incluse) : Virginia Cavaliers",
       "cote": 1.76,
       "mise": 50.0,
-      "statut": "En attente",
-      "net": null,
-      "retour": null,
-      "resultat": null
+      "statut": "Gagné",
+      "net": 38.0,
+      "retour": 88.0,
+      "resultat": "score 85-65"
      },
      {
       "date": "2026-11-17",
@@ -3502,10 +3818,10 @@
       "pari": "Vainqueur du match (prolongation incluse) : Cornell Big Red",
       "cote": 1.3,
       "mise": 50.0,
-      "statut": "En attente",
-      "net": null,
-      "retour": null,
-      "resultat": null
+      "statut": "Annulé",
+      "net": 0.0,
+      "retour": 50.0,
+      "resultat": "resultat introuvable apres 4 jours : mise rendue"
      },
      {
       "date": "2026-11-14",
@@ -3515,10 +3831,10 @@
       "pari": "Vainqueur du match (prolongation incluse) : Salon Vilpas",
       "cote": 1.3,
       "mise": 50.0,
-      "statut": "En attente",
-      "net": null,
-      "retour": null,
-      "resultat": null
+      "statut": "Annulé",
+      "net": 0.0,
+      "retour": 50.0,
+      "resultat": "resultat introuvable apres 4 jours : mise rendue"
      },
      {
       "date": "2026-11-14",
@@ -3528,10 +3844,10 @@
       "pari": "Resultat du match (1N2, temps reglementaire) : KKS Czarni Sosnowiec (W)",
       "cote": 1.3,
       "mise": 50.0,
-      "statut": "En attente",
-      "net": null,
-      "retour": null,
-      "resultat": null
+      "statut": "Annulé",
+      "net": 0.0,
+      "retour": 50.0,
+      "resultat": "resultat introuvable apres 4 jours : mise rendue"
      },
      {
       "date": "2026-11-14",
@@ -3541,10 +3857,10 @@
       "pari": "Resultat du match (1N2, temps reglementaire) : Borås HC",
       "cote": 1.4,
       "mise": 50.0,
-      "statut": "En attente",
-      "net": null,
-      "retour": null,
-      "resultat": null
+      "statut": "Annulé",
+      "net": 0.0,
+      "retour": 50.0,
+      "resultat": "resultat introuvable apres 4 jours : mise rendue"
      },
      {
       "date": "2026-11-14",
@@ -3554,10 +3870,10 @@
       "pari": "Resultat du match (1N2, temps reglementaire) : Tranås AIF",
       "cote": 1.27,
       "mise": 50.0,
-      "statut": "En attente",
-      "net": null,
-      "retour": null,
-      "resultat": null
+      "statut": "Annulé",
+      "net": 0.0,
+      "retour": 50.0,
+      "resultat": "resultat introuvable apres 4 jours : mise rendue"
      },
      {
       "date": "2026-11-14",
@@ -3593,10 +3909,10 @@
       "pari": "Vainqueur du match : Jonas Forejtek",
       "cote": 1.42,
       "mise": 50.0,
-      "statut": "En attente",
-      "net": null,
-      "retour": null,
-      "resultat": null
+      "statut": "Annulé",
+      "net": 0.0,
+      "retour": 50.0,
+      "resultat": "resultat introuvable apres 4 jours : mise rendue"
      },
      {
       "date": "2026-11-14",
@@ -3619,10 +3935,10 @@
       "pari": "Resultat du match (1N2, temps reglementaire) : Vonds Ichihara FC (W)",
       "cote": 1.48,
       "mise": 50.0,
-      "statut": "En attente",
-      "net": null,
-      "retour": null,
-      "resultat": null
+      "statut": "Annulé",
+      "net": 0.0,
+      "retour": 50.0,
+      "resultat": "resultat introuvable apres 4 jours : mise rendue"
      },
      {
       "date": "2026-11-13",
@@ -5115,7 +5431,7 @@
    "desc": "Scores exacts (1 score par match), 100 € fictifs par jour",
    "type": "fictif",
    "multisport": true,
-   "dernier_passage": "17/11/2026 23:55",
+   "dernier_passage": "18/11/2026 23:55",
    "ok": true,
    "stats": {
     "jour": {
@@ -5130,66 +5446,66 @@
      "roi": null
     },
     "semaine": {
-     "paris": 4,
-     "gagnes": 2,
+     "paris": 6,
+     "gagnes": 3,
      "perdus": 0,
      "annules": 0,
-     "attente": 2,
-     "mise": 200.0,
-     "mise_reglee": 100.0,
-     "net": 71.0,
-     "roi": 71.0
+     "attente": 3,
+     "mise": 300.0,
+     "mise_reglee": 150.0,
+     "net": 99.0,
+     "roi": 66.0
     },
     "mois": {
-     "paris": 9,
-     "gagnes": 3,
+     "paris": 11,
+     "gagnes": 4,
      "perdus": 1,
      "annules": 0,
-     "attente": 5,
-     "mise": 400.0,
-     "mise_reglee": 190.0,
-     "net": 73.0,
-     "roi": 38.42
+     "attente": 6,
+     "mise": 500.0,
+     "mise_reglee": 240.0,
+     "net": 101.0,
+     "roi": 42.08
     },
     "annee": {
-     "paris": 9,
-     "gagnes": 3,
+     "paris": 11,
+     "gagnes": 4,
      "perdus": 1,
      "annules": 0,
-     "attente": 5,
-     "mise": 400.0,
-     "mise_reglee": 190.0,
-     "net": 73.0,
-     "roi": 38.42
+     "attente": 6,
+     "mise": 500.0,
+     "mise_reglee": 240.0,
+     "net": 101.0,
+     "roi": 42.08
     },
     "total": {
-     "paris": 9,
-     "gagnes": 3,
+     "paris": 11,
+     "gagnes": 4,
      "perdus": 1,
      "annules": 0,
-     "attente": 5,
-     "mise": 400.0,
-     "mise_reglee": 190.0,
-     "net": 73.0,
-     "roi": 38.42
+     "attente": 6,
+     "mise": 500.0,
+     "mise_reglee": 240.0,
+     "net": 101.0,
+     "roi": 42.08
     }
    },
    "detail": {
     "resume": {
-     "nb": 9,
-     "gagnes": 3,
+     "nb": 11,
+     "gagnes": 4,
      "perdus": 1,
      "annules": 0,
-     "attente": 5,
-     "mise": 400.0,
-     "mise_reglee": 190.0,
-     "net": 73.0,
-     "roi": 38.42,
-     "winrate": 75
+     "attente": 6,
+     "mise": 500.0,
+     "mise_reglee": 240.0,
+     "net": 101.0,
+     "roi": 42.08,
+     "winrate": 80
     },
     "serie": {
      "type": "Gagné",
-     "n": 3
+     "n": 4
     },
     "serie_jours": null,
     "courbe": [
@@ -5208,12 +5524,24 @@
      {
       "t": "2026-11-17",
       "v": 73.0
+     },
+     {
+      "t": "2026-11-18",
+      "v": 101.0
      }
     ],
     "courbe_type": "net cumulé",
     "depart": null,
     "cagnotte": null,
     "par_jour": [
+     {
+      "jour": "2026-11-18",
+      "nb": 2,
+      "mise": 100.0,
+      "net": 28.0,
+      "regles": 1,
+      "attente": 1
+     },
      {
       "jour": "2026-11-17",
       "nb": 2,
@@ -5250,25 +5578,25 @@
     "par_sport": [
      {
       "sport": "Tennis",
-      "nb": 4,
-      "gagnes": 3,
+      "nb": 5,
+      "gagnes": 4,
       "perdus": 1,
       "annules": 0,
       "attente": 0,
-      "mise": 190.0,
-      "mise_reglee": 190.0,
-      "net": 73.0,
-      "roi": 38.42,
-      "winrate": 75
+      "mise": 240.0,
+      "mise_reglee": 240.0,
+      "net": 101.0,
+      "roi": 42.08,
+      "winrate": 80
      },
      {
       "sport": "Volley",
-      "nb": 4,
+      "nb": 5,
       "gagnes": 0,
       "perdus": 0,
       "annules": 0,
-      "attente": 4,
-      "mise": 185.0,
+      "attente": 5,
+      "mise": 235.0,
       "mise_reglee": 0,
       "net": null,
       "roi": null,
@@ -5289,6 +5617,32 @@
      }
     ],
     "paris": [
+     {
+      "date": "2026-11-18",
+      "sport": "Volley",
+      "competition": "A1 (F)",
+      "match": "Panathinaïkos (F) - AO Thera (F)",
+      "pari": "Score exact 3-0",
+      "cote": 1.76,
+      "mise": 50.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": "non vérifié par le robot"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "Tennis",
+      "competition": "Finals",
+      "match": "Carlos Alcaraz - Daniil Medvedev",
+      "pari": "Score exact 2-0",
+      "cote": 1.56,
+      "mise": 50.0,
+      "statut": "Gagné",
+      "net": 28.0,
+      "retour": 78.0,
+      "resultat": "2-0"
+     },
      {
       "date": "2026-11-17",
       "sport": "Volley",
@@ -5415,7 +5769,7 @@
    "desc": "Scores exacts (1 score par match), 100 € fictifs par jour",
    "type": "fictif",
    "multisport": true,
-   "dernier_passage": "17/11/2026 23:50",
+   "dernier_passage": "18/11/2026 23:50",
    "ok": true,
    "stats": {
     "jour": {
@@ -5430,45 +5784,45 @@
      "roi": null
     },
     "semaine": {
-     "paris": 3,
+     "paris": 5,
      "gagnes": 0,
      "perdus": 0,
      "annules": 0,
-     "attente": 3,
-     "mise": 200.0,
+     "attente": 5,
+     "mise": 300.0,
      "mise_reglee": 0,
      "net": 0,
      "roi": null
     },
     "mois": {
-     "paris": 7,
+     "paris": 9,
      "gagnes": 1,
      "perdus": 1,
      "annules": 0,
-     "attente": 5,
-     "mise": 400.0,
+     "attente": 7,
+     "mise": 500.0,
      "mise_reglee": 100.0,
      "net": -8.0,
      "roi": -8.0
     },
     "annee": {
-     "paris": 7,
+     "paris": 9,
      "gagnes": 1,
      "perdus": 1,
      "annules": 0,
-     "attente": 5,
-     "mise": 400.0,
+     "attente": 7,
+     "mise": 500.0,
      "mise_reglee": 100.0,
      "net": -8.0,
      "roi": -8.0
     },
     "total": {
-     "paris": 7,
+     "paris": 9,
      "gagnes": 1,
      "perdus": 1,
      "annules": 0,
-     "attente": 5,
-     "mise": 400.0,
+     "attente": 7,
+     "mise": 500.0,
      "mise_reglee": 100.0,
      "net": -8.0,
      "roi": -8.0
@@ -5476,12 +5830,12 @@
    },
    "detail": {
     "resume": {
-     "nb": 7,
+     "nb": 9,
      "gagnes": 1,
      "perdus": 1,
      "annules": 0,
-     "attente": 5,
-     "mise": 400.0,
+     "attente": 7,
+     "mise": 500.0,
      "mise_reglee": 100.0,
      "net": -8.0,
      "roi": -8.0,
@@ -5506,6 +5860,14 @@
     "depart": null,
     "cagnotte": null,
     "par_jour": [
+     {
+      "jour": "2026-11-18",
+      "nb": 2,
+      "mise": 100.0,
+      "net": 0.0,
+      "regles": 0,
+      "attente": 2
+     },
      {
       "jour": "2026-11-17",
       "nb": 1,
@@ -5542,12 +5904,12 @@
     "par_sport": [
      {
       "sport": "Volley",
-      "nb": 5,
+      "nb": 7,
       "gagnes": 0,
       "perdus": 0,
       "annules": 0,
-      "attente": 5,
-      "mise": 300.0,
+      "attente": 7,
+      "mise": 400.0,
       "mise_reglee": 0,
       "net": null,
       "roi": null,
@@ -5568,6 +5930,32 @@
      }
     ],
     "paris": [
+     {
+      "date": "2026-11-18",
+      "sport": "Volley",
+      "competition": "Liga A (F)",
+      "match": "BEVO Roeselare (F) - VC Oudegem (F)",
+      "pari": "Score exact 3-0",
+      "cote": 1.72,
+      "mise": 50.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": "non vérifié par le robot"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "Volley",
+      "competition": "A1 (F)",
+      "match": "Panathinaïkos (F) - AO Thera (F)",
+      "pari": "Score exact 3-0",
+      "cote": 1.76,
+      "mise": 50.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": "non vérifié par le robot"
+     },
      {
       "date": "2026-11-17",
       "sport": "Volley",
@@ -5668,7 +6056,7 @@
    "desc": "Toutes les courses PMU du jour, 500 € fictifs par jour · hors compétition",
    "type": "fictif",
    "multisport": true,
-   "dernier_passage": "17/11/2026 23:40",
+   "dernier_passage": "18/11/2026 23:40",
    "hors_competition": true,
    "ok": true,
    "stats": {
@@ -5684,66 +6072,66 @@
      "roi": null
     },
     "semaine": {
-     "paris": 108,
-     "gagnes": 46,
-     "perdus": 61,
-     "annules": 1,
-     "attente": 0,
-     "mise": 1000.0,
-     "mise_reglee": 1000.0,
-     "net": -143.45,
-     "roi": -14.34
+     "paris": 176,
+     "gagnes": 72,
+     "perdus": 93,
+     "annules": 10,
+     "attente": 1,
+     "mise": 1500.0,
+     "mise_reglee": 1499.0,
+     "net": -238.85,
+     "roi": -15.93
     },
     "mois": {
-     "paris": 202,
-     "gagnes": 90,
-     "perdus": 108,
-     "annules": 4,
-     "attente": 0,
-     "mise": 1500.0,
-     "mise_reglee": 1500.0,
-     "net": -165.4,
-     "roi": -11.03
+     "paris": 270,
+     "gagnes": 116,
+     "perdus": 140,
+     "annules": 13,
+     "attente": 1,
+     "mise": 2000.0,
+     "mise_reglee": 1999.0,
+     "net": -260.8,
+     "roi": -13.05
     },
     "annee": {
-     "paris": 202,
-     "gagnes": 90,
-     "perdus": 108,
-     "annules": 4,
-     "attente": 0,
-     "mise": 1500.0,
-     "mise_reglee": 1500.0,
-     "net": -165.4,
-     "roi": -11.03
+     "paris": 270,
+     "gagnes": 116,
+     "perdus": 140,
+     "annules": 13,
+     "attente": 1,
+     "mise": 2000.0,
+     "mise_reglee": 1999.0,
+     "net": -260.8,
+     "roi": -13.05
     },
     "total": {
-     "paris": 202,
-     "gagnes": 90,
-     "perdus": 108,
-     "annules": 4,
-     "attente": 0,
-     "mise": 1500.0,
-     "mise_reglee": 1500.0,
-     "net": -165.4,
-     "roi": -11.03
+     "paris": 270,
+     "gagnes": 116,
+     "perdus": 140,
+     "annules": 13,
+     "attente": 1,
+     "mise": 2000.0,
+     "mise_reglee": 1999.0,
+     "net": -260.8,
+     "roi": -13.05
     }
    },
    "detail": {
     "resume": {
-     "nb": 202,
-     "gagnes": 90,
-     "perdus": 108,
-     "annules": 4,
-     "attente": 0,
-     "mise": 1500.0,
-     "mise_reglee": 1500.0,
-     "net": -165.4,
-     "roi": -11.03,
+     "nb": 270,
+     "gagnes": 116,
+     "perdus": 140,
+     "annules": 13,
+     "attente": 1,
+     "mise": 2000.0,
+     "mise_reglee": 1999.0,
+     "net": -260.8,
+     "roi": -13.05,
      "winrate": 45
     },
     "serie": {
-     "type": "Gagné",
-     "n": 3
+     "type": "Perdu",
+     "n": 1
     },
     "serie_jours": {
      "type": "négatif",
@@ -5761,12 +6149,24 @@
      {
       "t": "2026-11-17",
       "v": -165.4
+     },
+     {
+      "t": "2026-11-18",
+      "v": -260.8
      }
     ],
     "courbe_type": "net cumulé",
     "depart": null,
     "cagnotte": null,
     "par_jour": [
+     {
+      "jour": "2026-11-18",
+      "nb": 68,
+      "mise": 500.0,
+      "net": -95.4,
+      "regles": 67,
+      "attente": 1
+     },
      {
       "jour": "2026-11-17",
       "nb": 46,
@@ -5795,19 +6195,903 @@
     "par_sport": [
      {
       "sport": "PMU",
-      "nb": 202,
-      "gagnes": 90,
-      "perdus": 108,
-      "annules": 4,
-      "attente": 0,
-      "mise": 1500.0,
-      "mise_reglee": 1500.0,
-      "net": -165.4,
-      "roi": -11.03,
+      "nb": 270,
+      "gagnes": 116,
+      "perdus": 140,
+      "annules": 13,
+      "attente": 1,
+      "mise": 2000.0,
+      "mise_reglee": 1999.0,
+      "net": -260.8,
+      "roi": -13.05,
       "winrate": 45
      }
     ],
     "paris": [
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R9C4 VALPARAISO",
+      "match": "IGNACIO SILVA M. H. (15 partants)",
+      "pari": "Simple placé n°11 PRIMO HAPPY",
+      "cote": null,
+      "mise": 1.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R8C11 SAN ISIDRO",
+      "match": "PREMIO PLEYEL (8 partants)",
+      "pari": "Simple placé n°1 ASUMO",
+      "cote": null,
+      "mise": 10.0,
+      "statut": "Perdu",
+      "net": -10.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 8-6-5-2-3-7-1 · n1 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R9C3 VALPARAISO",
+      "match": "GUILLERMO CASTRO S. H. (10 partants)",
+      "pari": "Simple placé n°2 HIJO DEL REY",
+      "cote": 1.3,
+      "mise": 10.0,
+      "statut": "Gagné",
+      "net": 3.0,
+      "retour": 13.0,
+      "resultat": "Arrivée 1-8-2-10-4-5-3-9-6-7 · n2 place, rapport officiel PMU 1.30"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R8C10 SAN ISIDRO",
+      "match": "PREMIO RIO NMACHI 2015 (10 partants)",
+      "pari": "Simple placé n°2 BLESS VISION",
+      "cote": 2.6,
+      "mise": 10.0,
+      "statut": "Gagné",
+      "net": 16.0,
+      "retour": 26.0,
+      "resultat": "Arrivée 10-2-3-5-7-6-1-9-8-4 · n2 place, rapport officiel PMU 2.60"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R9C2 VALPARAISO",
+      "match": "JAIME MUNRO P. H. (11 partants)",
+      "pari": "Simple placé n°9 KAPU",
+      "cote": null,
+      "mise": 10.0,
+      "statut": "Perdu",
+      "net": -10.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 2-8-1-9-7-10-6-11-4-3-5 · n9 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R8C9 SAN ISIDRO",
+      "match": "PREMIO POTRILLON (12 partants)",
+      "pari": "Simple placé n°4 JUBILEO",
+      "cote": 1.5,
+      "mise": 10.0,
+      "statut": "Gagné",
+      "net": 5.0,
+      "retour": 15.0,
+      "resultat": "Arrivée 4-10-6-8-9-1-7-11-5-12-2-3 · n4 place, rapport officiel PMU 1.50"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R9C1 VALPARAISO",
+      "match": "PREMIO ASOCIACION DE PROPIETARIOS V REGION A. G. S. (15 partants)",
+      "pari": "Simple placé n°12 BELA ROSA",
+      "cote": null,
+      "mise": 1.0,
+      "statut": "Annulé",
+      "net": 0.0,
+      "retour": 1.0,
+      "resultat": "Arrivée 8-3-7-1-11-15-2-13-9-5-6-10-14 · n12 non-partant"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R7C10 SOLVALLA",
+      "match": "PRIX DE DEAUVILLE                       SUEDE (12 partants)",
+      "pari": "Simple placé n°7 POLEPOSITION",
+      "cote": null,
+      "mise": 10.0,
+      "statut": "Perdu",
+      "net": -10.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 11-10-9-7-6-12-1-8-2-3 · n7 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R8C8 SAN ISIDRO",
+      "match": "PREMIO AHMAD (7 partants)",
+      "pari": "Simple placé n°3 CONCORD",
+      "cote": 1.7,
+      "mise": 10.0,
+      "statut": "Perdu",
+      "net": -10.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 4-7-3-2-6-5-1 · n3 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R5C9 KEMPTON PARK",
+      "match": "HANDICAP C5 (13 partants)",
+      "pari": "Simple placé n°2 MAESTRO DEL MAR",
+      "cote": null,
+      "mise": 1.0,
+      "statut": "Perdu",
+      "net": -1.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 4-12-8-6-2-3-13-10-7-1-5-11-9 · n2 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R7C9 SOLVALLA",
+      "match": "PRIX DE TOULON                          SUEDE (12 partants)",
+      "pari": "Simple placé n°6 BUZZ LANE",
+      "cote": 2.2,
+      "mise": 10.0,
+      "statut": "Perdu",
+      "net": -10.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 1-7-2-6-10-9-8-11-4-5 · n6 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R8C7 SAN ISIDRO",
+      "match": "PREMIO SCHERZO (12 partants)",
+      "pari": "Simple placé n°7 RAIJIN",
+      "cote": null,
+      "mise": 10.0,
+      "statut": "Perdu",
+      "net": -10.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 11-1-9-4-2-6-12-3-8-10-5-7 · n7 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R7C8 SOLVALLA",
+      "match": "PRIX DE NICE                            SUEDE (12 partants)",
+      "pari": "Simple placé n°4 CARIBBEAN LEMON",
+      "cote": null,
+      "mise": 10.0,
+      "statut": "Perdu",
+      "net": -10.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 9-7-6-4-1-10-12-11-3-2 · n4 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R5C8 KEMPTON PARK",
+      "match": "HANDICAP C4 (13 partants)",
+      "pari": "Simple placé n°7 COMIC HERO",
+      "cote": null,
+      "mise": 1.0,
+      "statut": "Perdu",
+      "net": -1.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 6-11-4-14-7-10-13-1-3-12-5-2 · n7 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R7C7 SOLVALLA",
+      "match": "PRIX DE MONTPELLIER                     SUEDE (12 partants)",
+      "pari": "Simple placé n°8 MELLBY OSSA",
+      "cote": null,
+      "mise": 10.0,
+      "statut": "Perdu",
+      "net": -10.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 5-10-9-8-11-7-6-2-4-3-1 · n8 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R5C7 KEMPTON PARK",
+      "match": "HANDICAP C4 (7 partants)",
+      "pari": "Simple placé n°1 SQUIRE DANAGHER",
+      "cote": null,
+      "mise": 10.0,
+      "statut": "Perdu",
+      "net": -10.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 3-6-7-1-4-2-5 · n1 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R4C7 AMIENS",
+      "match": "PRIX DE PERONNE (12 partants)",
+      "pari": "Simple placé n°11 GHAZALA",
+      "cote": 4.8,
+      "mise": 10.0,
+      "statut": "Annulé",
+      "net": 0.0,
+      "retour": 10.0,
+      "resultat": "course annulee"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R7C6 SOLVALLA",
+      "match": "PRIX DE STRASBOURG                      SUEDE (11 partants)",
+      "pari": "Simple placé n°2 MIGUEL",
+      "cote": 1.4,
+      "mise": 10.0,
+      "statut": "Gagné",
+      "net": 4.0,
+      "retour": 14.0,
+      "resultat": "Arrivée 2-7-5-1-11-3-4-10-8 · n2 place, rapport officiel PMU 1.40"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R5C6 KEMPTON PARK",
+      "match": "HANDICAP C2 (14 partants)",
+      "pari": "Simple placé n°9 PALLADAS",
+      "cote": 1.4,
+      "mise": 1.0,
+      "statut": "Gagné",
+      "net": 0.4,
+      "retour": 1.4,
+      "resultat": "Arrivée 14-9-2-7-1-6-5-3-11-13-12-10-4-8 · n9 place, rapport officiel PMU 1.40"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R7C5 SOLVALLA",
+      "match": "PRIX DE BIARRITZ                        SUEDE (15 partants)",
+      "pari": "Simple placé n°8 CHICO DE CALAMAR",
+      "cote": 2.0,
+      "mise": 1.0,
+      "statut": "Gagné",
+      "net": 1.0,
+      "retour": 2.0,
+      "resultat": "Arrivée 10-8-11-13-15-9-6-4-1-14-7-5-12 · n8 place, rapport officiel PMU 2.00"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R4C6 AMIENS",
+      "match": "PRIX DE CLOTURE (10 partants)",
+      "pari": "Simple placé n°1 PRAIRIE GLORY",
+      "cote": 3.9,
+      "mise": 10.0,
+      "statut": "Annulé",
+      "net": 0.0,
+      "retour": 10.0,
+      "resultat": "course annulee"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R5C5 KEMPTON PARK",
+      "match": "MAIDEN STAKES C2 (14 partants)",
+      "pari": "Simple placé n°6 STERLING COOPER",
+      "cote": null,
+      "mise": 1.0,
+      "statut": "Perdu",
+      "net": -1.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 1-13-4-11-6-7-9-5-12-14-2-3-10-8 · n6 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R7C4 SOLVALLA",
+      "match": "PRIX DE BORDEAUX                        SUEDE (11 partants)",
+      "pari": "Simple placé n°4 CABELLO",
+      "cote": 1.5,
+      "mise": 10.0,
+      "statut": "Gagné",
+      "net": 5.0,
+      "retour": 15.0,
+      "resultat": "Arrivée 4-8-5-3-2-7-11-10-6-1 · n4 place, rapport officiel PMU 1.50"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R4C5 AMIENS",
+      "match": "PRIX DU NORD (10 partants)",
+      "pari": "Simple placé n°3 NAGANO",
+      "cote": 24.0,
+      "mise": 10.0,
+      "statut": "Annulé",
+      "net": 0.0,
+      "retour": 10.0,
+      "resultat": "course annulee"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R7C3 SOLVALLA",
+      "match": "PRIX DE VERSAILLES                      SUEDE (12 partants)",
+      "pari": "Simple placé n°2 WANNABE TILE",
+      "cote": 1.4,
+      "mise": 10.0,
+      "statut": "Gagné",
+      "net": 4.0,
+      "retour": 14.0,
+      "resultat": "Arrivée 2-1-8-9-12-6-7-11-5-4-3 · n2 place, rapport officiel PMU 1.40"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R5C4 KEMPTON PARK",
+      "match": "HANDICAP C5 (11 partants)",
+      "pari": "Simple placé n°2 SOMERS ISLES",
+      "cote": null,
+      "mise": 10.0,
+      "statut": "Perdu",
+      "net": -10.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 1-9-8-5-2-3-6-11-4-7-10 · n2 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R4C4 AMIENS",
+      "match": "PRIX DE LA SOMME (9 partants)",
+      "pari": "Simple placé n°7 SEGOVIA",
+      "cote": 5.5,
+      "mise": 10.0,
+      "statut": "Annulé",
+      "net": 0.0,
+      "retour": 10.0,
+      "resultat": "course annulee"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R7C2 SOLVALLA",
+      "match": "PRIX DE LILLE                           SUEDE (12 partants)",
+      "pari": "Simple placé n°11 NERO SILVER",
+      "cote": null,
+      "mise": 10.0,
+      "statut": "Perdu",
+      "net": -10.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 4-12-9-1-3-2-5-8-10-7 · n11 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R5C3 KEMPTON PARK",
+      "match": "HANDICAP C4 (5 partants)",
+      "pari": "Simple placé n°3 CONCILIATE",
+      "cote": 6.1,
+      "mise": 10.0,
+      "statut": "Perdu",
+      "net": -10.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 5-1-2-3-4 · n3 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R7C1 SOLVALLA",
+      "match": "PRIX DE PARIS                           SUEDE (10 partants)",
+      "pari": "Simple placé n°4 MELLBY OTAI",
+      "cote": 1.3,
+      "mise": 1.0,
+      "statut": "Annulé",
+      "net": 0.0,
+      "retour": 1.0,
+      "resultat": "Arrivée 5-8-6-2-7-10-3-9 · n4 non-partant"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R4C3 AMIENS",
+      "match": "PRIX DU PAS-DE-CALAIS (9 partants)",
+      "pari": "Simple placé n°4 AUSTRALIAN ROMANCE",
+      "cote": 4.9,
+      "mise": 10.0,
+      "statut": "Annulé",
+      "net": 0.0,
+      "retour": 10.0,
+      "resultat": "course annulee"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R5C2 KEMPTON PARK",
+      "match": "NOVICE STAKES C5 - DIV 2 (12 partants)",
+      "pari": "Simple placé n°12 ANGEL FOOTSTEPS",
+      "cote": null,
+      "mise": 10.0,
+      "statut": "Perdu",
+      "net": -10.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 1-5-3-12-2-8-9-6-4-7-11-10 · n12 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R1C8 MAUQUENCHY",
+      "match": "PRIX JEAN MAIZERET (18 partants)",
+      "pari": "Simple placé n°15 KELLOU DES BRUMES",
+      "cote": 8.3,
+      "mise": 1.0,
+      "statut": "Perdu",
+      "net": -1.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 10-14-18-12-9-17-1-2-13-4-3-16-5-11 · n15 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R4C2 AMIENS",
+      "match": "PRIX DE LONGPRE (11 partants)",
+      "pari": "Simple placé n°6 MAGNETIQUE",
+      "cote": 17.0,
+      "mise": 10.0,
+      "statut": "Annulé",
+      "net": 0.0,
+      "retour": 10.0,
+      "resultat": "course annulee"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R5C1 KEMPTON PARK",
+      "match": "NOVICE STAKES C5 - DIV 1 (11 partants)",
+      "pari": "Simple placé n°4 MANSSOOR",
+      "cote": 0.0,
+      "mise": 10.0,
+      "statut": "Perdu",
+      "net": -10.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 9-5-3-2-1-4-6-11-7-10-12 · n4 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R1C7 MAUQUENCHY",
+      "match": "PRIX DU PMU \"LE MAINTENON\" - SAINT-SAENS (14 partants)",
+      "pari": "Simple placé n°14 JAZZMAN",
+      "cote": 1.4,
+      "mise": 1.0,
+      "statut": "Gagné",
+      "net": 0.4,
+      "retour": 1.4,
+      "resultat": "Arrivée 2-14-11-7-10-1-8-13-4-5-12 · n14 place, rapport officiel PMU 1.40"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R4C1 AMIENS",
+      "match": "PRIX FRANC PICARD (11 partants)",
+      "pari": "Simple placé n°10 AS DE JUILLEY",
+      "cote": 4.9,
+      "mise": 10.0,
+      "statut": "Annulé",
+      "net": 0.0,
+      "retour": 10.0,
+      "resultat": "course annulee"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R1C6 MAUQUENCHY",
+      "match": "PRIX DE MAUQUENCHY (8 partants)",
+      "pari": "Simple placé n°5 LAST DES BROUSSES",
+      "cote": 6.4,
+      "mise": 10.0,
+      "statut": "Perdu",
+      "net": -10.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 8-7-4-6-3-2-1 · n5 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R2C8 PAU",
+      "match": "PRIX DE TAURIAC (15 partants)",
+      "pari": "Simple placé n°13 YACHT SHOW",
+      "cote": 10.0,
+      "mise": 1.0,
+      "statut": "Perdu",
+      "net": -1.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 15-1-6-3-14-4-13-12-9-5-16-2-7-10-8 · n13 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R6C8 BORELY",
+      "match": "PRIX D'AGDE (12 partants)",
+      "pari": "Simple placé n°3 JET SET CODIE",
+      "cote": 4.6,
+      "mise": 10.0,
+      "statut": "Perdu",
+      "net": -10.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 2-10-1-5-3-7-9-8-11-6-12-4 · n3 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R1C5 MAUQUENCHY",
+      "match": "PRIX DU CONSEIL DEPARTEMENTAL DE SEINE-MARITIME (12 partants)",
+      "pari": "Simple placé n°3 PATTON (SWE)",
+      "cote": 1.9,
+      "mise": 10.0,
+      "statut": "Perdu",
+      "net": -10.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 7-11-9-3-5-12-6-2 · n3 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R6C7 BORELY",
+      "match": "PRIX DE CAROMB (13 partants)",
+      "pari": "Simple placé n°2 ILLYTRASS",
+      "cote": 111.0,
+      "mise": 1.0,
+      "statut": "Perdu",
+      "net": -1.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 3-13-8-4-12-6-5-10-1-11 · n2 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R2C7 PAU",
+      "match": "PRIX DE LESTELLE-BETHARRAM (14 partants)",
+      "pari": "Simple placé n°4 ZIPI",
+      "cote": 2.2,
+      "mise": 1.0,
+      "statut": "Gagné",
+      "net": 1.2,
+      "retour": 2.2,
+      "resultat": "Arrivée 9-4-7-3-6-10-13-14-5-15-12-11-2-1 · n4 place, rapport officiel PMU 2.20"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R3C9 HAPPY VALLEY",
+      "match": "TAI O HANDICAP - SEC 2 (12 partants)",
+      "pari": "Simple placé n°12 SAVVY BRILLIANT",
+      "cote": 2.35,
+      "mise": 10.0,
+      "statut": "Gagné",
+      "net": 13.5,
+      "retour": 23.5,
+      "resultat": "Arrivée 12-2-11-4-8-1-6-5-9-10-3-7 · n12 place, rapport officiel PMU 2.35"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R1C4 MAUQUENCHY",
+      "match": "PRIX ANDRE PERDRIX (8 partants)",
+      "pari": "Simple placé n°8 MAGICO DE LOU",
+      "cote": 1.5,
+      "mise": 10.0,
+      "statut": "Gagné",
+      "net": 5.0,
+      "retour": 15.0,
+      "resultat": "Arrivée 8-4-3-1-6-7 · n8 place, rapport officiel PMU 1.50"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R6C6 BORELY",
+      "match": "PRIX DE FONBLANQUE (10 partants)",
+      "pari": "Simple placé n°3 KING CRIMSON",
+      "cote": 1.7,
+      "mise": 10.0,
+      "statut": "Gagné",
+      "net": 7.0,
+      "retour": 17.0,
+      "resultat": "Arrivée 7-3-6-2-10-8-9-5-1-4 · n3 place, rapport officiel PMU 1.70"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R2C6 PAU",
+      "match": "PRIX DE L'OUSSE (16 partants)",
+      "pari": "Simple placé n°6 JORDAN BAKER",
+      "cote": 14.0,
+      "mise": 1.0,
+      "statut": "Perdu",
+      "net": -1.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 2-8-11-9-4-13-1-16-14-6-15-7-10-3-12-5 · n6 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R3C8 HAPPY VALLEY",
+      "match": "TAI O HANDICAP - SEC 1 (12 partants)",
+      "pari": "Simple placé n°11 VIRTUS GLORY",
+      "cote": 1.45,
+      "mise": 10.0,
+      "statut": "Gagné",
+      "net": 4.5,
+      "retour": 14.5,
+      "resultat": "Arrivée 7-3-11-4-10-1-2-5-8-6-9-12 · n11 place, rapport officiel PMU 1.45"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R1C3 MAUQUENCHY",
+      "match": "PRIX DE LA REGION NORMANDIE (7 partants)",
+      "pari": "Simple placé n°2 NOUMEA LIGNERIES",
+      "cote": 2.1,
+      "mise": 10.0,
+      "statut": "Gagné",
+      "net": 11.0,
+      "retour": 21.0,
+      "resultat": "Arrivée 2-5-7-1-4-3 · n2 place, rapport officiel PMU 2.10"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R6C5 BORELY",
+      "match": "PRIX VERT PLAN (12 partants)",
+      "pari": "Simple placé n°3 MAMY BLUE TIT",
+      "cote": 2.4,
+      "mise": 10.0,
+      "statut": "Gagné",
+      "net": 14.0,
+      "retour": 24.0,
+      "resultat": "Arrivée 3-9-2-6-7-1-13-10-11-12 · n3 place, rapport officiel PMU 2.40"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R2C5 PAU",
+      "match": "PRIX D'ANDOINS (15 partants)",
+      "pari": "Simple placé n°15 AL RASSOUL",
+      "cote": 28.0,
+      "mise": 1.0,
+      "statut": "Perdu",
+      "net": -1.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 13-4-8-10-12-9-6-5-14-1-11-7-15-3-2 · n15 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R3C7 HAPPY VALLEY",
+      "match": "SIU HO WAN HANDICAP (12 partants)",
+      "pari": "Simple placé n°8 WINDLORD",
+      "cote": 1.4,
+      "mise": 10.0,
+      "statut": "Gagné",
+      "net": 4.0,
+      "retour": 14.0,
+      "resultat": "Arrivée 8-2-12-3-9-4-1-5-6-10-7-11 · n8 place, rapport officiel PMU 1.40"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R6C4 BORELY",
+      "match": "PRIX DE L'ILE DE RIOU (GR.B) (14 partants)",
+      "pari": "Simple placé n°14 LE POULIGUEN",
+      "cote": 1.8,
+      "mise": 1.0,
+      "statut": "Gagné",
+      "net": 0.8,
+      "retour": 1.8,
+      "resultat": "Arrivée 14-5-7-12-6-8-1-10 · n14 place, rapport officiel PMU 1.80"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R1C2 MAUQUENCHY",
+      "match": "GRAND PRIX DES AMATEURS (16 partants)",
+      "pari": "Simple placé n°9 KIMMAJO",
+      "cote": 1.3,
+      "mise": 1.0,
+      "statut": "Gagné",
+      "net": 0.3,
+      "retour": 1.3,
+      "resultat": "Arrivée 9-8-1-16-14-2-4-5-13-15-10-6-11 · n9 place, rapport officiel PMU 1.30"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R2C4 PAU",
+      "match": "PRIX D'HENDAYE (11 partants)",
+      "pari": "Simple placé n°12 IPI TOMBI",
+      "cote": 1.3,
+      "mise": 10.0,
+      "statut": "Gagné",
+      "net": 3.0,
+      "retour": 13.0,
+      "resultat": "Arrivée 5-12-4-6-7-9-13-11-2-10-1 · n12 place, rapport officiel PMU 1.30"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R3C6 HAPPY VALLEY",
+      "match": "PUI O HANDICAP (12 partants)",
+      "pari": "Simple placé n°2 GEORGIAN SIGMA",
+      "cote": 1.3,
+      "mise": 10.0,
+      "statut": "Gagné",
+      "net": 3.0,
+      "retour": 13.0,
+      "resultat": "Arrivée 2-7-8-10-5-1-12-6-4-11-9-3 · n2 place, rapport officiel PMU 1.30"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R6C3 BORELY",
+      "match": "PRIX DE L'ILE DE RIOU (GR.A) (14 partants)",
+      "pari": "Simple placé n°6 LAURIER D'AIROU",
+      "cote": 49.0,
+      "mise": 1.0,
+      "statut": "Perdu",
+      "net": -1.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 4-10-12-11-7-9-13-8 · n6 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R1C1 MAUQUENCHY",
+      "match": "GRAND NATIONAL DU TROT (18 partants)",
+      "pari": "Simple placé n°8 IALTO D'HERTALS",
+      "cote": 9.6,
+      "mise": 1.0,
+      "statut": "Perdu",
+      "net": -1.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 2-1-14-12-8-9-13-10-6-3-7-4-11-15-16-18-17-5 · n8 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R3C5 HAPPY VALLEY",
+      "match": "NGONG PING HANDICAP - SEC 1 (12 partants)",
+      "pari": "Simple placé n°1 KING LOTUS",
+      "cote": 1.65,
+      "mise": 10.0,
+      "statut": "Gagné",
+      "net": 6.5,
+      "retour": 16.5,
+      "resultat": "Arrivée 5-9-1-3-6-11-7-8-10-12-2-4 · n1 place, rapport officiel PMU 1.65"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R6C2 BORELY",
+      "match": "PRIX DE MONJUSTIN (16 partants)",
+      "pari": "Simple placé n°9 NAPOLITO",
+      "cote": 1.3,
+      "mise": 1.0,
+      "statut": "Perdu",
+      "net": -1.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 10-15-14-3-11-13-8-16-2-12 · n9 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R2C3 PAU",
+      "match": "PRIX DE LAROIN (8 partants)",
+      "pari": "Simple placé n°3 BOOMSLANG",
+      "cote": 1.2,
+      "mise": 10.0,
+      "statut": "Gagné",
+      "net": 2.0,
+      "retour": 12.0,
+      "resultat": "Arrivée 3-5-9-2-8-1-7-4 · n3 place, rapport officiel PMU 1.20"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R3C4 HAPPY VALLEY",
+      "match": "MUI WO HANDICAP (12 partants)",
+      "pari": "Simple placé n°1 SUPER UNICORN",
+      "cote": 9.4,
+      "mise": 10.0,
+      "statut": "Perdu",
+      "net": -10.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 9-12-8-5-11-1-4-10-2-6-7-3 · n1 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R6C1 BORELY",
+      "match": "PRIX DU COTERAN (10 partants)",
+      "pari": "Simple placé n°3 OSCAR DES CHARMES",
+      "cote": 1.3,
+      "mise": 10.0,
+      "statut": "Gagné",
+      "net": 3.0,
+      "retour": 13.0,
+      "resultat": "Arrivée 4-3-5-10-6-2-7-8-9 · n3 place, rapport officiel PMU 1.30"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R2C2 PAU",
+      "match": "PRIX GUY DE WATRIGANT (6 partants)",
+      "pari": "Simple placé n°1 SKA DE L'AIGLE",
+      "cote": 1.8,
+      "mise": 10.0,
+      "statut": "Perdu",
+      "net": -10.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 2-3-4-1-5-6 · n1 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R3C3 HAPPY VALLEY",
+      "match": "NGONG PING HANDICAP - SEC 2 (12 partants)",
+      "pari": "Simple placé n°8 NEVER SETTLE",
+      "cote": 1.4,
+      "mise": 10.0,
+      "statut": "Gagné",
+      "net": 4.0,
+      "retour": 14.0,
+      "resultat": "Arrivée 11-8-12-4-1-5-2-10-6-9-3-7 · n8 place, rapport officiel PMU 1.40"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R2C1 PAU",
+      "match": "PRIX DE BILHERES (7 partants)",
+      "pari": "Simple placé n°3 ROMANUS PONTIFEX",
+      "cote": 4.7,
+      "mise": 10.0,
+      "statut": "Perdu",
+      "net": -10.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 5-1-3-6-2-4-7 · n3 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R3C2 HAPPY VALLEY",
+      "match": "FAN LAU HANDICAP (12 partants)",
+      "pari": "Simple placé n°2 MAPOGO",
+      "cote": 3.3,
+      "mise": 10.0,
+      "statut": "Perdu",
+      "net": -10.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 1-8-10-5-12-2-9-3-6-4-7-11 · n2 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R3C1 HAPPY VALLEY",
+      "match": "CHEUNG SHA HANDICAP (12 partants)",
+      "pari": "Simple placé n°1 STAR BROSE",
+      "cote": 1.4,
+      "mise": 10.0,
+      "statut": "Gagné",
+      "net": 4.0,
+      "retour": 14.0,
+      "resultat": "Arrivée 1-9-11-2-8-12-3-4-5-7-6-10 · n1 place, rapport officiel PMU 1.40"
+     },
      {
       "date": "2026-11-17",
       "sport": "PMU",
@@ -8443,7 +9727,7 @@
    "desc": "Toutes les courses PMU du jour, 500 € fictifs par jour · hors compétition",
    "type": "fictif",
    "multisport": true,
-   "dernier_passage": "17/11/2026 23:35",
+   "dernier_passage": "18/11/2026 23:35",
    "hors_competition": true,
    "ok": true,
    "stats": {
@@ -8459,70 +9743,70 @@
      "roi": null
     },
     "semaine": {
-     "paris": 108,
-     "gagnes": 47,
-     "perdus": 59,
-     "annules": 1,
+     "paris": 176,
+     "gagnes": 70,
+     "perdus": 97,
+     "annules": 8,
      "attente": 1,
-     "mise": 1000.0,
-     "mise_reglee": 982.0,
-     "net": -157.8,
-     "roi": -16.07
+     "mise": 1500.0,
+     "mise_reglee": 1499.0,
+     "net": -332.55,
+     "roi": -22.18
     },
     "mois": {
-     "paris": 235,
-     "gagnes": 97,
-     "perdus": 133,
-     "annules": 4,
+     "paris": 303,
+     "gagnes": 120,
+     "perdus": 171,
+     "annules": 11,
      "attente": 1,
-     "mise": 2000.0,
-     "mise_reglee": 1982.0,
-     "net": -464.4,
-     "roi": -23.43
+     "mise": 2500.0,
+     "mise_reglee": 2499.0,
+     "net": -639.15,
+     "roi": -25.58
     },
     "annee": {
-     "paris": 235,
-     "gagnes": 97,
-     "perdus": 133,
-     "annules": 4,
+     "paris": 303,
+     "gagnes": 120,
+     "perdus": 171,
+     "annules": 11,
      "attente": 1,
-     "mise": 2000.0,
-     "mise_reglee": 1982.0,
-     "net": -464.4,
-     "roi": -23.43
+     "mise": 2500.0,
+     "mise_reglee": 2499.0,
+     "net": -639.15,
+     "roi": -25.58
     },
     "total": {
-     "paris": 235,
-     "gagnes": 97,
-     "perdus": 133,
-     "annules": 4,
+     "paris": 303,
+     "gagnes": 120,
+     "perdus": 171,
+     "annules": 11,
      "attente": 1,
-     "mise": 2000.0,
-     "mise_reglee": 1982.0,
-     "net": -464.4,
-     "roi": -23.43
+     "mise": 2500.0,
+     "mise_reglee": 2499.0,
+     "net": -639.15,
+     "roi": -25.58
     }
    },
    "detail": {
     "resume": {
-     "nb": 235,
-     "gagnes": 97,
-     "perdus": 133,
-     "annules": 4,
+     "nb": 303,
+     "gagnes": 120,
+     "perdus": 171,
+     "annules": 11,
      "attente": 1,
-     "mise": 2000.0,
-     "mise_reglee": 1982.0,
-     "net": -464.4,
-     "roi": -23.43,
-     "winrate": 42
+     "mise": 2500.0,
+     "mise_reglee": 2499.0,
+     "net": -639.15,
+     "roi": -25.58,
+     "winrate": 41
     },
     "serie": {
-     "type": "Perdu",
-     "n": 1
+     "type": "Gagné",
+     "n": 2
     },
     "serie_jours": {
      "type": "négatif",
-     "n": 3
+     "n": 4
     },
     "courbe": [
      {
@@ -8539,7 +9823,11 @@
      },
      {
       "t": "2026-11-17",
-      "v": -464.4
+      "v": -455.4
+     },
+     {
+      "t": "2026-11-18",
+      "v": -639.15
      }
     ],
     "courbe_type": "net cumulé",
@@ -8547,12 +9835,20 @@
     "cagnotte": null,
     "par_jour": [
      {
+      "jour": "2026-11-18",
+      "nb": 68,
+      "mise": 500.0,
+      "net": -183.75,
+      "regles": 67,
+      "attente": 1
+     },
+     {
       "jour": "2026-11-17",
       "nb": 46,
       "mise": 500.0,
-      "net": -28.1,
-      "regles": 45,
-      "attente": 1
+      "net": -19.1,
+      "regles": 46,
+      "attente": 0
      },
      {
       "jour": "2026-11-16",
@@ -8582,31 +9878,915 @@
     "par_sport": [
      {
       "sport": "PMU",
-      "nb": 235,
-      "gagnes": 97,
-      "perdus": 133,
-      "annules": 4,
+      "nb": 303,
+      "gagnes": 120,
+      "perdus": 171,
+      "annules": 11,
       "attente": 1,
-      "mise": 2000.0,
-      "mise_reglee": 1982.0,
-      "net": -464.4,
-      "roi": -23.43,
-      "winrate": 42
+      "mise": 2500.0,
+      "mise_reglee": 2499.0,
+      "net": -639.15,
+      "roi": -25.58,
+      "winrate": 41
      }
     ],
     "paris": [
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R9C4 VALPARAISO",
+      "match": "IGNACIO SILVA M. H. (15 partants)",
+      "pari": "Simple placé n°8 MALA MEMORIA",
+      "cote": null,
+      "mise": 1.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R8C11 SAN ISIDRO",
+      "match": "PREMIO PLEYEL (8 partants)",
+      "pari": "Simple placé n°8 VENDIDO TRIGGER",
+      "cote": 2.0,
+      "mise": 9.0,
+      "statut": "Gagné",
+      "net": 9.0,
+      "retour": 18.0,
+      "resultat": "Arrivée 8-6-5-2-3-7-1 · n8 place, rapport officiel PMU 2.00"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R9C3 VALPARAISO",
+      "match": "GUILLERMO CASTRO S. H. (10 partants)",
+      "pari": "Simple placé n°2 HIJO DEL REY",
+      "cote": 1.3,
+      "mise": 9.0,
+      "statut": "Gagné",
+      "net": 2.7,
+      "retour": 11.7,
+      "resultat": "Arrivée 1-8-2-10-4-5-3-9-6-7 · n2 place, rapport officiel PMU 1.30"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R8C10 SAN ISIDRO",
+      "match": "PREMIO RIO NMACHI 2015 (10 partants)",
+      "pari": "Simple placé n°5 LEUCOTEA",
+      "cote": null,
+      "mise": 9.0,
+      "statut": "Perdu",
+      "net": -9.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 10-2-3-5-7-6-1-9-8-4 · n5 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R9C2 VALPARAISO",
+      "match": "JAIME MUNRO P. H. (11 partants)",
+      "pari": "Simple placé n°5 SALADO",
+      "cote": null,
+      "mise": 9.0,
+      "statut": "Perdu",
+      "net": -9.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 2-8-1-9-7-10-6-11-4-3-5 · n5 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R8C9 SAN ISIDRO",
+      "match": "PREMIO POTRILLON (12 partants)",
+      "pari": "Simple placé n°9 CHE SALTENO",
+      "cote": null,
+      "mise": 9.0,
+      "statut": "Perdu",
+      "net": -9.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 4-10-6-8-9-1-7-11-5-12-2-3 · n9 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R9C1 VALPARAISO",
+      "match": "PREMIO ASOCIACION DE PROPIETARIOS V REGION A. G. S. (15 partants)",
+      "pari": "Simple placé n°1 OTRA VEZ PITUCO",
+      "cote": 1.4,
+      "mise": 1.0,
+      "statut": "Perdu",
+      "net": -1.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 8-3-7-1-11-15-2-13-9-5-6-10-14 · n1 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R7C10 SOLVALLA",
+      "match": "PRIX DE DEAUVILLE                       SUEDE (12 partants)",
+      "pari": "Simple placé n°7 POLEPOSITION",
+      "cote": null,
+      "mise": 9.0,
+      "statut": "Perdu",
+      "net": -9.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 11-10-9-7-6-12-1-8-2-3 · n7 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R8C8 SAN ISIDRO",
+      "match": "PREMIO AHMAD (7 partants)",
+      "pari": "Simple placé n°2 CALLADITO",
+      "cote": null,
+      "mise": 9.0,
+      "statut": "Perdu",
+      "net": -9.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 4-7-3-2-6-5-1 · n2 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R5C9 KEMPTON PARK",
+      "match": "HANDICAP C5 (13 partants)",
+      "pari": "Simple placé n°8 SNOOKER MCCREW",
+      "cote": 2.1,
+      "mise": 1.0,
+      "statut": "Gagné",
+      "net": 1.1,
+      "retour": 2.1,
+      "resultat": "Arrivée 4-12-8-6-2-3-13-10-7-1-5-11-9 · n8 place, rapport officiel PMU 2.10"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R7C9 SOLVALLA",
+      "match": "PRIX DE TOULON                          SUEDE (12 partants)",
+      "pari": "Simple placé n°8 ADORABLECALGARYBOY",
+      "cote": null,
+      "mise": 9.0,
+      "statut": "Perdu",
+      "net": -9.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 1-7-2-6-10-9-8-11-4-5 · n8 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R8C7 SAN ISIDRO",
+      "match": "PREMIO SCHERZO (12 partants)",
+      "pari": "Simple placé n°2 EL CHENQUE",
+      "cote": null,
+      "mise": 9.0,
+      "statut": "Perdu",
+      "net": -9.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 11-1-9-4-2-6-12-3-8-10-5-7 · n2 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R7C8 SOLVALLA",
+      "match": "PRIX DE NICE                            SUEDE (12 partants)",
+      "pari": "Simple placé n°5 GOOD READS",
+      "cote": 4.4,
+      "mise": 9.0,
+      "statut": "Perdu",
+      "net": -9.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 9-7-6-4-1-10-12-11-3-2 · n5 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R5C8 KEMPTON PARK",
+      "match": "HANDICAP C4 (13 partants)",
+      "pari": "Simple placé n°3 SOCIETY KISS",
+      "cote": null,
+      "mise": 1.0,
+      "statut": "Perdu",
+      "net": -1.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 6-11-4-14-7-10-13-1-3-12-5-2 · n3 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R7C7 SOLVALLA",
+      "match": "PRIX DE MONTPELLIER                     SUEDE (12 partants)",
+      "pari": "Simple placé n°1 ROYAL STEEL",
+      "cote": 2.6,
+      "mise": 9.0,
+      "statut": "Perdu",
+      "net": -9.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 5-10-9-8-11-7-6-2-4-3-1 · n1 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R5C7 KEMPTON PARK",
+      "match": "HANDICAP C4 (7 partants)",
+      "pari": "Simple placé n°3 ZACHARY HICKES",
+      "cote": 1.7,
+      "mise": 9.0,
+      "statut": "Gagné",
+      "net": 6.3,
+      "retour": 15.3,
+      "resultat": "Arrivée 3-6-7-1-4-2-5 · n3 place, rapport officiel PMU 1.70"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R4C7 AMIENS",
+      "match": "PRIX DE PERONNE (12 partants)",
+      "pari": "Simple placé n°6 ZERO STRESS",
+      "cote": 10.0,
+      "mise": 3.0,
+      "statut": "Annulé",
+      "net": 0.0,
+      "retour": 3.0,
+      "resultat": "course annulee"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R7C6 SOLVALLA",
+      "match": "PRIX DE STRASBOURG                      SUEDE (11 partants)",
+      "pari": "Simple placé n°1 TIGHT REINS",
+      "cote": null,
+      "mise": 9.0,
+      "statut": "Perdu",
+      "net": -9.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 2-7-5-1-11-3-4-10-8 · n1 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R5C6 KEMPTON PARK",
+      "match": "HANDICAP C2 (14 partants)",
+      "pari": "Simple placé n°1 EBT'S GUARD",
+      "cote": null,
+      "mise": 1.0,
+      "statut": "Perdu",
+      "net": -1.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 14-9-2-7-1-6-5-3-11-13-12-10-4-8 · n1 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R7C5 SOLVALLA",
+      "match": "PRIX DE BIARRITZ                        SUEDE (15 partants)",
+      "pari": "Simple placé n°3 CARPACCIO",
+      "cote": null,
+      "mise": 1.0,
+      "statut": "Perdu",
+      "net": -1.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 10-8-11-13-15-9-6-4-1-14-7-5-12 · n3 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R4C6 AMIENS",
+      "match": "PRIX DE CLOTURE (10 partants)",
+      "pari": "Simple placé n°2 NO DAY NEVER",
+      "cote": 9.1,
+      "mise": 9.0,
+      "statut": "Annulé",
+      "net": 0.0,
+      "retour": 9.0,
+      "resultat": "course annulee"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R5C5 KEMPTON PARK",
+      "match": "MAIDEN STAKES C2 (14 partants)",
+      "pari": "Simple placé n°5 PLAYING CARD",
+      "cote": null,
+      "mise": 1.0,
+      "statut": "Perdu",
+      "net": -1.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 1-13-4-11-6-7-9-5-12-14-2-3-10-8 · n5 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R7C4 SOLVALLA",
+      "match": "PRIX DE BORDEAUX                        SUEDE (11 partants)",
+      "pari": "Simple placé n°3 SONESTA",
+      "cote": null,
+      "mise": 9.0,
+      "statut": "Perdu",
+      "net": -9.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 4-8-5-3-2-7-11-10-6-1 · n3 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R4C5 AMIENS",
+      "match": "PRIX DU NORD (10 partants)",
+      "pari": "Simple placé n°6 NONNABELLA",
+      "cote": 1.6,
+      "mise": 9.0,
+      "statut": "Annulé",
+      "net": 0.0,
+      "retour": 9.0,
+      "resultat": "course annulee"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R7C3 SOLVALLA",
+      "match": "PRIX DE VERSAILLES                      SUEDE (12 partants)",
+      "pari": "Simple placé n°8 REILLY WESTWOOD",
+      "cote": 1.2,
+      "mise": 9.0,
+      "statut": "Gagné",
+      "net": 1.8,
+      "retour": 10.8,
+      "resultat": "Arrivée 2-1-8-9-12-6-7-11-5-4-3 · n8 place, rapport officiel PMU 1.20"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R5C4 KEMPTON PARK",
+      "match": "HANDICAP C5 (11 partants)",
+      "pari": "Simple placé n°1 DIVINE RHYTHM",
+      "cote": 1.8,
+      "mise": 9.0,
+      "statut": "Gagné",
+      "net": 7.2,
+      "retour": 16.2,
+      "resultat": "Arrivée 1-9-8-5-2-3-6-11-4-7-10 · n1 place, rapport officiel PMU 1.80"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R4C4 AMIENS",
+      "match": "PRIX DE LA SOMME (9 partants)",
+      "pari": "Simple placé n°2 MARANELLO",
+      "cote": 6.4,
+      "mise": 9.0,
+      "statut": "Annulé",
+      "net": 0.0,
+      "retour": 9.0,
+      "resultat": "course annulee"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R7C2 SOLVALLA",
+      "match": "PRIX DE LILLE                           SUEDE (12 partants)",
+      "pari": "Simple placé n°11 NERO SILVER",
+      "cote": null,
+      "mise": 9.0,
+      "statut": "Perdu",
+      "net": -9.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 4-12-9-1-3-2-5-8-10-7 · n11 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R5C3 KEMPTON PARK",
+      "match": "HANDICAP C4 (5 partants)",
+      "pari": "Simple placé n°1 DIVINE WHISPER",
+      "cote": 1.5,
+      "mise": 9.0,
+      "statut": "Gagné",
+      "net": 4.5,
+      "retour": 13.5,
+      "resultat": "Arrivée 5-1-2-3-4 · n1 place, rapport officiel PMU 1.50"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R7C1 SOLVALLA",
+      "match": "PRIX DE PARIS                           SUEDE (10 partants)",
+      "pari": "Simple placé n°8 PHILHARMONIC",
+      "cote": 1.4,
+      "mise": 9.0,
+      "statut": "Gagné",
+      "net": 3.6,
+      "retour": 12.6,
+      "resultat": "Arrivée 5-8-6-2-7-10-3-9 · n8 place, rapport officiel PMU 1.40"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R4C3 AMIENS",
+      "match": "PRIX DU PAS-DE-CALAIS (9 partants)",
+      "pari": "Simple placé n°3 ABRONZAL",
+      "cote": 2.3,
+      "mise": 9.0,
+      "statut": "Annulé",
+      "net": 0.0,
+      "retour": 9.0,
+      "resultat": "course annulee"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R5C2 KEMPTON PARK",
+      "match": "NOVICE STAKES C5 - DIV 2 (12 partants)",
+      "pari": "Simple placé n°12 ANGEL FOOTSTEPS",
+      "cote": null,
+      "mise": 9.0,
+      "statut": "Perdu",
+      "net": -9.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 1-5-3-12-2-8-9-6-4-7-11-10 · n12 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R1C8 MAUQUENCHY",
+      "match": "PRIX JEAN MAIZERET (18 partants)",
+      "pari": "Simple placé n°8 KAKINANI",
+      "cote": 49.0,
+      "mise": 1.0,
+      "statut": "Perdu",
+      "net": -1.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 10-14-18-12-9-17-1-2-13-4-3-16-5-11 · n8 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R4C2 AMIENS",
+      "match": "PRIX DE LONGPRE (11 partants)",
+      "pari": "Simple placé n°2 VESINABA",
+      "cote": null,
+      "mise": 9.0,
+      "statut": "Annulé",
+      "net": 0.0,
+      "retour": 9.0,
+      "resultat": "course annulee"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R5C1 KEMPTON PARK",
+      "match": "NOVICE STAKES C5 - DIV 1 (11 partants)",
+      "pari": "Simple placé n°2 BRAVE COUNTRY",
+      "cote": 0.0,
+      "mise": 9.0,
+      "statut": "Perdu",
+      "net": -9.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 9-5-3-2-1-4-6-11-7-10-12 · n2 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R1C7 MAUQUENCHY",
+      "match": "PRIX DU PMU \"LE MAINTENON\" - SAINT-SAENS (14 partants)",
+      "pari": "Simple placé n°2 IMPERATUR AM",
+      "cote": 1.3,
+      "mise": 1.0,
+      "statut": "Gagné",
+      "net": 0.3,
+      "retour": 1.3,
+      "resultat": "Arrivée 2-14-11-7-10-1-8-13-4-5-12 · n2 place, rapport officiel PMU 1.30"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R4C1 AMIENS",
+      "match": "PRIX FRANC PICARD (11 partants)",
+      "pari": "Simple placé n°5 POKROV",
+      "cote": 3.8,
+      "mise": 9.0,
+      "statut": "Annulé",
+      "net": 0.0,
+      "retour": 9.0,
+      "resultat": "course annulee"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R1C6 MAUQUENCHY",
+      "match": "PRIX DE MAUQUENCHY (8 partants)",
+      "pari": "Simple placé n°8 LEARN TO FLY",
+      "cote": 1.1,
+      "mise": 13.0,
+      "statut": "Gagné",
+      "net": 1.3,
+      "retour": 14.3,
+      "resultat": "Arrivée 8-7-4-6-3-2-1 · n8 place, rapport officiel PMU 1.10"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R2C8 PAU",
+      "match": "PRIX DE TAURIAC (15 partants)",
+      "pari": "Simple placé n°3 MANA MAHA",
+      "cote": 7.5,
+      "mise": 1.0,
+      "statut": "Perdu",
+      "net": -1.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 15-1-6-3-14-4-13-12-9-5-16-2-7-10-8 · n3 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R6C8 BORELY",
+      "match": "PRIX D'AGDE (12 partants)",
+      "pari": "Simple placé n°1 INO PURPLE",
+      "cote": 1.4,
+      "mise": 9.0,
+      "statut": "Gagné",
+      "net": 3.6,
+      "retour": 12.6,
+      "resultat": "Arrivée 2-10-1-5-3-7-9-8-11-6-12-4 · n1 place, rapport officiel PMU 1.40"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R1C5 MAUQUENCHY",
+      "match": "PRIX DU CONSEIL DEPARTEMENTAL DE SEINE-MARITIME (12 partants)",
+      "pari": "Simple placé n°3 PATTON (SWE)",
+      "cote": 1.9,
+      "mise": 18.0,
+      "statut": "Perdu",
+      "net": -18.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 7-11-9-3-5-12-6-2 · n3 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R6C7 BORELY",
+      "match": "PRIX DE CAROMB (13 partants)",
+      "pari": "Simple placé n°5 IDEAL DE NGANDA",
+      "cote": 1.1,
+      "mise": 1.0,
+      "statut": "Perdu",
+      "net": -1.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 3-13-8-4-12-6-5-10-1-11 · n5 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R2C7 PAU",
+      "match": "PRIX DE LESTELLE-BETHARRAM (14 partants)",
+      "pari": "Simple placé n°4 ZIPI",
+      "cote": 2.2,
+      "mise": 1.0,
+      "statut": "Gagné",
+      "net": 1.2,
+      "retour": 2.2,
+      "resultat": "Arrivée 9-4-7-3-6-10-13-14-5-15-12-11-2-1 · n4 place, rapport officiel PMU 2.20"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R3C9 HAPPY VALLEY",
+      "match": "TAI O HANDICAP - SEC 2 (12 partants)",
+      "pari": "Simple placé n°1 THE HEIR",
+      "cote": 14.0,
+      "mise": 9.0,
+      "statut": "Perdu",
+      "net": -9.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 12-2-11-4-8-1-6-5-9-10-3-7 · n1 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R1C4 MAUQUENCHY",
+      "match": "PRIX ANDRE PERDRIX (8 partants)",
+      "pari": "Simple placé n°6 MARS COBBA",
+      "cote": 5.8,
+      "mise": 18.0,
+      "statut": "Perdu",
+      "net": -18.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 8-4-3-1-6-7 · n6 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R6C6 BORELY",
+      "match": "PRIX DE FONBLANQUE (10 partants)",
+      "pari": "Simple placé n°2 JAGUAR D'HERMES",
+      "cote": 29.0,
+      "mise": 13.0,
+      "statut": "Perdu",
+      "net": -13.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 7-3-6-2-10-8-9-5-1-4 · n2 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R2C6 PAU",
+      "match": "PRIX DE L'OUSSE (16 partants)",
+      "pari": "Simple placé n°10 MOLINO",
+      "cote": 14.0,
+      "mise": 1.0,
+      "statut": "Perdu",
+      "net": -1.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 2-8-11-9-4-13-1-16-14-6-15-7-10-3-12-5 · n10 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R3C8 HAPPY VALLEY",
+      "match": "TAI O HANDICAP - SEC 1 (12 partants)",
+      "pari": "Simple placé n°11 VIRTUS GLORY",
+      "cote": 1.45,
+      "mise": 13.0,
+      "statut": "Gagné",
+      "net": 5.85,
+      "retour": 18.85,
+      "resultat": "Arrivée 7-3-11-4-10-1-2-5-8-6-9-12 · n11 place, rapport officiel PMU 1.45"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R1C3 MAUQUENCHY",
+      "match": "PRIX DE LA REGION NORMANDIE (7 partants)",
+      "pari": "Simple placé n°5 NENIGMA",
+      "cote": 1.7,
+      "mise": 18.0,
+      "statut": "Gagné",
+      "net": 12.6,
+      "retour": 30.6,
+      "resultat": "Arrivée 2-5-7-1-4-3 · n5 place, rapport officiel PMU 1.70"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R6C5 BORELY",
+      "match": "PRIX VERT PLAN (12 partants)",
+      "pari": "Simple placé n°2 MACAO MIP",
+      "cote": 1.8,
+      "mise": 9.0,
+      "statut": "Gagné",
+      "net": 7.2,
+      "retour": 16.2,
+      "resultat": "Arrivée 3-9-2-6-7-1-13-10-11-12 · n2 place, rapport officiel PMU 1.80"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R2C5 PAU",
+      "match": "PRIX D'ANDOINS (15 partants)",
+      "pari": "Simple placé n°10 ADELA",
+      "cote": 7.0,
+      "mise": 1.0,
+      "statut": "Perdu",
+      "net": -1.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 13-4-8-10-12-9-6-5-14-1-11-7-15-3-2 · n10 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R3C7 HAPPY VALLEY",
+      "match": "SIU HO WAN HANDICAP (12 partants)",
+      "pari": "Simple placé n°1 MY DAY MY WAY",
+      "cote": 9.1,
+      "mise": 9.0,
+      "statut": "Perdu",
+      "net": -9.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 8-2-12-3-9-4-1-5-6-10-7-11 · n1 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R6C4 BORELY",
+      "match": "PRIX DE L'ILE DE RIOU (GR.B) (14 partants)",
+      "pari": "Simple placé n°11 LOVICTORY WILLIAMS",
+      "cote": 3.2,
+      "mise": 1.0,
+      "statut": "Perdu",
+      "net": -1.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 14-5-7-12-6-8-1-10 · n11 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R1C2 MAUQUENCHY",
+      "match": "GRAND PRIX DES AMATEURS (16 partants)",
+      "pari": "Simple placé n°9 KIMMAJO",
+      "cote": 1.3,
+      "mise": 1.0,
+      "statut": "Gagné",
+      "net": 0.3,
+      "retour": 1.3,
+      "resultat": "Arrivée 9-8-1-16-14-2-4-5-13-15-10-6-11 · n9 place, rapport officiel PMU 1.30"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R2C4 PAU",
+      "match": "PRIX D'HENDAYE (11 partants)",
+      "pari": "Simple placé n°4 DEESSE D'ARGENT",
+      "cote": 1.6,
+      "mise": 9.0,
+      "statut": "Gagné",
+      "net": 5.4,
+      "retour": 14.4,
+      "resultat": "Arrivée 5-12-4-6-7-9-13-11-2-10-1 · n4 place, rapport officiel PMU 1.60"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R3C6 HAPPY VALLEY",
+      "match": "PUI O HANDICAP (12 partants)",
+      "pari": "Simple placé n°3 PERFECT ONE",
+      "cote": 16.0,
+      "mise": 14.0,
+      "statut": "Perdu",
+      "net": -14.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 2-7-8-10-5-1-12-6-4-11-9-3 · n3 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R6C3 BORELY",
+      "match": "PRIX DE L'ILE DE RIOU (GR.A) (14 partants)",
+      "pari": "Simple placé n°4 LOUMIODO",
+      "cote": 1.9,
+      "mise": 1.0,
+      "statut": "Gagné",
+      "net": 0.9,
+      "retour": 1.9,
+      "resultat": "Arrivée 4-10-12-11-7-9-13-8 · n4 place, rapport officiel PMU 1.90"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R1C1 MAUQUENCHY",
+      "match": "GRAND NATIONAL DU TROT (18 partants)",
+      "pari": "Simple placé n°8 IALTO D'HERTALS",
+      "cote": 9.6,
+      "mise": 1.0,
+      "statut": "Perdu",
+      "net": -1.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 2-1-14-12-8-9-13-10-6-3-7-4-11-15-16-18-17-5 · n8 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R3C5 HAPPY VALLEY",
+      "match": "NGONG PING HANDICAP - SEC 1 (12 partants)",
+      "pari": "Simple placé n°5 FALCON HUNTER",
+      "cote": 1.5,
+      "mise": 9.0,
+      "statut": "Gagné",
+      "net": 4.5,
+      "retour": 13.5,
+      "resultat": "Arrivée 5-9-1-3-6-11-7-8-10-12-2-4 · n5 place, rapport officiel PMU 1.50"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R6C2 BORELY",
+      "match": "PRIX DE MONJUSTIN (16 partants)",
+      "pari": "Simple placé n°9 NAPOLITO",
+      "cote": 1.3,
+      "mise": 1.0,
+      "statut": "Perdu",
+      "net": -1.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 10-15-14-3-11-13-8-16-2-12 · n9 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R2C3 PAU",
+      "match": "PRIX DE LAROIN (8 partants)",
+      "pari": "Simple placé n°3 BOOMSLANG",
+      "cote": 1.2,
+      "mise": 14.0,
+      "statut": "Gagné",
+      "net": 2.8,
+      "retour": 16.8,
+      "resultat": "Arrivée 3-5-9-2-8-1-7-4 · n3 place, rapport officiel PMU 1.20"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R3C4 HAPPY VALLEY",
+      "match": "MUI WO HANDICAP (12 partants)",
+      "pari": "Simple placé n°1 SUPER UNICORN",
+      "cote": 9.4,
+      "mise": 9.0,
+      "statut": "Perdu",
+      "net": -9.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 9-12-8-5-11-1-4-10-2-6-7-3 · n1 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R6C1 BORELY",
+      "match": "PRIX DU COTERAN (10 partants)",
+      "pari": "Simple placé n°4 ODESSA ELLIS",
+      "cote": 1.5,
+      "mise": 1.0,
+      "statut": "Gagné",
+      "net": 0.5,
+      "retour": 1.5,
+      "resultat": "Arrivée 4-3-5-10-6-2-7-8-9 · n4 place, rapport officiel PMU 1.50"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R2C2 PAU",
+      "match": "PRIX GUY DE WATRIGANT (6 partants)",
+      "pari": "Simple placé n°1 SKA DE L'AIGLE",
+      "cote": 1.8,
+      "mise": 9.0,
+      "statut": "Perdu",
+      "net": -9.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 2-3-4-1-5-6 · n1 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R3C3 HAPPY VALLEY",
+      "match": "NGONG PING HANDICAP - SEC 2 (12 partants)",
+      "pari": "Simple placé n°4 VIGOR EYE",
+      "cote": 12.0,
+      "mise": 9.0,
+      "statut": "Perdu",
+      "net": -9.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 11-8-12-4-1-5-2-10-6-9-3-7 · n4 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R2C1 PAU",
+      "match": "PRIX DE BILHERES (7 partants)",
+      "pari": "Simple placé n°3 ROMANUS PONTIFEX",
+      "cote": 4.7,
+      "mise": 14.0,
+      "statut": "Perdu",
+      "net": -14.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 5-1-3-6-2-4-7 · n3 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R3C2 HAPPY VALLEY",
+      "match": "FAN LAU HANDICAP (12 partants)",
+      "pari": "Simple placé n°3 SPICY SPANGLE",
+      "cote": 22.0,
+      "mise": 9.0,
+      "statut": "Perdu",
+      "net": -9.0,
+      "retour": 0.0,
+      "resultat": "Arrivée 1-8-10-5-12-2-9-3-6-4-7-11 · n3 hors des places"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "PMU",
+      "competition": "R3C1 HAPPY VALLEY",
+      "match": "CHEUNG SHA HANDICAP (12 partants)",
+      "pari": "Simple placé n°1 STAR BROSE",
+      "cote": 1.4,
+      "mise": 9.0,
+      "statut": "Gagné",
+      "net": 3.6,
+      "retour": 12.6,
+      "resultat": "Arrivée 1-9-11-2-8-12-3-4-5-7-6-10 · n1 place, rapport officiel PMU 1.40"
+     },
      {
       "date": "2026-11-17",
       "sport": "PMU",
       "competition": "R6C6 CONCEPCION",
       "match": "EMPRESAS DIARIO EL SUR (10 partants)",
       "pari": "Simple placé n°2 SPIRIT ROAD",
-      "cote": null,
+      "cote": 1.5,
       "mise": 18.0,
-      "statut": "En attente",
-      "net": null,
-      "retour": null,
-      "resultat": null
+      "statut": "Gagné",
+      "net": 9.0,
+      "retour": 27.0,
+      "resultat": "Arrivée 2-7-1-10-9-5-4-3-8 · n2 place, rapport officiel PMU 1.50"
      },
      {
       "date": "2026-11-17",
@@ -11674,45 +13854,45 @@
      "roi": null
     },
     "semaine": {
-     "paris": 6,
+     "paris": 9,
      "gagnes": 4,
      "perdus": 2,
      "annules": 0,
-     "attente": 0,
-     "mise": 200.0,
+     "attente": 3,
+     "mise": 300.0,
      "mise_reglee": 200.0,
      "net": 1.8,
      "roi": 0.9
     },
     "mois": {
-     "paris": 50,
+     "paris": 53,
      "gagnes": 34,
      "perdus": 11,
      "annules": 5,
-     "attente": 0,
-     "mise": 1700.0,
+     "attente": 3,
+     "mise": 1800.0,
      "mise_reglee": 1700.0,
      "net": 77.55,
      "roi": 4.56
     },
     "annee": {
-     "paris": 50,
+     "paris": 53,
      "gagnes": 34,
      "perdus": 11,
      "annules": 5,
-     "attente": 0,
-     "mise": 1700.0,
+     "attente": 3,
+     "mise": 1800.0,
      "mise_reglee": 1700.0,
      "net": 77.55,
      "roi": 4.56
     },
     "total": {
-     "paris": 50,
+     "paris": 53,
      "gagnes": 34,
      "perdus": 11,
      "annules": 5,
-     "attente": 0,
-     "mise": 1700.0,
+     "attente": 3,
+     "mise": 1800.0,
      "mise_reglee": 1700.0,
      "net": 77.55,
      "roi": 4.56
@@ -11720,12 +13900,12 @@
    },
    "detail": {
     "resume": {
-     "nb": 50,
+     "nb": 53,
      "gagnes": 34,
      "perdus": 11,
      "annules": 5,
-     "attente": 0,
-     "mise": 1700.0,
+     "attente": 3,
+     "mise": 1800.0,
      "mise_reglee": 1700.0,
      "net": 77.55,
      "roi": 4.56,
@@ -11813,6 +13993,14 @@
     "depart": null,
     "cagnotte": null,
     "par_jour": [
+     {
+      "jour": "2026-11-18",
+      "nb": 3,
+      "mise": 100.0,
+      "net": 0.0,
+      "regles": 0,
+      "attente": 3
+     },
      {
       "jour": "2026-11-17",
       "nb": 3,
@@ -11953,12 +14141,12 @@
     "par_sport": [
      {
       "sport": "Foot",
-      "nb": 50,
+      "nb": 53,
       "gagnes": 34,
       "perdus": 11,
       "annules": 5,
-      "attente": 0,
-      "mise": 1700.0,
+      "attente": 3,
+      "mise": 1800.0,
       "mise_reglee": 1700.0,
       "net": 77.55,
       "roi": 4.56,
@@ -11966,6 +14154,45 @@
      }
     ],
     "paris": [
+     {
+      "date": "2026-11-18",
+      "sport": "Foot",
+      "competition": "Ligue 1 Algérie",
+      "match": "CS Constantine - ES Ben Aknoun",
+      "pari": "ES Ben Aknoun gagne une des mi-temps : Non",
+      "cote": 1.46,
+      "mise": 25.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "Foot",
+      "competition": "Ligue 1 Algérie",
+      "match": "CR Témouchent - JS El Biar",
+      "pari": "Moins de 2,5 buts",
+      "cote": 1.35,
+      "mise": 35.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "Foot",
+      "competition": "Ligue des Nations CONCACAF play-in retour",
+      "match": "Nicaragua - Montserrat",
+      "pari": "Plus de 2,5 buts",
+      "cote": 1.4,
+      "mise": 40.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
      {
       "date": "2026-11-17",
       "sport": "Foot",
@@ -12640,45 +14867,45 @@
      "roi": null
     },
     "semaine": {
-     "paris": 4,
+     "paris": 6,
      "gagnes": 3,
      "perdus": 1,
      "annules": 0,
-     "attente": 0,
-     "mise": 200.0,
+     "attente": 2,
+     "mise": 202.85,
      "mise_reglee": 200.0,
      "net": -15.0,
      "roi": -7.5
     },
     "mois": {
-     "paris": 57,
+     "paris": 59,
      "gagnes": 36,
      "perdus": 18,
      "annules": 3,
-     "attente": 0,
-     "mise": 1700.0,
+     "attente": 2,
+     "mise": 1702.85,
      "mise_reglee": 1700.0,
      "net": -124.15,
      "roi": -7.3
     },
     "annee": {
-     "paris": 57,
+     "paris": 59,
      "gagnes": 36,
      "perdus": 18,
      "annules": 3,
-     "attente": 0,
-     "mise": 1700.0,
+     "attente": 2,
+     "mise": 1702.85,
      "mise_reglee": 1700.0,
      "net": -124.15,
      "roi": -7.3
     },
     "total": {
-     "paris": 57,
+     "paris": 59,
      "gagnes": 36,
      "perdus": 18,
      "annules": 3,
-     "attente": 0,
-     "mise": 1700.0,
+     "attente": 2,
+     "mise": 1702.85,
      "mise_reglee": 1700.0,
      "net": -124.15,
      "roi": -7.3
@@ -12686,12 +14913,12 @@
    },
    "detail": {
     "resume": {
-     "nb": 57,
+     "nb": 59,
      "gagnes": 36,
      "perdus": 18,
      "annules": 3,
-     "attente": 0,
-     "mise": 1700.0,
+     "attente": 2,
+     "mise": 1702.85,
      "mise_reglee": 1700.0,
      "net": -124.15,
      "roi": -7.3,
@@ -12779,6 +15006,14 @@
     "depart": null,
     "cagnotte": null,
     "par_jour": [
+     {
+      "jour": "2026-11-18",
+      "nb": 2,
+      "mise": 2.85,
+      "net": 0.0,
+      "regles": 0,
+      "attente": 2
+     },
      {
       "jour": "2026-11-17",
       "nb": 2,
@@ -12919,12 +15154,12 @@
     "par_sport": [
      {
       "sport": "Tennis",
-      "nb": 57,
+      "nb": 59,
       "gagnes": 36,
       "perdus": 18,
       "annules": 3,
-      "attente": 0,
-      "mise": 1700.0,
+      "attente": 2,
+      "mise": 1702.85,
       "mise_reglee": 1700.0,
       "net": -124.15,
       "roi": -7.3,
@@ -12932,6 +15167,32 @@
      }
     ],
     "paris": [
+     {
+      "date": "2026-11-18",
+      "sport": "Tennis",
+      "competition": "20h30",
+      "match": "Tiafoe bat Cobolli (ATP Finals RR)",
+      "pari": "20h30 : Tiafoe bat Cobolli (ATP Finals RR)",
+      "cote": null,
+      "mise": 1.68,
+      "statut": "En attente",
+      "net": null,
+      "retour": 1.0,
+      "resultat": "0,99"
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "Tennis",
+      "competition": "14h00",
+      "match": "Alcaraz bat Medvedev (ATP Finals RR)",
+      "pari": "14h00 : Alcaraz bat Medvedev (ATP Finals RR)",
+      "cote": null,
+      "mise": 1.17,
+      "statut": "En attente",
+      "net": null,
+      "retour": 1.0,
+      "resultat": "0,96"
+     },
      {
       "date": "2026-11-17",
       "sport": "Tennis",
@@ -13697,45 +15958,45 @@
      "roi": null
     },
     "semaine": {
-     "paris": 5,
+     "paris": 8,
      "gagnes": 4,
      "perdus": 1,
      "annules": 0,
-     "attente": 0,
-     "mise": 200.0,
+     "attente": 3,
+     "mise": 300.0,
      "mise_reglee": 200.0,
      "net": -5.1,
      "roi": -2.55
     },
     "mois": {
-     "paris": 40,
+     "paris": 43,
      "gagnes": 29,
      "perdus": 11,
      "annules": 0,
-     "attente": 0,
-     "mise": 1700.0,
+     "attente": 3,
+     "mise": 1800.0,
      "mise_reglee": 1700.0,
      "net": -20.7,
      "roi": -1.22
     },
     "annee": {
-     "paris": 40,
+     "paris": 43,
      "gagnes": 29,
      "perdus": 11,
      "annules": 0,
-     "attente": 0,
-     "mise": 1700.0,
+     "attente": 3,
+     "mise": 1800.0,
      "mise_reglee": 1700.0,
      "net": -20.7,
      "roi": -1.22
     },
     "total": {
-     "paris": 40,
+     "paris": 43,
      "gagnes": 29,
      "perdus": 11,
      "annules": 0,
-     "attente": 0,
-     "mise": 1700.0,
+     "attente": 3,
+     "mise": 1800.0,
      "mise_reglee": 1700.0,
      "net": -20.7,
      "roi": -1.22
@@ -13743,12 +16004,12 @@
    },
    "detail": {
     "resume": {
-     "nb": 40,
+     "nb": 43,
      "gagnes": 29,
      "perdus": 11,
      "annules": 0,
-     "attente": 0,
-     "mise": 1700.0,
+     "attente": 3,
+     "mise": 1800.0,
      "mise_reglee": 1700.0,
      "net": -20.7,
      "roi": -1.22,
@@ -13836,6 +16097,14 @@
     "depart": null,
     "cagnotte": null,
     "par_jour": [
+     {
+      "jour": "2026-11-18",
+      "nb": 3,
+      "mise": 100.0,
+      "net": 0.0,
+      "regles": 0,
+      "attente": 3
+     },
      {
       "jour": "2026-11-17",
       "nb": 3,
@@ -13976,12 +16245,12 @@
     "par_sport": [
      {
       "sport": "Basket",
-      "nb": 40,
+      "nb": 43,
       "gagnes": 29,
       "perdus": 11,
       "annules": 0,
-      "attente": 0,
-      "mise": 1700.0,
+      "attente": 3,
+      "mise": 1800.0,
       "mise_reglee": 1700.0,
       "net": -20.7,
       "roi": -1.22,
@@ -13989,6 +16258,45 @@
      }
     ],
     "paris": [
+     {
+      "date": "2026-11-18",
+      "sport": "Basket",
+      "competition": "EuroCup J8",
+      "match": "Fraport Skyliners – Reyer Venise",
+      "pari": "19h30 | score prono 82-89",
+      "cote": 1.32,
+      "mise": 20.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "Basket",
+      "competition": "EuroCup J8",
+      "match": "Cedevita Olimpija – San Pablo Burgos",
+      "pari": "18h30 | score prono 88-79",
+      "cote": 1.31,
+      "mise": 30.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "Basket",
+      "competition": "Euroligue J12",
+      "match": "Besiktas – Real Madrid",
+      "pari": "18h00 | score prono 84-93",
+      "cote": 1.27,
+      "mise": 50.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
      {
       "date": "2026-11-17",
       "sport": "Basket",
@@ -14533,45 +16841,45 @@
      "roi": null
     },
     "semaine": {
-     "paris": 7,
+     "paris": 10,
      "gagnes": 5,
      "perdus": 2,
      "annules": 0,
-     "attente": 0,
-     "mise": 200.0,
+     "attente": 3,
+     "mise": 300.0,
      "mise_reglee": 200.0,
      "net": 142.0,
      "roi": 71.0
     },
     "mois": {
-     "paris": 51,
+     "paris": 54,
      "gagnes": 30,
      "perdus": 21,
      "annules": 0,
-     "attente": 0,
-     "mise": 1700.0,
+     "attente": 3,
+     "mise": 1800.0,
      "mise_reglee": 1700.0,
      "net": 156.0,
      "roi": 9.18
     },
     "annee": {
-     "paris": 51,
+     "paris": 54,
      "gagnes": 30,
      "perdus": 21,
      "annules": 0,
-     "attente": 0,
-     "mise": 1700.0,
+     "attente": 3,
+     "mise": 1800.0,
      "mise_reglee": 1700.0,
      "net": 156.0,
      "roi": 9.18
     },
     "total": {
-     "paris": 51,
+     "paris": 54,
      "gagnes": 30,
      "perdus": 21,
      "annules": 0,
-     "attente": 0,
-     "mise": 1700.0,
+     "attente": 3,
+     "mise": 1800.0,
      "mise_reglee": 1700.0,
      "net": 156.0,
      "roi": 9.18
@@ -14579,12 +16887,12 @@
    },
    "detail": {
     "resume": {
-     "nb": 51,
+     "nb": 54,
      "gagnes": 30,
      "perdus": 21,
      "annules": 0,
-     "attente": 0,
-     "mise": 1700.0,
+     "attente": 3,
+     "mise": 1800.0,
      "mise_reglee": 1700.0,
      "net": 156.0,
      "roi": 9.18,
@@ -14672,6 +16980,14 @@
     "depart": null,
     "cagnotte": null,
     "par_jour": [
+     {
+      "jour": "2026-11-18",
+      "nb": 3,
+      "mise": 100.0,
+      "net": 0.0,
+      "regles": 0,
+      "attente": 3
+     },
      {
       "jour": "2026-11-17",
       "nb": 4,
@@ -14812,12 +17128,12 @@
     "par_sport": [
      {
       "sport": "Hippisme",
-      "nb": 51,
+      "nb": 54,
       "gagnes": 30,
       "perdus": 21,
       "annules": 0,
-      "attente": 0,
-      "mise": 1700.0,
+      "attente": 3,
+      "mise": 1800.0,
       "mise_reglee": 1700.0,
       "net": 156.0,
       "roi": 9.18,
@@ -14825,6 +17141,45 @@
      }
     ],
     "paris": [
+     {
+      "date": "2026-11-18",
+      "sport": "Hippisme",
+      "competition": "R4C3 Amiens (plat, 9 p., 3 placés)",
+      "match": "R4C3 Amiens (plat, 9 p., 3 placés) — 4 Australian Romance",
+      "pari": "Simple placé 4 Australian Romance | prono trio 3-4-6",
+      "cote": 1.8,
+      "mise": 40.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "Hippisme",
+      "competition": "R2C8 Pau (plat, 16 p.)",
+      "match": "R2C8 Pau (plat, 16 p.) — 15 Jarki",
+      "pari": "Simple placé 15 Jarki | prono trio 13-3-15",
+      "cote": 2.6,
+      "mise": 25.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "Hippisme",
+      "competition": "R2C8 Pau (plat, 16 p.)",
+      "match": "R2C8 Pau (plat, 16 p.) — 3 Mana Maha",
+      "pari": "Simple placé 3 Mana Maha | prono trio 13-3-15",
+      "cote": 2.5,
+      "mise": 35.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
      {
       "date": "2026-11-17",
       "sport": "Hippisme",
@@ -15512,45 +17867,45 @@
      "roi": null
     },
     "semaine": {
-     "paris": 14,
+     "paris": 20,
      "gagnes": 6,
      "perdus": 1,
      "annules": 0,
-     "attente": 7,
-     "mise": 200.0,
+     "attente": 13,
+     "mise": 300.0,
      "mise_reglee": 100.0,
      "net": 7.3,
      "roi": 7.3
     },
     "mois": {
-     "paris": 116,
+     "paris": 122,
      "gagnes": 83,
      "perdus": 25,
      "annules": 1,
-     "attente": 7,
-     "mise": 1700.0,
+     "attente": 13,
+     "mise": 1800.0,
      "mise_reglee": 1600.0,
      "net": -116.25,
      "roi": -7.27
     },
     "annee": {
-     "paris": 116,
+     "paris": 122,
      "gagnes": 83,
      "perdus": 25,
      "annules": 1,
-     "attente": 7,
-     "mise": 1700.0,
+     "attente": 13,
+     "mise": 1800.0,
      "mise_reglee": 1600.0,
      "net": -116.25,
      "roi": -7.27
     },
     "total": {
-     "paris": 116,
+     "paris": 122,
      "gagnes": 83,
      "perdus": 25,
      "annules": 1,
-     "attente": 7,
-     "mise": 1700.0,
+     "attente": 13,
+     "mise": 1800.0,
      "mise_reglee": 1600.0,
      "net": -116.25,
      "roi": -7.27
@@ -15558,12 +17913,12 @@
    },
    "detail": {
     "resume": {
-     "nb": 116,
+     "nb": 122,
      "gagnes": 83,
      "perdus": 25,
      "annules": 1,
-     "attente": 7,
-     "mise": 1700.0,
+     "attente": 13,
+     "mise": 1800.0,
      "mise_reglee": 1600.0,
      "net": -116.25,
      "roi": -7.27,
@@ -15647,6 +18002,14 @@
     "depart": null,
     "cagnotte": null,
     "par_jour": [
+     {
+      "jour": "2026-11-18",
+      "nb": 6,
+      "mise": 100.0,
+      "net": 0.0,
+      "regles": 0,
+      "attente": 6
+     },
      {
       "jour": "2026-11-17",
       "nb": 7,
@@ -15787,12 +18150,12 @@
     "par_sport": [
      {
       "sport": "Foot",
-      "nb": 52,
+      "nb": 55,
       "gagnes": 38,
       "perdus": 13,
       "annules": 0,
-      "attente": 1,
-      "mise": 790.0,
+      "attente": 4,
+      "mise": 845.0,
       "mise_reglee": 780.0,
       "net": -60.55,
       "roi": -7.76,
@@ -15800,12 +18163,12 @@
      },
      {
       "sport": "Basket",
-      "nb": 39,
+      "nb": 42,
       "gagnes": 27,
       "perdus": 7,
       "annules": 0,
-      "attente": 5,
-      "mise": 525.0,
+      "attente": 8,
+      "mise": 570.0,
       "mise_reglee": 460.0,
       "net": -45.05,
       "roi": -9.79,
@@ -15839,6 +18202,84 @@
      }
     ],
     "paris": [
+     {
+      "date": "2026-11-18",
+      "sport": "Foot",
+      "competition": "Ligue des Champions (F)",
+      "match": "FC Juventus (F) - OH Leuven (F)",
+      "pari": "Victoire FC Juventus (F) (simple)",
+      "cote": 1.23,
+      "mise": 20.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "Basket",
+      "competition": "Eurocoupe",
+      "match": "Aris Salonique - Le Mans",
+      "pari": "Victoire Aris Salonique (simple)",
+      "cote": 1.14,
+      "mise": 15.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "Basket",
+      "competition": "Eurocoupe",
+      "match": "Buducnost - Slask",
+      "pari": "Victoire Buducnost (simple)",
+      "cote": 1.05,
+      "mise": 15.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "Foot",
+      "competition": "Ligue des Champions (F)",
+      "match": "Häcken (F) - Manchester City (F)",
+      "pari": "Victoire Manchester City (F) (simple)",
+      "cote": 1.27,
+      "mise": 10.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "Foot",
+      "competition": "Ligue des Champions (F)",
+      "match": "Real Madrid (F) - Inter (F)",
+      "pari": "Victoire Real Madrid (F) (simple)",
+      "cote": 1.16,
+      "mise": 25.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
+     {
+      "date": "2026-11-18",
+      "sport": "Basket",
+      "competition": "Eurocoupe",
+      "match": "Tortona - Rigas Zelli",
+      "pari": "Victoire Tortona (simple)",
+      "cote": 1.13,
+      "mise": 15.0,
+      "statut": "En attente",
+      "net": null,
+      "retour": null,
+      "resultat": null
+     },
      {
       "date": "2026-11-17",
       "sport": "Tennis",
