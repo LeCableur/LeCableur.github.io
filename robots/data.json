@@ -1,7 +1,7 @@
 {
  "version": 2,
- "updated_at": "2026-11-25T00:47:43+01:00",
- "updated_label": "25/11/2026 à 00:47 (heure de Paris)",
+ "updated_at": "2026-11-25T00:49:46+01:00",
+ "updated_label": "25/11/2026 à 00:49 (heure de Paris)",
  "periodes": [
   {
    "id": "jour",
@@ -24,7 +24,7 @@
    "depuis": "2026-01-01"
   }
  ],
- "tour_lue_le": "2026-11-25T00:47:37+01:00",
+ "tour_lue_le": "2026-11-25T00:49:41+01:00",
  "mt5": [
   {
    "nom": "Swing",
@@ -286,7 +286,7 @@
      },
      {
       "jour": "2026-11-25",
-      "lu_le": "2026-11-25T00:47:37+01:00",
+      "lu_le": "2026-11-25T00:49:41+01:00",
       "solde": 2954.58,
       "equite": 2954.58
      }
@@ -354,16 +354,16 @@
    "type": "démo",
    "ok": true,
    "solde": 3167.2,
-   "equite": 3163.69,
+   "equite": 3164.99,
    "depart": 3000.0,
    "flottant": null,
    "devise": "EUR",
-   "depuis_debut": 163.69,
-   "depuis_debut_pct": 5.46,
+   "depuis_debut": 164.99,
+   "depuis_debut_pct": 5.5,
    "positions": 1,
    "positions_detail": null,
    "simulation": false,
-   "dernier_passage": "25/11/2026 00:47",
+   "dernier_passage": "25/11/2026 00:49",
    "stats": {
     "jour": {
      "trades": 0,
@@ -637,9 +637,9 @@
      },
      {
       "jour": "2026-11-25",
-      "lu_le": "2026-11-25T00:47:37+01:00",
+      "lu_le": "2026-11-25T00:49:41+01:00",
       "solde": 3167.2,
-      "equite": 3163.69
+      "equite": 3164.99
      }
     ],
     "trades": [
